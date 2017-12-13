@@ -2,9 +2,13 @@
   "name": "Varian",
   "slug": "varian",
   "title": "High King of the Alliance",
-  "description": "Warrior Front-line defenders and bruisers.",
-  "role": "Warrior",
-  "type": null,
+  "description": "Multiclass Heroes defined by their talents rather than role.",
+  "role": {
+    "name": "Multiclass",
+    "slug": "multiclass",
+    "description": "Multiclass Heroes defined by their talents rather than role."
+  },
+  "type": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,

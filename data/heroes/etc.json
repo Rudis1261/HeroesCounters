@@ -2,9 +2,13 @@
   "name": "E.T.C.",
   "slug": "etc",
   "title": "Rock God",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Easy",
   "live": true,

@@ -2,9 +2,13 @@
   "name": "Ana",
   "slug": "ana",
   "title": "Veteran Sniper",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type": "Ranged",
   "franchise": "Overwatch",
   "difficulty": "Hard",
   "live": true,

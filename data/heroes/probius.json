@@ -3,7 +3,11 @@
   "slug": "probius",
   "title": "Curious Probe",
   "description": "Specialist Rule breakers and masters of unconventional warfare.",
-  "role": "Specialist",
+  "role": {
+    "name": "Specialist",
+    "slug": "specialist",
+    "description": "Specialist Rule breakers and masters of unconventional warfare."
+  },
   "type": "Ranged",
   "franchise": "StarCraft",
   "difficulty": "Hard",

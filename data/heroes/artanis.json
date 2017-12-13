@@ -2,9 +2,13 @@
   "name": "Artanis",
   "slug": "artanis",
   "title": "Hierarch of the Daelaam",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type": "Melee",
   "franchise": "StarCraft",
   "difficulty": "Medium",
   "live": true,

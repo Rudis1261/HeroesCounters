@@ -2,9 +2,13 @@
   "name": "Thrall",
   "slug": "thrall",
   "title": "Warchief of the Horde",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Easy",
   "live": true,

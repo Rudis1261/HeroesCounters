@@ -2,9 +2,13 @@
   "name": "Brightwing",
   "slug": "brightwing",
   "title": "Faerie Dragon",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type": "Ranged",
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,

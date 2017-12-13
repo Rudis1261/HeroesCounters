@@ -2,9 +2,13 @@
   "name": "Cho'gall",
   "slug": "chogall",
   "title": "Twilight's Hammer Chieftain",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,

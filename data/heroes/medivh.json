@@ -2,9 +2,13 @@
   "name": "Medivh",
   "slug": "medivh",
   "title": "The Last Guardian",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Specialist Rule breakers and masters of unconventional warfare.",
+  "role": {
+    "name": "Specialist",
+    "slug": "specialist",
+    "description": "Specialist Rule breakers and masters of unconventional warfare."
+  },
+  "type": "Ranged",
   "franchise": "Warcraft",
   "difficulty": "Very Hard",
   "live": true,

@@ -2,9 +2,13 @@
   "name": "Valeera",
   "slug": "valeera",
   "title": "Shadow of the Uncrowned",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,

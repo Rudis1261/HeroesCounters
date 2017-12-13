@@ -2,9 +2,13 @@
   "name": "Chen",
   "slug": "chen",
   "title": "Legendary Brewmaster",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,

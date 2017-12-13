@@ -2,9 +2,13 @@
   "name": "Raynor",
   "slug": "raynor",
   "title": "Renegade Commander",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type": "Ranged",
   "franchise": "StarCraft",
   "difficulty": "Easy",
   "live": true,

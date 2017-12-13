@@ -2,9 +2,13 @@
   "name": "Johanna",
   "slug": "johanna",
   "title": "Crusader of Zakarum",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": {
+    "name": "Warrior",
+    "slug": "warrior",
+    "description": "Warrior Front-line defenders and bruisers."
+  },
+  "type": "Melee",
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,

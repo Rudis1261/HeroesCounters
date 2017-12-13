@@ -2,9 +2,13 @@
   "name": "Gul'dan",
   "slug": "guldan",
   "title": "Darkness Incarnate",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type": "Ranged",
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,

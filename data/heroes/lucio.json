@@ -2,9 +2,13 @@
   "name": "Lúcio",
   "slug": "lucio",
   "title": "Freedom Fighting DJ",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Support Healers, buffers, and everyone’s best friends.",
+  "role": {
+    "name": "Support",
+    "slug": "support",
+    "description": "Support Healers, buffers, and everyone’s best friends."
+  },
+  "type": "Ranged",
   "franchise": "Overwatch",
   "difficulty": "Medium",
   "live": true,

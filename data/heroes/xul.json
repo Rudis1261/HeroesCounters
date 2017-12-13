@@ -2,9 +2,13 @@
   "name": "Xul",
   "slug": "xul",
   "title": "Cryptic Necromancer",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Specialist Rule breakers and masters of unconventional warfare.",
+  "role": {
+    "name": "Specialist",
+    "slug": "specialist",
+    "description": "Specialist Rule breakers and masters of unconventional warfare."
+  },
+  "type": "Melee",
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,

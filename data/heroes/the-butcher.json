@@ -2,9 +2,13 @@
   "name": "The Butcher",
   "slug": "the-butcher",
   "title": "Flesh Carver",
-  "description": null,
-  "role": null,
-  "type": null,
+  "description": "Assassin Slayers of Heroes and bringers of pain.",
+  "role": {
+    "name": "Assassin",
+    "slug": "assassin",
+    "description": "Assassin Slayers of Heroes and bringers of pain."
+  },
+  "type": "Melee",
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
