@@ -23,6 +23,7 @@ module ScraperHelper
     heroes = JSON.pretty_generate(JSON.parse(data[0].first))
     if !heroes.nil?
       self.save_to_disk(heroes)
+      self.parse_hero_details_and_save_to_disk
       return self.parse_json_data(heroes)
     else
       return self.error 'Unable to scrape'
@@ -45,6 +46,7 @@ module ScraperHelper
     hero = JSON.parse(data[0].first)
     if !hero.nil?
       self.save_hero_to_disk(name, hero)
+      self.parse_hero_details_and_save_to_disk
       return JSON.pretty_generate(self.parse_hero_json_data(hero))
     else
       return self.error 'Unable to scrape hero data'
@@ -65,7 +67,7 @@ module ScraperHelper
   end
 
 
-  def read_hero_details
+  def parse_hero_details_and_save_to_disk
     puts "Reading all the hero details"
     heroes = JSON.parse(read_from_disk)
     return [] if heroes.nil?
@@ -89,7 +91,22 @@ module ScraperHelper
       end
     end
 
-    return JSON.pretty_generate(detail)
+    detail = JSON.pretty_generate(detail)
+    File.open(ConfigController.local_detail_file, 'w') { |file| file.write(detail) }
+    return true
+  end
+
+
+  def hero_slugs
+    heroes = JSON.parse(read_from_disk)
+    return [] if heroes.nil?
+
+    # Default set of data based on landing page
+    heroSlugs = []
+    heroes.each_with_index do |hero, index|
+      heroSlugs << heroes[index]['slug']
+    end
+    return heroSlugs.sort
   end
 
 
@@ -97,6 +114,13 @@ module ScraperHelper
     return if !File.exists?(ConfigController.local_file)
     puts "Reading feed from cache"
     File.read(ConfigController.local_file)
+  end
+
+
+  def read_detail_from_disk
+    return if !File.exists?(ConfigController.local_detail_file)
+    puts "Reading detail from cache"
+    File.read(ConfigController.local_detail_file)
   end
 
 
@@ -183,7 +207,6 @@ module ScraperHelper
 
 
   def save_to_disk(data)
-    data = self.parse_json_data(data)
     File.open(ConfigController.local_file, 'w') { |file| file.write(data) }
   end
 
@@ -198,7 +221,7 @@ module ScraperHelper
 
   def find_hero_by_name(name)
     name = name.to_s.downcase
-    heroes = self.scrape_heroes
+    heroes = self.read_detail_from_disk
     return self.error if heroes.nil?
 
     find = JSON.parse(heroes).select do |h|
@@ -210,16 +233,17 @@ module ScraperHelper
   end
 
 
-  def find_hero_by_term(term)
+  def search_for_hero_by_term(term)
     term = term.to_s.downcase
-    heroes = self.scrape_heroes
+    heroes = self.read_detail_from_disk
     return self.error if heroes.nil?
 
     find = JSON.parse(heroes).select do |h|
       h['name'].downcase.include?(term) ||
       h['title'].downcase.include?(term) ||
       h['franchise'].downcase.include?(term) ||
-      h['role'].downcase.include?(term)
+      h['role']['name'].downcase.include?(term) ||
+      h['role']['description'].downcase.include?(term)
     end
 
     return self.error if find.nil?

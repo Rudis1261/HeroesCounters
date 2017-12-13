@@ -8,6 +8,9 @@ class ConfigController < Sinatra::Base
   def self.local_file=(fileName); @local_file = fileName; end
   def self.local_file; @local_file; end
 
+  def self.local_detail_file=(fileName); @local_detail_file = fileName; end
+  def self.local_detail_file; @local_detail_file; end
+
   def self.hero_local_file=(fileName); @hero_local_file = fileName; end
   def self.hero_local_file; @hero_local_file; end
 

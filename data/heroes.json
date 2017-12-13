@@ -1,2666 +1,5983 @@
 [
   {
+    "id": "Alexstrasza",
     "name": "Alexstrasza",
-    "slug": "alexstrasza",
     "title": "The Life-Binder",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "alexstrasza",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/alexstrasza/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 11,
+      "day": 14
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "alexstrasza",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Hanzo",
     "name": "Hanzo",
-    "slug": "hanzo",
     "title": "Master Assassin",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "hanzo",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/hanzo/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "hanzo",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Junkrat",
     "name": "Junkrat",
-    "slug": "junkrat",
     "title": "Junker Demolitionist",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "junkrat",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/junkrat/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 10,
+      "day": 17
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "junkrat",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Ana",
     "name": "Ana",
-    "slug": "ana",
     "title": "Veteran Sniper",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "ana",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/ana/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 9,
+      "day": 26
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "ana",
+    "revealed": true,
+    "video": "wjHMN8Nfae4",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "KelThuzad",
     "name": "Kel'Thuzad",
-    "slug": "kelthuzad",
     "title": "Archlich of Naxxramas",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "kelthuzad",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/kelthuzad/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 9,
+      "day": 5
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "kelthuzad",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Garrosh",
     "name": "Garrosh",
-    "slug": "garrosh",
     "title": "Son of Hellscream",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "garrosh",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/garrosh/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 8,
+      "day": 8
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "garrosh",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Stukov",
     "name": "Stukov",
-    "slug": "stukov",
     "title": "Infested Admiral",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "stukov",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/stukov/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 7,
+      "day": 11
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "stukov",
+    "revealed": true,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 12,
+    "unified": false
   },
   {
+    "id": "Malthael",
     "name": "Malthael",
-    "slug": "malthael",
     "title": "Aspect of Death",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "malthael",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/malthael/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 6,
+      "day": 13
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "malthael",
+    "revealed": true,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "DVa",
     "name": "D.Va",
-    "slug": "dva",
     "title": "MEKA Pilot",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "dva",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/dva/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 5,
+      "day": 16
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "dva",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Genji",
     "name": "Genji",
-    "slug": "genji",
     "title": "Cybernetic Ninja",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "genji",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/genji/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 4,
+      "day": 25
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "genji",
+    "revealed": true,
+    "video": "bhS1R_PkuCE",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Amazon",
     "name": "Cassia",
-    "slug": "cassia",
     "title": "Amazon Warmatron",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "cassia",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/cassia/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 4,
+      "day": 4
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "cassia",
+    "revealed": true,
+    "video": "OyVXcpMsTH8",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Probius",
     "name": "Probius",
-    "slug": "probius",
     "title": "Curious Probe",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "probius",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/probius/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 3,
+      "day": 14
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "probius",
+    "revealed": true,
+    "video": "CCRA7Kb_quI",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Lucio",
     "name": "Lúcio",
-    "slug": "lucio",
     "title": "Freedom Fighting DJ",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "lucio",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/lucio/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 2,
+      "day": 14
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "lucio",
+    "revealed": true,
+    "video": "iiq65xUcEUg",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Valeera",
     "name": "Valeera",
-    "slug": "valeera",
     "title": "Shadow of the Uncrowned",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "valeera",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/valeera/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 1,
+      "day": 24
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "valeera",
+    "revealed": true,
+    "video": "M9_XDX3bvEA",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Zuljin",
     "name": "Zul'jin",
-    "slug": "zuljin",
     "title": "Warlord of the Amani",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "zuljin",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/zuljin/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2017,
+      "month": 1,
+      "day": 4
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "zuljin",
+    "revealed": true,
+    "video": "X62J7daBB6Y",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Ragnaros",
     "name": "Ragnaros",
-    "slug": "ragnaros",
     "title": "The Firelord",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "ragnaros",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/ragnaros/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 12,
+      "day": 14
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "ragnaros",
+    "revealed": true,
+    "video": "M9XfbNu0f9s",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Varian",
     "name": "Varian",
-    "slug": "varian",
     "title": "High King of the Alliance",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+      {
+        "name": "Warrior",
+        "slug": "warrior",
+        "description": "Warrior Front-line defenders and bruisers."
+      },
+      {
+        "name": "Assassin",
+        "slug": "assassin",
+        "description": "Assassin Slayers of Heroes and bringers of pain."
+      }
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "varian",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/varian/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 11,
+      "day": 15
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "varian",
+    "revealed": true,
+    "video": "b6xyosUwdZk",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Samuro",
     "name": "Samuro",
-    "slug": "samuro",
     "title": "The Blademaster",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "samuro",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/samuro/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 10,
+      "day": 18
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "samuro",
+    "revealed": true,
+    "video": "t7deYRpIUNI",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Zarya",
     "name": "Zarya",
-    "slug": "zarya",
     "title": "Defender of Russia",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "zarya",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/zarya/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 9,
+      "day": 27
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "zarya",
+    "revealed": true,
+    "video": "7QYi0iQZeik",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Alarak",
     "name": "Alarak",
-    "slug": "alarak",
     "title": "Highlord of the Tal'darim",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "alarak",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/alarak/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 9,
+      "day": 13
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "alarak",
+    "revealed": true,
+    "video": "_w4vcO8Z-FY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Auriel",
     "name": "Auriel",
-    "slug": "auriel",
     "title": "Archangel of Hope",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "auriel",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/auriel/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 8,
+      "day": 9
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "auriel",
+    "revealed": true,
+    "video": "8rCeejaaYlg",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Guldan",
     "name": "Gul'dan",
-    "slug": "guldan",
     "title": "Darkness Incarnate",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "guldan",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/guldan/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 7,
+      "day": 12
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "guldan",
+    "revealed": true,
+    "video": "7dsqSWKfHBA",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Medivh",
     "name": "Medivh",
-    "slug": "medivh",
     "title": "The Last Guardian",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "medivh",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Very Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/medivh/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 6,
+      "day": 14
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "medivh",
+    "revealed": true,
+    "video": "eDIHAJnrG3M",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Chromie",
     "name": "Chromie",
-    "slug": "chromie",
     "title": "Keeper of Time",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "chromie",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/chromie/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 5,
+      "day": 17
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "chromie",
+    "revealed": true,
+    "video": "x79UvuRCWGY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Tracer",
     "name": "Tracer",
-    "slug": "tracer",
     "title": "Agent of Overwatch",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "tracer",
     "franchise": "Overwatch",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/tracer/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 4,
+      "day": 19
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tracer",
+    "revealed": true,
+    "video": "LzaMOGjKMXw",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Dehaka",
     "name": "Dehaka",
-    "slug": "dehaka",
     "title": "Primal Pack Leader",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "dehaka",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/dehaka/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 3,
+      "day": 29
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "dehaka",
+    "revealed": true,
+    "video": "1c5SJV7-Q9A",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Necromancer",
     "name": "Xul",
-    "slug": "xul",
     "title": "Cryptic Necromancer",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "xul",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/xul/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 3,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "xul",
+    "revealed": true,
+    "video": "uC7AdjaAE2o",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Wizard",
     "name": "Li-Ming",
-    "slug": "li-ming",
     "title": "Rebellious Wizard",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "li-ming",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/li-ming/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 2,
+      "day": 9
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "li-ming",
+    "revealed": true,
+    "video": "6SqmKqFUwnM",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Greymane",
     "name": "Greymane",
-    "slug": "greymane",
     "title": "Lord of the Worgen",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "greymane",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/greymane/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2016,
+      "month": 1,
+      "day": 12
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "greymane",
+    "revealed": true,
+    "video": "Dt_Tv850m8M",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Dryad",
     "name": "Lunara",
-    "slug": "lunara",
     "title": "First Daughter of Cenarius",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "lunara",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/lunara/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 12,
+      "day": 15
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "lunara",
+    "revealed": true,
+    "video": "4OqrfLfaOnc",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Cho'gall",
     "name": "Cho'gall",
-    "slug": "chogall",
     "title": "Twilight's Hammer Chieftain",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "chogall",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/chogall/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 11,
+      "day": 17
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "chogall",
+    "revealed": true,
+    "video": "qUZvIcydgUY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Artanis",
     "name": "Artanis",
-    "slug": "artanis",
     "title": "Hierarch of the Daelaam",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "artanis",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/artanis/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 10,
+      "day": 27
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "artanis",
+    "revealed": true,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Medic",
     "name": "Lt. Morales",
-    "slug": "lt-morales",
     "title": "Combat Medic",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "lt-morales",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/lt-morales/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 10,
+      "day": 6
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "lt-morales",
+    "revealed": true,
+    "video": "yBDdflazyNc",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Rexxar",
     "name": "Rexxar",
-    "slug": "rexxar",
     "title": "Champion of the Horde",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "rexxar",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/rexxar/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 9,
+      "day": 8
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "rexxar",
+    "revealed": true,
+    "video": "RR4uygYb8_0",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Monk",
     "name": "Kharazim",
-    "slug": "kharazim",
     "title": "Veradani Monk",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "kharazim",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/kharazim/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 8,
+      "day": 18
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "kharazim",
+    "revealed": true,
+    "video": "2YCBM3tGGSI",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Leoric",
     "name": "Leoric",
-    "slug": "leoric",
     "title": "The Skeleton King",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "leoric",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/leoric/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 7,
+      "day": 21
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "leoric",
+    "revealed": true,
+    "video": "WOR0qArdtHY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Butcher",
     "name": "The Butcher",
-    "slug": "the-butcher",
     "title": "Flesh Carver",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "the-butcher",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/the-butcher/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 6,
+      "day": 30
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "the-butcher",
+    "revealed": true,
+    "video": "neCJljdxuPk",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Crusader",
     "name": "Johanna",
-    "slug": "johanna",
     "title": "Crusader of Zakarum",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "johanna",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/johanna/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 6,
+      "day": 2
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "johanna",
+    "revealed": true,
+    "video": "1DbJak1NT5o",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Kaelthas",
     "name": "Kael'thas",
-    "slug": "kaelthas",
     "title": "The Sun King",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "kaelthas",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/kaelthas/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 5,
+      "day": 12
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "kaelthas",
+    "revealed": true,
+    "video": "EkmgRlDEVRA",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Sylvanas",
     "name": "Sylvanas",
-    "slug": "sylvanas",
     "title": "The Banshee Queen",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "sylvanas",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/sylvanas/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 4,
+      "day": 10
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "sylvanas",
+    "revealed": true,
+    "video": "rsiOAb8wIes",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "LostVikings",
     "name": "The Lost Vikings",
-    "slug": "the-lost-vikings",
     "title": "Triple Trouble",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "the-lost-vikings",
     "franchise": "Retro",
+    "stanceSlug": "",
     "difficulty": "Very Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/the-lost-vikings/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 2,
+      "day": 10
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "the-lost-vikings",
+    "revealed": true,
+    "video": "YVsvVprwR0w",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Thrall",
     "name": "Thrall",
-    "slug": "thrall",
     "title": "Warchief of the Horde",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "thrall",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/thrall/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2015,
+      "month": 1,
+      "day": 13
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "thrall",
+    "revealed": true,
+    "video": "jqHrQAbbUeA",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Jaina",
     "name": "Jaina",
-    "slug": "jaina",
     "title": "Archmage",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "jaina",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/jaina/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 12,
+      "day": 2
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "jaina",
+    "revealed": true,
+    "video": "kApNBrmH-vU",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Azmodan",
     "name": "Azmodan",
-    "slug": "azmodan",
     "title": "Lord of Sin",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "azmodan",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/azmodan/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 10,
+      "day": 14
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "azmodan",
+    "revealed": true,
+    "video": "n4Eg5RaILWo",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Anubarak",
     "name": "Anub'arak",
-    "slug": "anubarak",
     "title": "Traitor King",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "anubarak",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/anubarak/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 10,
+      "day": 14
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "anubarak",
+    "revealed": true,
+    "video": "v6rQPrUXjxE",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Chen",
     "name": "Chen",
-    "slug": "chen",
     "title": "Legendary Brewmaster",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "chen",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/chen/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 9,
+      "day": 9
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "chen",
+    "revealed": true,
+    "video": "qHX-W1UWhMY",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Rehgar",
     "name": "Rehgar",
-    "slug": "rehgar",
     "title": "Shaman of the Earthen Ring",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "rehgar",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/rehgar/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 7,
+      "day": 22
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "rehgar",
+    "revealed": true,
+    "video": "atZ3qAOTcz0",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Zagara",
     "name": "Zagara",
-    "slug": "zagara",
     "title": "Broodmother of the Swarm",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "zagara",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/zagara/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 6,
+      "day": 24
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "zagara",
+    "revealed": true,
+    "video": "SlD2gE0fQlo",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Murky",
     "name": "Murky",
-    "slug": "murky",
     "title": "Baby Murloc",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "murky",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/murky/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 5,
+      "day": 20
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "murky",
+    "revealed": true,
+    "video": "F9iV8sGXbSk",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "FaerieDragon",
     "name": "Brightwing",
-    "slug": "brightwing",
     "title": "Faerie Dragon",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "brightwing",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/brightwing/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 4,
+      "day": 15
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "brightwing",
+    "revealed": true,
+    "video": "DyPKtJkeNuA",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "LiLi",
     "name": "Li Li",
-    "slug": "li-li",
     "title": "World Wanderer",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "li-li",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/li-li/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 4,
+      "day": 15
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "li-li",
+    "revealed": true,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Tychus",
     "name": "Tychus",
-    "slug": "tychus",
     "title": "Notorious Outlaw",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "tychus",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/tychus/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 3,
+      "day": 11
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tychus",
+    "revealed": true,
+    "video": "nZinagItziA",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "DemonHunter",
     "name": "Valla",
-    "slug": "valla",
     "title": "Demon Hunter",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "valla",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/valla/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "valla",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Tassadar",
     "name": "Tassadar",
-    "slug": "tassadar",
     "title": "Savior of the Templar",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "tassadar",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/tassadar/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tassadar",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Uther",
     "name": "Uther",
-    "slug": "uther",
     "title": "The Lightbringer",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "uther",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/uther/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "uther",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Arthas",
     "name": "Arthas",
-    "slug": "arthas",
     "title": "The Lich King",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "arthas",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/arthas/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "arthas",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Malfurion",
     "name": "Malfurion",
-    "slug": "malfurion",
     "title": "Archdruid",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "malfurion",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/malfurion/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "malfurion",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "SgtHammer",
     "name": "Sgt. Hammer",
-    "slug": "sgt-hammer",
     "title": "Siege Tank Operator",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "sgt-hammer",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/sgt-hammer/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "sgt-hammer",
+    "revealed": true,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 15,
+    "unified": false
   },
   {
+    "id": "WitchDoctor",
     "name": "Nazeebo",
-    "slug": "nazeebo",
     "title": "Heretic Witch Doctor",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "nazeebo",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/nazeebo/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "nazeebo",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Falstad",
     "name": "Falstad",
-    "slug": "falstad",
     "title": "Wildhammer Thane",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "falstad",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/falstad/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "falstad",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Zeratul",
     "name": "Zeratul",
-    "slug": "zeratul",
     "title": "Dark Prelate",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "zeratul",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/zeratul/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "zeratul",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Tinker",
     "name": "Gazlowe",
-    "slug": "gazlowe",
     "title": "Boss of Ratchet",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "gazlowe",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/gazlowe/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "gazlowe",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Diablo",
     "name": "Diablo",
-    "slug": "diablo",
     "title": "Lord of Terror",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "diablo",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/diablo/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "diablo",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "L90ETC",
     "name": "E.T.C.",
-    "slug": "etc",
     "title": "Rock God",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "etc",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/etc/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "etc",
+    "revealed": true,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Tyrande",
     "name": "Tyrande",
-    "slug": "tyrande",
     "title": "High Priestess of Elune",
-    "description": "Support Healers, buffers, and everyone’s best friends.",
-    "role": "Support",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Support",
+      "slug": "support",
+      "description": "Support Healers, buffers, and everyone’s best friends."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "tyrande",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/tyrande/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tyrande",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Illidan",
     "name": "Illidan",
-    "slug": "illidan",
     "title": "The Betrayer",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "illidan",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/illidan/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "illidan",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Kerrigan",
     "name": "Kerrigan",
-    "slug": "kerrigan",
     "title": "Queen of Blades",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "kerrigan",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/kerrigan/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "kerrigan",
+    "revealed": true,
+    "video": "yyTzUBzt30Q",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Nova",
     "name": "Nova",
-    "slug": "nova",
     "title": "Dominion Ghost",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "nova",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/nova/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "nova",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Raynor",
     "name": "Raynor",
-    "slug": "raynor",
     "title": "Renegade Commander",
-    "description": "Assassin Slayers of Heroes and bringers of pain.",
-    "role": "Assassin",
-    "type": "Ranged",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Assassin",
+      "slug": "assassin",
+      "description": "Assassin Slayers of Heroes and bringers of pain."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Ranged",
+      "slug": "ranged"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "raynor",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/raynor/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "raynor",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Abathur",
     "name": "Abathur",
-    "slug": "abathur",
     "title": "Evolution Master",
-    "description": "Specialist Rule breakers and masters of unconventional warfare.",
-    "role": "Specialist",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Specialist",
+      "slug": "specialist",
+      "description": "Specialist Rule breakers and masters of unconventional warfare."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "abathur",
     "franchise": "StarCraft",
+    "stanceSlug": "",
     "difficulty": "Very Hard",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/abathur/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "abathur",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Tyrael",
     "name": "Tyrael",
-    "slug": "tyrael",
     "title": "Archangel of Justice",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "tyrael",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/tyrael/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "tyrael",
+    "revealed": true,
+    "video": "0TR6MXdfzLg",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Muradin",
     "name": "Muradin",
-    "slug": "muradin",
     "title": "Mountain King",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "muradin",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Easy",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/muradin/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "muradin",
+    "revealed": true,
+    "video": "S4WcT8smz3s",
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Barbarian",
     "name": "Sonya",
-    "slug": "sonya",
     "title": "Wandering Barbarian",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "sonya",
     "franchise": "Diablo",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/sonya/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "sonya",
+    "revealed": true,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
+    "unified": false
   },
   {
+    "id": "Stitches",
     "name": "Stitches",
-    "slug": "stitches",
     "title": "Terror of Darkshire",
-    "description": "Warrior Front-line defenders and bruisers.",
-    "role": "Warrior",
-    "type": "Melee",
+    "baseHeroInfo": {
+      "role": {
+      },
+      "skins": [
+
+      ],
+      "type": {
+      },
+      "trait": {
+      },
+      "defaultMount": {
+      },
+      "abilities": [
+
+      ],
+      "heroicAbilities": [
+
+      ],
+      "multiclassRoles": [
+
+      ],
+      "otherAbilities": [
+
+      ],
+      "pairedHeroes": [
+
+      ]
+    },
+    "role": {
+      "name": "Warrior",
+      "slug": "warrior",
+      "description": "Warrior Front-line defenders and bruisers."
+    },
+    "roleSecondary": {
+    },
+    "type": {
+      "name": "Melee",
+      "slug": "melee"
+    },
+    "multiclassRoles": [
+
+    ],
+    "pairedHeroes": [
+
+    ],
+    "slug": "stitches",
     "franchise": "Warcraft",
+    "stanceSlug": "",
     "difficulty": "Medium",
-    "live": true,
-    "poster_image": "http://media.blizzard.com/heroes/stitches/bust.jpg",
     "stats": {
       "damage": 0,
       "utility": 0,
       "survivability": 0,
       "complexity": 0
     },
-    "trait": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
+    "skins": [
+
+    ],
+    "releaseDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 1
     },
-    "abilities": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    },
-    "heroics": {
-      "name": "",
-      "description": "",
-      "slug": "",
-      "image": ""
-    }
+    "alternateHeroInfo": [
+
+    ],
+    "auxiliaryHeroInfo": [
+
+    ],
+    "heroStanceName": "",
+    "analyticsName": "stitches",
+    "revealed": true,
+    "video": "AAc8a1igxN4",
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 0,
+    "unified": false
   }
 ]

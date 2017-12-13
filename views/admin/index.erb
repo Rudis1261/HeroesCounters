@@ -1,6 +1,8 @@
 <%= link('admin/scrape', 'Scrape All', :class => 'btn') %>
 &nbsp;
 <%= link('admin/scrape-heroes', 'Scrape all hero details', :class => 'btn') %>
+&nbsp;
+<%= link('admin/parse-details', 'Parse hero details', :class => 'btn') %>
 
 <br />
 
@@ -9,4 +11,9 @@
 <% if @json_data %>
     <a class="pull-right" href="https://jsonlint.com/?json=<%= @json_data_escaped %>" target="_blank">Lint first</a>
     <textarea rows="25" cols="40"><%= @json_data %></textarea>
+<% end %>
+
+<h2>Scrape individual hero</h2>
+<% @hero_slugs.each do |slug| %>
+    <%= link("admin/scrape/" + slug, slug.capitalize, :class => 'btn') %>
 <% end %>

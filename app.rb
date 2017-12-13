@@ -51,6 +51,7 @@ class App < Sinatra::Base
     ConfigController.base_url = 'http://eu.battle.net/heroes/en/heroes/'
     ConfigController.hero_base_url = 'http://eu.battle.net/heroes/en/heroes/%s/'
     ConfigController.local_file = File.dirname(__FILE__) + '/data/heroes.json'
+    ConfigController.local_detail_file = File.dirname(__FILE__) + '/data/heroes_detail.json'
     ConfigController.hero_local_file = File.dirname(__FILE__) + '/data/heroes/%s.json'
     ConfigController.image_urls = {
       'bust' => 'http://media.blizzard.com/heroes/%s/bust.jpg',

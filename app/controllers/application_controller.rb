@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
     content_type :text
-    return read_hero_details
+    return read_detail_from_disk
   end
 
    get  '/help' do
@@ -38,7 +38,7 @@ class ApplicationController < Sinatra::Base
   ['/search/:term', '/find/:term'].each do |route|
     get "#{route}" do
       content_type :text
-      return find_hero_by_term params[:term]
+      return search_for_hero_by_term params[:term]
     end
   end
 
