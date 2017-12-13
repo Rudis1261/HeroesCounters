@@ -1,0 +1,58 @@
+{
+  "name": "Chromie",
+  "slug": "chromie",
+  "title": "Keeper of Time",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/chromie/bust.jpg",
+  "stats": {
+    "damage": 9,
+    "utility": 4,
+    "survivability": 3,
+    "complexity": 5
+  },
+  "trait": {
+    "name": "Timewalker",
+    "description": "Timewalker",
+    "slug": "timewalker",
+    "image": "http://media.blizzard.com/heroes/chromie/abilities/icons/timewalker.png"
+  },
+  "abilities": [
+    {
+      "name": "Sand Blast",
+      "description": "After 1 second, fire a missile that deals 300 damage to the first enemy Hero hit. Quest: Hit 60 Heroes with Sand Blast. Consecutive hits without missing count as hitting 2 Heroes. Reward: Each Hero hit increases Sand Blast's damage by 5. Reward: After hitting 60 Heroes, casting Sand Blast leaves an Echo behind. The next time Sand Blast is cast, the Echo also casts an untalented Sand Blast that deals 40% damage.",
+      "slug": "sand-blast",
+      "image": "http://media.blizzard.com/heroes/chromie/abilities/icons/sand-blast.png"
+    },
+    {
+      "name": "Dragon’s Breath",
+      "description": "Fire a blast into the air that lands after 1.5 seconds, dealing 480 damage to enemies in an area. Enemies cannot see where the blast will land.",
+      "slug": "dragons-breath",
+      "image": "http://media.blizzard.com/heroes/chromie/abilities/icons/dragons-breath.png"
+    },
+    {
+      "name": "Time Trap",
+      "description": "Place a Time Trap that arms and Stealths after 2 seconds. The first enemy Hero to touch it is placed in Time Stop for 2 seconds. Only 1 trap can exist at once.",
+      "slug": "time-trap",
+      "image": "http://media.blizzard.com/heroes/chromie/abilities/icons/time-trap.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Slowing Sands",
+      "description": "Place a sand vortex that greatly Slows enemies inside it. The longer it is active the more it Slows, up to 60% after 3 seconds.",
+      "slug": "slowing-sands",
+      "image": "http://media.blizzard.com/heroes/chromie/abilities/icons/slowing-sands.png"
+    },
+    {
+      "name": "Temporal Loop",
+      "description": "Choose an enemy Hero. After 3 seconds, they will teleport back to the location where Temporal Loop was cast on them.",
+      "slug": "temporal-loop",
+      "image": "http://media.blizzard.com/heroes/chromie/abilities/icons/temporal-loop.png"
+    }
+  ]
+}

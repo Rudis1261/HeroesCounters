@@ -1,0 +1,58 @@
+{
+  "name": "Zeratul",
+  "slug": "zeratul",
+  "title": "Dark Prelate",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "StarCraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/zeratul/bust.jpg",
+  "stats": {
+    "damage": 8,
+    "utility": 6,
+    "survivability": 6,
+    "complexity": 5
+  },
+  "trait": {
+    "name": "Permanent Cloak",
+    "description": "Permanent Cloak",
+    "slug": "permanent-cloak",
+    "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/permanent-cloak.png"
+  },
+  "abilities": [
+    {
+      "name": "Cleave",
+      "description": "Deal 200 damage to nearby enemies.",
+      "slug": "cleave",
+      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/cleave.png"
+    },
+    {
+      "name": "Singularity Spike",
+      "description": "Flings a Singularity Spike that sticks to the first enemy hit. Deals 228 damage after 1 second and slows the enemy by 40% for 3 seconds.",
+      "slug": "singularity-spike",
+      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/singularity-spike.png"
+    },
+    {
+      "name": "Blink",
+      "description": "Teleport to the target location. Using this Ability does not break cloak.",
+      "slug": "blink",
+      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/blink.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Void Prison",
+      "description": "Slows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected.",
+      "slug": "void-prison",
+      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/void-prison.png"
+    },
+    {
+      "name": "Shadow Assault",
+      "description": "Basic Attacks cause Zeratul to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.",
+      "slug": "shadow-assault",
+      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/shadow-assault.png"
+    }
+  ]
+}

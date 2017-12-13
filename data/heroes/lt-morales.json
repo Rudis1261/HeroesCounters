@@ -1,0 +1,58 @@
+{
+  "name": "Lt. Morales",
+  "slug": "lt-morales",
+  "title": "Combat Medic",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "StarCraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/lt-morales/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 9,
+    "survivability": 4,
+    "complexity": 5
+  },
+  "trait": {
+    "name": "Caduceus Reactor",
+    "description": "Caduceus Reactor",
+    "slug": "caduceus-reactor",
+    "image": "http://media.blizzard.com/heroes/lt-morales/abilities/icons/caduceus-reactor.png"
+  },
+  "abilities": [
+    {
+      "name": "Healing Beam",
+      "description": "Heal target ally for 180 Health per second as long as they are in range. After not channeling Healing Beam for 2 seconds, regenerate 6 Energy per second. Reactivate to switch targets, or self-cast to cancel channeling.",
+      "slug": "healing-beam",
+      "image": "http://media.blizzard.com/heroes/lt-morales/abilities/icons/healing-beam.png"
+    },
+    {
+      "name": "Safeguard",
+      "description": "Grant target ally 25 Armor for 3 seconds.",
+      "slug": "safeguard",
+      "image": "http://media.blizzard.com/heroes/lt-morales/abilities/icons/safeguard.png"
+    },
+    {
+      "name": "Displacement Grenade",
+      "description": "Fire a grenade that can be manually detonated, dealing 210 to nearby enemies and knocking them away.",
+      "slug": "displacement-grenade",
+      "image": "http://media.blizzard.com/heroes/lt-morales/abilities/icons/displacement-grenade.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Stim Drone",
+      "description": "Grant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds.",
+      "slug": "stim-drone",
+      "image": "http://media.blizzard.com/heroes/lt-morales/abilities/icons/stim-drone.png"
+    },
+    {
+      "name": "Medivac Dropship",
+      "description": "Target a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac.",
+      "slug": "medivac-dropship",
+      "image": "http://media.blizzard.com/heroes/lt-morales/abilities/icons/medivac-dropship.png"
+    }
+  ]
+}

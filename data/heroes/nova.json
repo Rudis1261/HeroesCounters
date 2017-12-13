@@ -1,0 +1,58 @@
+{
+  "name": "Nova",
+  "slug": "nova",
+  "title": "Dominion Ghost",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "StarCraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/nova/bust.jpg",
+  "stats": {
+    "damage": 10,
+    "utility": 4,
+    "survivability": 2,
+    "complexity": 5
+  },
+  "trait": {
+    "name": "Permanent Cloak, Sniper",
+    "description": "Permanent Cloak, Sniper",
+    "slug": "permanent-cloak-sniper",
+    "image": "http://media.blizzard.com/heroes/nova/abilities/icons/permanent-cloak-sniper.png"
+  },
+  "abilities": [
+    {
+      "name": "Snipe",
+      "description": "Deals 310 damage to the first enemy hit.",
+      "slug": "snipe",
+      "image": "http://media.blizzard.com/heroes/nova/abilities/icons/snipe.png"
+    },
+    {
+      "name": "Pinning Shot",
+      "description": "Deal 110 damage to an enemy and slow it by 40% for 2.25 seconds.",
+      "slug": "pinning-shot",
+      "image": "http://media.blizzard.com/heroes/nova/abilities/icons/pinning-shot.png"
+    },
+    {
+      "name": "Holo Decoy",
+      "description": "Create a Decoy for 5 seconds that appears to attack enemies. Using this Ability does not break Cloak.",
+      "slug": "holo-decoy",
+      "image": "http://media.blizzard.com/heroes/nova/abilities/icons/holo-decoy.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Triple Tap",
+      "description": "Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 338 damage each.",
+      "slug": "triple-tap",
+      "image": "http://media.blizzard.com/heroes/nova/abilities/icons/triple-tap.png"
+    },
+    {
+      "name": "Precision Strike",
+      "description": "After a 1.5 second delay, deals 456 damage to enemies within an area. Unlimited range.",
+      "slug": "precision-strike",
+      "image": "http://media.blizzard.com/heroes/nova/abilities/icons/precision-strike.png"
+    }
+  ]
+}

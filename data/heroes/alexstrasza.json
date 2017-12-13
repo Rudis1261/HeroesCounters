@@ -1,0 +1,58 @@
+{
+  "name": "Alexstrasza",
+  "slug": "alexstrasza",
+  "title": "The Life-Binder",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/alexstrasza/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 6,
+    "survivability": 4,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Dragonqueen",
+    "description": "Dragonqueen",
+    "slug": "dragonqueen",
+    "image": "http://media.blizzard.com/heroes/alexstrasza/abilities/icons/dragonqueen.png"
+  },
+  "abilities": [
+    {
+      "name": "Gift of Life",
+      "description": "Sacrifice 15% of Alexstrasza's current Health, healing an ally for 150% of that amount. Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
+      "slug": "gift-of-life",
+      "image": "http://media.blizzard.com/heroes/alexstrasza/abilities/icons/gift-of-life.png"
+    },
+    {
+      "name": "Abundance",
+      "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health. Dragonqueen: Preservation Heal area and amount greatly increased.",
+      "slug": "abundance",
+      "image": "http://media.blizzard.com/heroes/alexstrasza/abilities/icons/abundance.png"
+    },
+    {
+      "name": "Flame Buffet",
+      "description": "Launch a fireball, Burning enemies hit for 75 damage over 5.5 seconds. Hitting enemies that are already Burning deals 125 bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost. Dragonqueen: Wing Buffet Damage and Knockback enemies in an arc.",
+      "slug": "flame-buffet",
+      "image": "http://media.blizzard.com/heroes/alexstrasza/abilities/icons/flame-buffet.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Life-Binder",
+      "description": "Bind Alexstrasa's life force with an allied Hero. After 2 seconds, the Hero with a lower percentage of Health is set to the same Health percentage as the other Hero.",
+      "slug": "life-binder",
+      "image": "http://media.blizzard.com/heroes/alexstrasza/abilities/icons/life-binder.png"
+    },
+    {
+      "name": "Cleansing Flame",
+      "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 150 damage to enemies and heal allied Heroes for 300 Health. 2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+      "slug": "cleansing-flame",
+      "image": "http://media.blizzard.com/heroes/alexstrasza/abilities/icons/cleansing-flame.png"
+    }
+  ]
+}

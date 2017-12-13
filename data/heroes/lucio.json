@@ -1,0 +1,64 @@
+{
+  "name": "Lúcio",
+  "slug": "lucio",
+  "title": "Freedom Fighting DJ",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Overwatch",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/lucio/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 8,
+    "survivability": 6,
+    "complexity": 5
+  },
+  "trait": {
+    "name": "Wall Ride",
+    "description": "Wall Ride",
+    "slug": "wall-ride",
+    "image": "http://media.blizzard.com/heroes/lucio/abilities/icons/wall-ride.png"
+  },
+  "abilities": [
+    {
+      "name": "Soundwave",
+      "description": "Deal 112 damage to enemies in an area and knock them back.",
+      "slug": "soundwave",
+      "image": "http://media.blizzard.com/heroes/lucio/abilities/icons/soundwave.png"
+    },
+    {
+      "name": "Crossfade: Speed Boost",
+      "description": "Passively increase the Movement Speed of Lúcio and nearby allied Heroes by 15%. Toggle to play Healing Boost instead.",
+      "slug": "speed-boost",
+      "image": "http://media.blizzard.com/heroes/lucio/abilities/icons/speed-boost.png"
+    },
+    {
+      "name": "Crossfade: Healing Boost",
+      "description": "Passively heal Lúcio and nearby allied Heroes for 25 health per second. Toggle to play Speed Boost instead.",
+      "slug": "healing-boost",
+      "image": "http://media.blizzard.com/heroes/lucio/abilities/icons/healing-boost.png"
+    },
+    {
+      "name": "Amp It Up",
+      "description": "Raise Lúcio's Crossfade track volume for 3 seconds, amping Healing Boost to 124 health per second and Speed Boost to 45% increased Movement Speed.",
+      "slug": "amp-it-up",
+      "image": "http://media.blizzard.com/heroes/lucio/abilities/icons/amp-it-up.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Sound Barrier",
+      "description": "After 1 second, Lúcio and nearby Allied Heroes gain a 1392 point shield that rapidly decays over 6 seconds.",
+      "slug": "sound-barrier",
+      "image": "http://media.blizzard.com/heroes/lucio/abilities/icons/sound-barrier.png"
+    },
+    {
+      "name": "Reverse Amp",
+      "description": "Blast Lúcio's Crossfade track at enemy Heroes for 4 seconds, causing Healing Boost to inflict 112 damage per second and Speed Boost to slow for 45%. This ability is unaffected by Crossfade talents. Passive: Increase Amp It Up's duration to 4 seconds.",
+      "slug": "reverse-amp",
+      "image": "http://media.blizzard.com/heroes/lucio/abilities/icons/reverse-amp.png"
+    }
+  ]
+}

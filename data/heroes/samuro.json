@@ -1,0 +1,58 @@
+{
+  "name": "Samuro",
+  "slug": "samuro",
+  "title": "The Blademaster",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/samuro/bust.jpg",
+  "stats": {
+    "damage": 6,
+    "utility": 3,
+    "survivability": 7,
+    "complexity": 7
+  },
+  "trait": {
+    "name": "Advancing Strikes",
+    "description": "Advancing Strikes",
+    "slug": "advancing-strikes",
+    "image": "http://media.blizzard.com/heroes/samuro/abilities/icons/advancing-strikes.png"
+  },
+  "abilities": [
+    {
+      "name": "Mirror Image",
+      "description": "Create 2 Mirror Images that deal 25% of Samuro's damage and have 50% of his current Health. Images last up to 18 seconds, and only two can be active at any one time. Mirror Image will remove most negative effects from Samuro.",
+      "slug": "mirror-image",
+      "image": "http://media.blizzard.com/heroes/samuro/abilities/icons/mirror-image.png"
+    },
+    {
+      "name": "Critical Strike",
+      "description": "Samuro's next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk. Passive: Samuro and his Images deal a Critical Strike on every 4th Basic Attack.",
+      "slug": "critical-strike",
+      "image": "http://media.blizzard.com/heroes/samuro/abilities/icons/critical-strike.png"
+    },
+    {
+      "name": "Wind Walk",
+      "description": "Enter Stealth for up to 10 seconds or until Samuro attacks, uses an Ability, or takes damage. While Stealthed, his Movement Speed is increased by 25% and he can pass through other units. Samuro is Unrevealable for the first second of Wind Walk.",
+      "slug": "wind-walk",
+      "image": "http://media.blizzard.com/heroes/samuro/abilities/icons/wind-walk.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Bladestorm",
+      "description": "Become an Unstoppable whirlwind of death, dealing 235 damage per second to nearby enemies for 4 seconds.",
+      "slug": "bladestorm",
+      "image": "http://media.blizzard.com/heroes/samuro/abilities/icons/bladestorm.png"
+    },
+    {
+      "name": "Illusion Master",
+      "description": "Switch places with the target Mirror Image, removing most negative effects from Samuro and the target Mirror Image. Passive: You can control Mirror Images separately or as a group, and they deal an additional 10% of Samuro's damage.",
+      "slug": "illusion-master",
+      "image": "http://media.blizzard.com/heroes/samuro/abilities/icons/illusion-master.png"
+    }
+  ]
+}

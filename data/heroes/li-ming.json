@@ -1,0 +1,58 @@
+{
+  "name": "Li-Ming",
+  "slug": "li-ming",
+  "title": "Rebellious Wizard",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/li-ming/bust.jpg",
+  "stats": {
+    "damage": 10,
+    "utility": 1,
+    "survivability": 3,
+    "complexity": 7
+  },
+  "trait": {
+    "name": "Critical Mass",
+    "description": "Critical Mass",
+    "slug": "critical-mass",
+    "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/critical-mass.png"
+  },
+  "abilities": [
+    {
+      "name": "Magic Missiles",
+      "description": "Fire three missiles toward an area, each dealing 147 damage to the first enemy hit. These missiles do 50% damage to Structures.",
+      "slug": "magic-missiles",
+      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/magic-missiles.png"
+    },
+    {
+      "name": "Arcane Orb",
+      "description": "Fire an Orb that powers up as it travels, dealing 135 damage to the first enemy hit. The amount of damage dealt is increased the further it travels, up to 405 damage.",
+      "slug": "arcane-orb",
+      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/arcane-orb.png"
+    },
+    {
+      "name": "Teleport",
+      "description": "Teleport a short distance instantly.",
+      "slug": "teleport",
+      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/teleport.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Disintegrate",
+      "description": "Channel a powerful beam, dealing 440 damage over 2.5 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
+      "slug": "disintegrate",
+      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/disintegrate.png"
+    },
+    {
+      "name": "Wave Of Force",
+      "description": "Knock away all enemies from an area and deal 160 damage.",
+      "slug": "wave-of-force",
+      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/wave-of-force.png"
+    }
+  ]
+}

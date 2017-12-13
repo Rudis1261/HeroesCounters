@@ -1,0 +1,57 @@
+// Settings
+$btnColor: #222;
+$btnFontSize: 14px;
+$btnBorderRadius: 2px;
+$btnBorderColor: #ccc;
+$btnBackgroundColor: #fff;
+$btnPadding: 0 10px;
+$btnMargin: 0 0 20px;
+$btnMinHeight: 32px;
+$btnBoxShadow: 1px 1px 10px rgba(0,0,0,0.05);
+
+.btn {
+  display: inline-block;
+  min-height: $btnMinHeight;
+  padding: $btnPadding;
+  margin: $btnMargin;
+  border: 1px solid $btnBorderColor;
+  text-decoration: none;
+  background: $btnBackgroundColor;
+  color: $btnColor;
+  font-size: $btnFontSize;
+  box-shadow: $btnBoxShadow;
+  @include flex-inline();
+  @include align-items(center);
+  @include border-radius($btnBorderRadius);
+
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  & +.btn {
+    &:after {
+      @include flex-inline();
+    }
+
+    // Clearfix the last one
+    &:last-of-type:after {
+      content: " ";
+      display: table;
+      clear: both;
+    }
+  }
+
+  &:hover,
+  &:active,
+  &.active {
+    color: darken($btnColor, 2%);
+    border-color: darken($btnBorderColor, 5%);
+    background: darken($btnBackgroundColor, 2%);
+  }
+
+  &:active {
+    box-shadow: inset 1px 1px 4px rgba(0,0,0,0.2)
+  }
+}

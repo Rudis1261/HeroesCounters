@@ -1,0 +1,58 @@
+{
+  "name": "Valeera",
+  "slug": "valeera",
+  "title": "Shadow of the Uncrowned",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/valeera/bust.jpg",
+  "stats": {
+    "damage": 5,
+    "utility": 8,
+    "survivability": 6,
+    "complexity": 8
+  },
+  "trait": {
+    "name": "Vanish",
+    "description": "Vanish",
+    "slug": "vanish",
+    "image": "http://media.blizzard.com/heroes/valeera/abilities/icons/vanish.png"
+  },
+  "abilities": [
+    {
+      "name": "Sinister Strike",
+      "description": "Dash forward, hitting all enemies in a line for 110 damage. If Sinister Strike hits a Hero, Valeera stops dashing immediately and the cooldown is reduced to 1 second. Awards 1 Combo Point. Stealth: Ambush Heavily damage an enemy.",
+      "slug": "sinister-strike",
+      "image": "http://media.blizzard.com/heroes/valeera/abilities/icons/sinister-strike.png"
+    },
+    {
+      "name": "Blade Flurry",
+      "description": "Deal 130 damage in an area around Valeera. Awards 1 Combo Point per enemy Hero hit. Stealth: Cheap Shot Stun and damage an enemy.",
+      "slug": "blade-flurry",
+      "image": "http://media.blizzard.com/heroes/valeera/abilities/icons/blade-flurry.png"
+    },
+    {
+      "name": "Eviscerate",
+      "description": "Eviscerate an enemy, dealing damage per Combo Point. 1 Point: 85 2 Points: 170 3 Points: 255 Stealth: Garrote Silence and damage an enemy over time.",
+      "slug": "eviscerate",
+      "image": "http://media.blizzard.com/heroes/valeera/abilities/icons/eviscerate.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Smoke Bomb",
+      "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish.",
+      "slug": "smoke-bomb",
+      "image": "http://media.blizzard.com/heroes/valeera/abilities/icons/smoke-bomb.png"
+    },
+    {
+      "name": "Cloak of Shadows",
+      "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish.",
+      "slug": "cloak-of-shadows",
+      "image": "http://media.blizzard.com/heroes/valeera/abilities/icons/cloak-of-shadows.png"
+    }
+  ]
+}

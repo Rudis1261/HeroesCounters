@@ -1,0 +1,58 @@
+{
+  "name": "E.T.C.",
+  "slug": "etc",
+  "title": "Rock God",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/etc/bust.jpg",
+  "stats": {
+    "damage": 4,
+    "utility": 6,
+    "survivability": 9,
+    "complexity": 3
+  },
+  "trait": {
+    "name": "Rockstar",
+    "description": "Rockstar",
+    "slug": "rockstar",
+    "image": "http://media.blizzard.com/heroes/etc/abilities/icons/rockstar.png"
+  },
+  "abilities": [
+    {
+      "name": "Powerslide",
+      "description": "Slide to a location dealing 91 damage and stunning enemies hit for 1.25 second.",
+      "slug": "powerslide",
+      "image": "http://media.blizzard.com/heroes/etc/abilities/icons/powerslide.png"
+    },
+    {
+      "name": "Face Melt",
+      "description": "Deals 68 damage to nearby enemies, knocking them back.",
+      "slug": "face-melt",
+      "image": "http://media.blizzard.com/heroes/etc/abilities/icons/face-melt.png"
+    },
+    {
+      "name": "Guitar Solo",
+      "description": "Regenerate 66 Health per second for 4 seconds.",
+      "slug": "guitar-solo",
+      "image": "http://media.blizzard.com/heroes/etc/abilities/icons/guitar-solo.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Mosh Pit",
+      "description": "After 0.75 seconds, channel to stun nearby enemies for 4 seconds.",
+      "slug": "mosh-pit",
+      "image": "http://media.blizzard.com/heroes/etc/abilities/icons/mosh-pit.png"
+    },
+    {
+      "name": "Stage Dive",
+      "description": "Leap to target location, landing after 2.75 seconds, dealing 330 damage to enemies in the area, and slowing them by 50% for 3 seconds.",
+      "slug": "stage-dive",
+      "image": "http://media.blizzard.com/heroes/etc/abilities/icons/stage-dive.png"
+    }
+  ]
+}

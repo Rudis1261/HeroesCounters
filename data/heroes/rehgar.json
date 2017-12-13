@@ -1,0 +1,58 @@
+{
+  "name": "Rehgar",
+  "slug": "rehgar",
+  "title": "Shaman of the Earthen Ring",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/rehgar/bust.jpg",
+  "stats": {
+    "damage": 5,
+    "utility": 7,
+    "survivability": 7,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Ghost Wolf",
+    "description": "Ghost Wolf",
+    "slug": "ghost-wolf",
+    "image": "http://media.blizzard.com/heroes/rehgar/abilities/icons/ghost-wolf.png"
+  },
+  "abilities": [
+    {
+      "name": "Chain Heal",
+      "description": "Heal an ally with a wave of healing for 250 Health. The wave then bounces 2 times to nearby allies within 7 range, restoring 250 Health to them. ",
+      "slug": "chain-heal",
+      "image": "http://media.blizzard.com/heroes/rehgar/abilities/icons/chain-heal.png"
+    },
+    {
+      "name": "Lightning Shield",
+      "description": "Imbue an ally with lightning dealing 70 damage a second to nearby enemies. Lasts 5 seconds.",
+      "slug": "lightning-shield",
+      "image": "http://media.blizzard.com/heroes/rehgar/abilities/icons/lightning-shield.png"
+    },
+    {
+      "name": "Earthbind Totem",
+      "description": "Create a totem that slows nearby enemies by 35%. The totem has 217 Health and lasts for 8 seconds.",
+      "slug": "earthbind-totem",
+      "image": "http://media.blizzard.com/heroes/rehgar/abilities/icons/earthbind-totem.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Ancestral Healing",
+      "description": "After 1 second, heal an allied Hero for 1552 Health. Cannot be used on Rehgar.",
+      "slug": "ancestral-healing",
+      "image": "http://media.blizzard.com/heroes/rehgar/abilities/icons/ancestral-healing.png"
+    },
+    {
+      "name": "Bloodlust",
+      "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+      "slug": "bloodlust",
+      "image": "http://media.blizzard.com/heroes/rehgar/abilities/icons/bloodlust.png"
+    }
+  ]
+}

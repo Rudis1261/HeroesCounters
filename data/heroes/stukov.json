@@ -1,0 +1,58 @@
+{
+  "name": "Stukov",
+  "slug": "stukov",
+  "title": "Infested Admiral",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "StarCraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/stukov/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 8,
+    "survivability": 5,
+    "complexity": 7
+  },
+  "trait": {
+    "name": "Bio-Kill Switch",
+    "description": "Bio-Kill Switch",
+    "slug": "bio-kill-switch",
+    "image": "http://media.blizzard.com/heroes/stukov/abilities/icons/bio-kill-switch.png"
+  },
+  "abilities": [
+    {
+      "name": "Healing Pathogen",
+      "description": "Infest an allied Hero with a Healing Pathogen that heals the target for 222 Health over 4.5 seconds. Healing Pathogens can spread to a nearby allied Hero every 0.75 seconds, and a single Healing Pathogen can spread to each allied Hero 1 time.",
+      "slug": "healing-pathogen",
+      "image": "http://media.blizzard.com/heroes/stukov/abilities/icons/healing-pathogen.png"
+    },
+    {
+      "name": "Weighted Pustule",
+      "description": "Hurl a pustule that impacts all enemy Heroes in its path, dealing 20 damage and Slowing by 5%, increasing to 50% over 3 seconds. Deals an additional 80 damage upon expiring or being removed.",
+      "slug": "weighted-pustule",
+      "image": "http://media.blizzard.com/heroes/stukov/abilities/icons/weighted-pustule.png"
+    },
+    {
+      "name": "Lurking Arm",
+      "description": "Channel at a target location, creating an area that deals 144 damage per second to non-Structure enemies and Silences them. Deals 50% reduced damage to non-Heroes. Does not cost Mana while Channeling, and lasts until canceled or interrupted.",
+      "slug": "lurking-arm",
+      "image": "http://media.blizzard.com/heroes/stukov/abilities/icons/lurking-arm.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Flailing Swipe",
+      "description": "Swipe 3 times in front of Stukov over 1.75 seconds, dealing 50 damage to enemies hit and knocking them away. Each swipe is larger than the previous.",
+      "slug": "flailing-swipe",
+      "image": "http://media.blizzard.com/heroes/stukov/abilities/icons/flailing-swipe.png"
+    },
+    {
+      "name": "Massive Shove",
+      "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, dealing 200 damage and Stunning them for 0.5 seconds. Stukov gains 50 Armor while shoving an enemy.",
+      "slug": "massive-shove",
+      "image": "http://media.blizzard.com/heroes/stukov/abilities/icons/massive-shove.png"
+    }
+  ]
+}

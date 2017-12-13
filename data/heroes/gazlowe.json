@@ -1,0 +1,58 @@
+{
+  "name": "Gazlowe",
+  "slug": "gazlowe",
+  "title": "Boss of Ratchet",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/gazlowe/bust.jpg",
+  "stats": {
+    "damage": 5,
+    "utility": 6,
+    "survivability": 5,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Salvager",
+    "description": "Salvager",
+    "slug": "salvager",
+    "image": "http://media.blizzard.com/heroes/gazlowe/abilities/icons/salvager.png"
+  },
+  "abilities": [
+    {
+      "name": "Rock-It! Turret",
+      "description": "Creates a turret that deals 62 damage. Lasts for 30 seconds. Stores up to 2 charges.",
+      "slug": "rock-it-turret",
+      "image": "http://media.blizzard.com/heroes/gazlowe/abilities/icons/rock-it-turret.png"
+    },
+    {
+      "name": "Deth Lazor",
+      "description": "Charged attack that deals 137 damage to enemies in a line. Damage and range increase the longer the Ability is charged, up to 100% after 3 seconds. Deth Lazor can be channeled indefinitely.",
+      "slug": "deth-lazor",
+      "image": "http://media.blizzard.com/heroes/gazlowe/abilities/icons/deth-lazor.png"
+    },
+    {
+      "name": "Xplodium Charge",
+      "description": "Places a bomb that deals 233 damage to enemies within target area after 2.5 seconds, stunning them for 1.75 seconds.",
+      "slug": "xplodium-charge",
+      "image": "http://media.blizzard.com/heroes/gazlowe/abilities/icons/xplodium-charge.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Robo-Goblin",
+      "description": "Activate to gain 30 Armor and 30% Movement Speed for 4 seconds. Passive: Basic Attacks deal 100% bonus damage. ",
+      "slug": "robo-goblin",
+      "image": "http://media.blizzard.com/heroes/gazlowe/abilities/icons/robo-goblin.png"
+    },
+    {
+      "name": "Grav-O-Bomb 3000",
+      "description": "After a 2 second delay, pull enemies toward the center of an area and deal 251 damage.",
+      "slug": "grav-o-bomb-3000",
+      "image": "http://media.blizzard.com/heroes/gazlowe/abilities/icons/grav-o-bomb-3000.png"
+    }
+  ]
+}

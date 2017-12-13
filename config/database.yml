@@ -1,0 +1,17 @@
+default: &default
+  adapter: mysql2
+  database: skeleton
+  username: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+  host: <%= ENV['DB_HOST'] || '127.0.0.1' %>
+  database: <%= ENV['DB_NAME'] || 'skeleton' %>
+  username: <%= ENV['DB_USER'] || 'root' %>
+  password: <%= ENV['DB_PASS'] || 'root' %>

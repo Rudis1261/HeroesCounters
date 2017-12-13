@@ -1,0 +1,52 @@
+{
+  "name": "Tracer",
+  "slug": "tracer",
+  "title": "Agent of Overwatch",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Overwatch",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/tracer/bust.jpg",
+  "stats": {
+    "damage": 8,
+    "utility": 2,
+    "survivability": 5,
+    "complexity": 8
+  },
+  "trait": {
+    "name": "Reload",
+    "description": "Reload",
+    "slug": "reload",
+    "image": "http://media.blizzard.com/heroes/tracer/abilities/icons/reload.png"
+  },
+  "abilities": [
+    {
+      "name": "Blink",
+      "description": "Dash towards an area. Stores up to 3 charges.",
+      "slug": "blink",
+      "image": "http://media.blizzard.com/heroes/tracer/abilities/icons/blink.png"
+    },
+    {
+      "name": "Melee",
+      "description": "Deal 254 damage to a nearby enemy, prioritizing Heroes. Gain 5% Pulse Bomb charge when using Melee against an enemy, and 10% against Heroes.",
+      "slug": "melee",
+      "image": "http://media.blizzard.com/heroes/tracer/abilities/icons/melee.png"
+    },
+    {
+      "name": "Recall",
+      "description": "Tracer returns to the position she was at 3 seconds ago, refilling her ammo, and removing all negative status effects from herself.",
+      "slug": "recall",
+      "image": "http://media.blizzard.com/heroes/tracer/abilities/icons/recall.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Pulse Bomb",
+      "description": "Fire a short range bomb that can attach to an enemy if it hits them. The bomb explodes after 2 seconds dealing 420 damage to them and 210 damage to other nearby enemies. This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
+      "slug": "pulse-bomb",
+      "image": "http://media.blizzard.com/heroes/tracer/abilities/icons/pulse-bomb.png"
+    }
+  ]
+}

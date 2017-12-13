@@ -1,0 +1,21 @@
+body > .container {
+  margin: 100px auto 10px;
+  max-width: 500px;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 1px #a1a1a1, 1px 1px 25px rgba(#000, 0.05);
+  @include border-radius(5px);
+
+  > .users {
+    h4 {
+      margin: 20px 0 0;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  }
+}

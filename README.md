@@ -14,7 +14,7 @@ My attempt at creating an application to help you choose the correct character w
  	- Auto attack
  	- High spell damage
 	- High health
-	- % based damage	
+	- % based damage
 	- Blinds
 	- Stasis (Stasis, Trapped, Eaten, VP, Temporal Loop, Root)
 	- Protected
@@ -39,7 +39,7 @@ My attempt at creating an application to help you choose the correct character w
 	- Is relevant when it's trait directly competes with another hero's trait
 	- A hero is relevant when it, itself is not countered by the enemy team
 	- Strong on the map
- 	
+
 4. Very specific counters
 	- Well known counters to specific heroes.
 		- Tracer V.S Maltheal
@@ -52,3 +52,35 @@ My attempt at creating an application to help you choose the correct character w
 	- Missing key role
 	- Working out when you need more tanks
 	- Working out when you need double support
+
+
+### Bundle
+
+```shell
+# Bundle install all the things
+bundle install
+```
+### Rake
+```shell
+# To see the ActiveRecord options
+bundle exec rake -T
+
+# When starting off you might want to create the DB
+bundle exec rake db:create
+
+# Running migrations
+bundle exec rake db:migrate
+
+# You might also want to seed the database with some data
+bundle exec rake db:seed
+
+# You can also run a test with a rake task
+rake test
+```
+
+### Tests
+
+```shell
+# Running tests (Automatically with notifications)
+autotest --style=rspec
+```

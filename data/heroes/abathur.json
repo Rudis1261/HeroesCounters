@@ -1,0 +1,52 @@
+{
+  "name": "Abathur",
+  "slug": "abathur",
+  "title": "Evolution Master",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "StarCraft",
+  "difficulty": "Very Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/abathur/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 7,
+    "survivability": 1,
+    "complexity": 9
+  },
+  "trait": {
+    "name": "Locust Strain",
+    "description": "Locust Strain",
+    "slug": "locust-strain",
+    "image": "http://media.blizzard.com/heroes/abathur/abilities/icons/locust-strain.png"
+  },
+  "abilities": [
+    {
+      "name": "Symbiote",
+      "description": "Spawn and attach a Symbiote to a target ally or Structure. While active, Abathur controls the Symbiote, gaining access to new Abilities. The Symbiote is able to gain XP from nearby enemy deaths.",
+      "slug": "symbiote",
+      "image": "http://media.blizzard.com/heroes/abathur/abilities/icons/symbiote.png"
+    },
+    {
+      "name": "Toxic Nest",
+      "description": "Spawn a mine that becomes active after a short time. Deals 153 damage and reveals the enemy for 4 seconds. Lasts 90 seconds. Stores up to 3 charges.",
+      "slug": "toxic-nest",
+      "image": "http://media.blizzard.com/heroes/abathur/abilities/icons/toxic-nest.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Ultimate Evolution",
+      "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
+      "slug": "ultimate-evolution",
+      "image": "http://media.blizzard.com/heroes/abathur/abilities/icons/ultimate-evolution.png"
+    },
+    {
+      "name": "Evolve Monstrosity",
+      "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times. The Monstrosity takes 50% less damage from non-Heroic enemies. Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits. This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
+      "slug": "evolve-monstrosity",
+      "image": "http://media.blizzard.com/heroes/abathur/abilities/icons/evolve-monstrosity.png"
+    }
+  ]
+}

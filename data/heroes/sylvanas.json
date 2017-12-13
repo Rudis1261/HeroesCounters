@@ -1,0 +1,58 @@
+{
+  "name": "Sylvanas",
+  "slug": "sylvanas",
+  "title": "The Banshee Queen",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/sylvanas/bust.jpg",
+  "stats": {
+    "damage": 9,
+    "utility": 7,
+    "survivability": 3,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Black Arrows",
+    "description": "Black Arrows",
+    "slug": "black-arrows",
+    "image": "http://media.blizzard.com/heroes/sylvanas/abilities/icons/black-arrows.png"
+  },
+  "abilities": [
+    {
+      "name": "Withering Fire",
+      "description": "Shoot the closest enemy for 48 damage, preferring Heroes. Gain 1 charge on nearby enemy Minion or Mercenary deaths, and 3 charges on nearby enemy Hero deaths. Stores up to 5 charges.",
+      "slug": "withering-fire",
+      "image": "http://media.blizzard.com/heroes/sylvanas/abilities/icons/withering-fire.png"
+    },
+    {
+      "name": "Shadow Dagger",
+      "description": "Deals 37 damage and an additional 148 damage over 2 seconds to target unit. The effect spreads to nearby targets.",
+      "slug": "shadow-dagger",
+      "image": "http://media.blizzard.com/heroes/sylvanas/abilities/icons/shadow-dagger.png"
+    },
+    {
+      "name": "Haunting Wave",
+      "description": "Send forth a wave of banshees dealing 114 damage to all targets. Reactivate to teleport to the banshees' location.",
+      "slug": "haunting-wave",
+      "image": "http://media.blizzard.com/heroes/sylvanas/abilities/icons/haunting-wave.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Wailing Arrow",
+      "description": "Shoot an arrow that can be reactivated to deal 228 damage and silence enemies in an area making them unable to use Abilities for 2.5 seconds. The arrow detonates automatically if it reaches maximum range.",
+      "slug": "wailing-arrow",
+      "image": "http://media.blizzard.com/heroes/sylvanas/abilities/icons/wailing-arrow.png"
+    },
+    {
+      "name": "Mind Control",
+      "description": "After a 1 second cast, take control of an enemy Hero's movement, Silencing them and prevent them from doing anything else. Channel lasts 2.5 seconds.",
+      "slug": "mind-control",
+      "image": "http://media.blizzard.com/heroes/sylvanas/abilities/icons/mind-control.png"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kel'Thuzad",
+  "slug": "kelthuzad",
+  "title": "Archlich of Naxxramas",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/kelthuzad/bust.jpg",
+  "stats": {
+    "damage": 8,
+    "utility": 7,
+    "survivability": 4,
+    "complexity": 7
+  },
+  "trait": {
+    "name": "Master of the Cold Dark",
+    "description": "Master of the Cold Dark",
+    "slug": "master-of-the-cold-dark",
+    "image": "http://media.blizzard.com/heroes/kelthuzad/abilities/icons/master-of-the-cold-dark.png"
+  },
+  "abilities": [
+    {
+      "name": "Death and Decay",
+      "description": "After 0.5 seconds, launch an orb that explodes upon hitting an enemy, dealing 150 damage to enemies in the area. The explosion leaves behind a pool of decay that lasts 2 seconds, dealing 70 damage every 0.5 seconds to enemies.",
+      "slug": "death-and-decay",
+      "image": "http://media.blizzard.com/heroes/kelthuzad/abilities/icons/death-and-decay.png"
+    },
+    {
+      "name": "Frost Nova",
+      "description": "Create a nova that explodes after 1 second, dealing 212 damage to enemies inside and Slowing them by 35% for 2.5 seconds. Enemies in the center are Rooted for 1 second.",
+      "slug": "frost-nova",
+      "image": "http://media.blizzard.com/heroes/kelthuzad/abilities/icons/frost-nova.png"
+    },
+    {
+      "name": "Chains of Kel'Thuzad",
+      "description": "Launch a chain, dealing 97 damage to the first enemy Hero or Structure hit. For 4 seconds after hitting an enemy, Chains can be reactivated to launch to an additional enemy, pulling both enemies together and Stunning them for 0.5 seconds.",
+      "slug": "chains-of-kelthuzad",
+      "image": "http://media.blizzard.com/heroes/kelthuzad/abilities/icons/chains-of-kelthuzad.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Frost Blast",
+      "description": "Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 100 damage to its target and 275 damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 1.5 seconds.",
+      "slug": "frost-blast",
+      "image": "http://media.blizzard.com/heroes/kelthuzad/abilities/icons/frost-blast.png"
+    },
+    {
+      "name": "Shadow Fissure",
+      "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 400 damage to enemy Heroes in its area.",
+      "slug": "shadow-fissure",
+      "image": "http://media.blizzard.com/heroes/kelthuzad/abilities/icons/shadow-fissure.png"
+    }
+  ]
+}

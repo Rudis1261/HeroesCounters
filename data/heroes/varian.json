@@ -1,0 +1,64 @@
+{
+  "name": "Varian",
+  "slug": "varian",
+  "title": "High King of the Alliance",
+  "description": "Warrior Front-line defenders and bruisers.",
+  "role": "Warrior",
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/varian/bust.jpg",
+  "stats": {
+    "damage": 6,
+    "utility": 7,
+    "survivability": 6,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Heroic Strike",
+    "description": "Heroic Strike",
+    "slug": "heroic-strike",
+    "image": "http://media.blizzard.com/heroes/varian/abilities/icons/heroic-strike.png"
+  },
+  "abilities": [
+    {
+      "name": "Lion's Fang",
+      "description": "Create a shockwave that travels in a straight line, dealing 150 damage and slowing enemies by 35% for 1.5 seconds.",
+      "slug": "lions-fang",
+      "image": "http://media.blizzard.com/heroes/varian/abilities/icons/lions-fang.png"
+    },
+    {
+      "name": "Parry",
+      "description": "Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%. Stores up to 2 charges.",
+      "slug": "parry",
+      "image": "http://media.blizzard.com/heroes/varian/abilities/icons/parry.png"
+    },
+    {
+      "name": "Charge",
+      "description": "Charge to the target enemy, dealing 50 damage and slowing them by 75% for 1 second.",
+      "slug": "charge",
+      "image": "http://media.blizzard.com/heroes/varian/abilities/icons/charge.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Taunt",
+      "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds. Passive: Maximum Health increased by 30%. Passive: Gain 15 Armor.",
+      "slug": "taunt",
+      "image": "http://media.blizzard.com/heroes/varian/abilities/icons/taunt.png"
+    },
+    {
+      "name": "Colossus Smash",
+      "description": "Smash a target enemy, dealing 160 damage and lowering their Armor by 25 for 3 seconds, causing them to take 25% increased damage. Passive: Base Attack Damage increased by 100%. Passive: Maximum Health reduced by 10%.",
+      "slug": "colossus-smash",
+      "image": "http://media.blizzard.com/heroes/varian/abilities/icons/colossus-smash.png"
+    },
+    {
+      "name": "Twin Blades of Fury",
+      "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds. Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
+      "slug": "twin-blades-of-fury",
+      "image": "http://media.blizzard.com/heroes/varian/abilities/icons/twin-blades-of-fury.png"
+    }
+  ]
+}

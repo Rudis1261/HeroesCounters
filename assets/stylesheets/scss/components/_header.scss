@@ -1,0 +1,24 @@
+body > .container {
+  .header {
+    margin: 0 0 15px;
+
+    a {
+      text-decoration: none;
+      color: #222;
+      @include clearfix();
+
+
+      > img {
+        float: left;
+        margin: 0 auto;
+        display: block;
+      }
+
+      > h1 {
+        float: left;
+        font-size: 18px;
+        margin: 35px 20px 0;
+      }
+    }
+  }
+}

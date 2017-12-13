@@ -1,0 +1,58 @@
+{
+  "name": "Gul'dan",
+  "slug": "guldan",
+  "title": "Darkness Incarnate",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/guldan/bust.jpg",
+  "stats": {
+    "damage": 8,
+    "utility": 3,
+    "survivability": 5,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Life Tap",
+    "description": "Life Tap",
+    "slug": "life-tap",
+    "image": "http://media.blizzard.com/heroes/guldan/abilities/icons/life-tap.png"
+  },
+  "abilities": [
+    {
+      "name": "Fel Flame",
+      "description": "Release a wave of flame, dealing 200 damage to enemies.",
+      "slug": "fel-flame",
+      "image": "http://media.blizzard.com/heroes/guldan/abilities/icons/fel-flame.png"
+    },
+    {
+      "name": "Drain Life",
+      "description": "Drain the life from an enemy over 3 seconds, dealing 132 damage per second and healing Gul'dan for 188 Health per second.",
+      "slug": "drain-life",
+      "image": "http://media.blizzard.com/heroes/guldan/abilities/icons/drain-life.png"
+    },
+    {
+      "name": "Corruption",
+      "description": "Call forth three bursts of shadow energy, dealing 204 damage over 6 seconds. Corruption can stack up to 3 times on an enemy.",
+      "slug": "corruption",
+      "image": "http://media.blizzard.com/heroes/guldan/abilities/icons/corruption.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Horrify",
+      "description": "After 0.5 seconds, deal 120 damage to enemy Heroes in an area and Fear them for 2 seconds. While Feared, Heroes are Silenced and are forced to run away from Horrify's center.",
+      "slug": "horrify",
+      "image": "http://media.blizzard.com/heroes/guldan/abilities/icons/horrify.png"
+    },
+    {
+      "name": "Rain of Destruction",
+      "description": "Channel to summon a rain of meteors in an area over 7 seconds. Each meteor deals 165 damage in a small area.",
+      "slug": "rain-of-destruction",
+      "image": "http://media.blizzard.com/heroes/guldan/abilities/icons/rain-of-destruction.png"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Ana",
+  "slug": "ana",
+  "title": "Veteran Sniper",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Overwatch",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/ana/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 7,
+    "survivability": 3,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Shrike",
+    "description": "Shrike",
+    "slug": "shrike",
+    "image": "http://media.blizzard.com/heroes/ana/abilities/icons/shrike.png"
+  },
+  "abilities": [
+    {
+      "name": "Healing Dart",
+      "description": "Fire a dart which heals the first allied Hero hit for 250 Health.",
+      "slug": "healing-dart",
+      "image": "http://media.blizzard.com/heroes/ana/abilities/icons/healing-dart.png"
+    },
+    {
+      "name": "Biotic Grenade",
+      "description": "Toss a Grenade at the target area. Allied Heroes hit are are healed for 175 Health and receive 25% increased healing for 4 seconds. Enemies hit take 60 damage and receive 100% less healing for 2 seconds.",
+      "slug": "biotic-grenade",
+      "image": "http://media.blizzard.com/heroes/ana/abilities/icons/biotic-grenade.png"
+    },
+    {
+      "name": "Sleep Dart",
+      "description": "Fire a dart that puts the first enemy Hero hit to Sleep, Stunning them for 3 seconds. Sleep's effects end instantly if the target takes damage after the first 0.5 seconds. Cannot be used on Vehicles.",
+      "slug": "sleep-dart",
+      "image": "http://media.blizzard.com/heroes/ana/abilities/icons/sleep-dart.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Nano Boost",
+      "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.",
+      "slug": "nano-boost",
+      "image": "http://media.blizzard.com/heroes/ana/abilities/icons/nano-boost.png"
+    },
+    {
+      "name": "Eye of Horus",
+      "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 300 and enemies are damaged for 175. Deals 50% less damage to Structures. Ana is unable to move while Eye of Horus is active.",
+      "slug": "eye-of-horus",
+      "image": "http://media.blizzard.com/heroes/ana/abilities/icons/eye-of-horus.png"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Uther",
+  "slug": "uther",
+  "title": "The Lightbringer",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/uther/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 9,
+    "survivability": 7,
+    "complexity": 2
+  },
+  "trait": {
+    "name": "Devotion, Eternal Vanguard",
+    "description": "Devotion, Eternal Vanguard",
+    "slug": "devotion-eternal-vanguard",
+    "image": "http://media.blizzard.com/heroes/uther/abilities/icons/devotion-eternal-vanguard.png"
+  },
+  "abilities": [
+    {
+      "name": "Holy Light",
+      "description": "Heal target ally for 380 Health. When used on a target other than Uther, also heal Uther for 190 Health.",
+      "slug": "holy-light",
+      "image": "http://media.blizzard.com/heroes/uther/abilities/icons/holy-light.png"
+    },
+    {
+      "name": "Holy Radiance",
+      "description": "Heal all allies in a line for 185 Health, dealing 185 damage to enemies.",
+      "slug": "holy-radiance",
+      "image": "http://media.blizzard.com/heroes/uther/abilities/icons/holy-radiance.png"
+    },
+    {
+      "name": "Hammer of Justice",
+      "description": "Deal 114 damage and Stun the target for 0.75 seconds.",
+      "slug": "hammer-of-justice",
+      "image": "http://media.blizzard.com/heroes/uther/abilities/icons/hammer-of-justice.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Divine Shield",
+      "description": "Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds.",
+      "slug": "divine-shield",
+      "image": "http://media.blizzard.com/heroes/uther/abilities/icons/divine-shield.png"
+    },
+    {
+      "name": "Divine Storm",
+      "description": "Deal 187 damage and Stun nearby enemies for 1.75 seconds.",
+      "slug": "divine-storm",
+      "image": "http://media.blizzard.com/heroes/uther/abilities/icons/divine-storm.png"
+    }
+  ]
+}

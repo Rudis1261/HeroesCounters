@@ -1,0 +1,58 @@
+{
+  "name": "Leoric",
+  "slug": "leoric",
+  "title": "The Skeleton King",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Diablo",
+  "difficulty": "Easy",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/leoric/bust.jpg",
+  "stats": {
+    "damage": 4,
+    "utility": 5,
+    "survivability": 8,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Undying",
+    "description": "Undying",
+    "slug": "undying",
+    "image": "http://media.blizzard.com/heroes/leoric/abilities/icons/undying.png"
+  },
+  "abilities": [
+    {
+      "name": "Skeletal Swing",
+      "description": "Leoric swings his mace, dealing 150 damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!",
+      "slug": "skeletal-swing",
+      "image": "http://media.blizzard.com/heroes/leoric/abilities/icons/skeletal-swing.png"
+    },
+    {
+      "name": "Drain Hope",
+      "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric's Movement Speed is reduced by 20% while this is active.",
+      "slug": "drain-hope",
+      "image": "http://media.blizzard.com/heroes/leoric/abilities/icons/drain-hope.png"
+    },
+    {
+      "name": "Wraith Walk",
+      "description": "Leoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.",
+      "slug": "wraith-walk",
+      "image": "http://media.blizzard.com/heroes/leoric/abilities/icons/wraith-walk.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Entomb",
+      "description": "Create an unpassable tomb for 4 seconds.",
+      "slug": "entomb",
+      "image": "http://media.blizzard.com/heroes/leoric/abilities/icons/entomb.png"
+    },
+    {
+      "name": "March of the Black King",
+      "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
+      "slug": "march-of-the-black-king",
+      "image": "http://media.blizzard.com/heroes/leoric/abilities/icons/march-of-the-black-king.png"
+    }
+  ]
+}

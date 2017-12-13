@@ -1,0 +1,58 @@
+{
+  "name": "Ragnaros",
+  "slug": "ragnaros",
+  "title": "The Firelord",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/ragnaros/bust.jpg",
+  "stats": {
+    "damage": 8,
+    "utility": 7,
+    "survivability": 8,
+    "complexity": 7
+  },
+  "trait": {
+    "name": "Molten Core",
+    "description": "Molten Core",
+    "slug": "molten-core",
+    "image": "http://media.blizzard.com/heroes/ragnaros/abilities/icons/molten-core.png"
+  },
+  "abilities": [
+    {
+      "name": "Empower Sulfuras",
+      "description": "Ragnaros's next Basic Attack is instant, dealing 191 Ability damage in an area, and heals for 20% of the damage dealt. Healing doubled versus Heroes. Molten Core: Molten Swing Stun and damage nearby enemies.",
+      "slug": "empower-sulfuras",
+      "image": "http://media.blizzard.com/heroes/ragnaros/abilities/icons/empower-sulfuras.png"
+    },
+    {
+      "name": "Living Meteor",
+      "description": "Vector Targeting Summon a meteor at the target point that deals 68 damage, then rolls in the target direction dealing 272 damage per second for 1.75 seconds. Molten Core: Meteor Shower Drop a line of meteor impacts.",
+      "slug": "living-meteor",
+      "image": "http://media.blizzard.com/heroes/ragnaros/abilities/icons/living-meteor.png"
+    },
+    {
+      "name": "Blast Wave",
+      "description": "Ignite Ragnaros or an ally, granting 25% Movement Speed for 1.5 seconds before exploding dealing 104 damage to nearby enemies. Molten Core: Explosive Rune Cause a delayed explosion in a large area.",
+      "slug": "blast-wave",
+      "image": "http://media.blizzard.com/heroes/ragnaros/abilities/icons/blast-wave.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Sulfuras Smash",
+      "description": "Hurl Sulfuras at the target area, landing after 0.75 seconds, dealing 198 damage. Enemies in the center take 594 damage instead and are Stunned for 0.5 seconds.",
+      "slug": "sulfuras-smash",
+      "image": "http://media.blizzard.com/heroes/ragnaros/abilities/icons/sulfuras-smash.png"
+    },
+    {
+      "name": "Lava Wave",
+      "description": "Release a wave of lava from Ragnaros's Core that travels down the targeted lane, dealing 240 damage per second to non-Structure enemies in its path and instantly killing enemy Minions. Damage increased by 100% versus Heroes.",
+      "slug": "lava-wave",
+      "image": "http://media.blizzard.com/heroes/ragnaros/abilities/icons/lava-wave.png"
+    }
+  ]
+}

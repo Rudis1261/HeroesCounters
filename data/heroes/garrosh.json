@@ -1,0 +1,58 @@
+{
+  "name": "Garrosh",
+  "slug": "garrosh",
+  "title": "Son of Hellscream",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Warcraft",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/garrosh/bust.jpg",
+  "stats": {
+    "damage": 3,
+    "utility": 7,
+    "survivability": 9,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Armor Up",
+    "description": "Armor Up",
+    "slug": "armor-up",
+    "image": "http://media.blizzard.com/heroes/garrosh/abilities/icons/armor-up.png"
+  },
+  "abilities": [
+    {
+      "name": "Groundbreaker",
+      "description": "Deal 81 damage to enemies in an area. Heroes hit on the outer edge are pulled toward Garrosh.",
+      "slug": "groundbreaker",
+      "image": "http://media.blizzard.com/heroes/garrosh/abilities/icons/groundbreaker.png"
+    },
+    {
+      "name": "Bloodthirst",
+      "description": "Deal 156 damage to an enemy and heal for 10% of Garrosh's missing Health. Healing is increased by 100% against Heroes.",
+      "slug": "bloodthirst",
+      "image": "http://media.blizzard.com/heroes/garrosh/abilities/icons/bloodthirst.png"
+    },
+    {
+      "name": "Wrecking Ball",
+      "description": "Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing 91 damage to enemies near the impact and Slowing them by 30% for 2.5 seconds.",
+      "slug": "wrecking-ball",
+      "image": "http://media.blizzard.com/heroes/garrosh/abilities/icons/wrecking-ball.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Warlord's Challenge",
+      "description": "Silence nearby Heroes and force them to attack Garrosh for 2 seconds.",
+      "slug": "warlords-challenge",
+      "image": "http://media.blizzard.com/heroes/garrosh/abilities/icons/warlords-challenge.png"
+    },
+    {
+      "name": "Decimate",
+      "description": "Deal 50 damage to nearby enemies and Slow them by 30% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second. Stores up to 3 charges.",
+      "slug": "decimate",
+      "image": "http://media.blizzard.com/heroes/garrosh/abilities/icons/decimate.png"
+    }
+  ]
+}

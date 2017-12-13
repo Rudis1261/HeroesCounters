@@ -1,0 +1,58 @@
+{
+  "name": "Sgt. Hammer",
+  "slug": "sgt-hammer",
+  "title": "Siege Tank Operator",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "StarCraft",
+  "difficulty": "Hard",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/sgt-hammer/bust.jpg",
+  "stats": {
+    "damage": 9,
+    "utility": 3,
+    "survivability": 3,
+    "complexity": 6
+  },
+  "trait": {
+    "name": "Artillery",
+    "description": "Artillery",
+    "slug": "artillery",
+    "image": "http://media.blizzard.com/heroes/sgt-hammer/abilities/icons/artillery.png"
+  },
+  "abilities": [
+    {
+      "name": "Spider Mines",
+      "description": "Create 3 mines that deal 96 damage and slow enemies by 25% for 1.5 seconds.",
+      "slug": "spider-mines",
+      "image": "http://media.blizzard.com/heroes/sgt-hammer/abilities/icons/spider-mines.png"
+    },
+    {
+      "name": "Concussive Blast",
+      "description": "Deals 141 damage and pushes enemies away.",
+      "slug": "concussive-blast",
+      "image": "http://media.blizzard.com/heroes/sgt-hammer/abilities/icons/concussive-blast.png"
+    },
+    {
+      "name": "Siege Mode",
+      "description": "Sgt. Hammer becomes immobile to increase Basic Attack range by 5, deal 25% splash damage, and deal 30% bonus damage to Minions and Structures.",
+      "slug": "siege-mode",
+      "image": "http://media.blizzard.com/heroes/sgt-hammer/abilities/icons/siege-mode.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Blunt Force Gun",
+      "description": "Fire a missile across the battlefield, dealing 500 damage to enemies in its path.",
+      "slug": "blunt-force-gun",
+      "image": "http://media.blizzard.com/heroes/sgt-hammer/abilities/icons/blunt-force-gun.png"
+    },
+    {
+      "name": "Napalm Strike",
+      "description": "Deals 164 damage on impact, and leaves a napalm area that deals 50 damage per second. Lasts for 4 seconds.",
+      "slug": "napalm-strike",
+      "image": "http://media.blizzard.com/heroes/sgt-hammer/abilities/icons/napalm-strike.png"
+    }
+  ]
+}

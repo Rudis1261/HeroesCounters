@@ -1,0 +1,58 @@
+{
+  "name": "The Butcher",
+  "slug": "the-butcher",
+  "title": "Flesh Carver",
+  "description": null,
+  "role": null,
+  "type": null,
+  "franchise": "Diablo",
+  "difficulty": "Medium",
+  "live": true,
+  "poster_image": "http://media.blizzard.com/heroes/the-butcher/bust.jpg",
+  "stats": {
+    "damage": 9,
+    "utility": 4,
+    "survivability": 5,
+    "complexity": 3
+  },
+  "trait": {
+    "name": "Fresh Meat",
+    "description": "Fresh Meat",
+    "slug": "fresh-meat",
+    "image": "http://media.blizzard.com/heroes/the-butcher/abilities/icons/fresh-meat.png"
+  },
+  "abilities": [
+    {
+      "name": "Hamstring",
+      "description": "Deal 110 damage and slow enemies by 50% fading over 2 seconds. The Butcher's next Basic Attack will strike immediately.",
+      "slug": "hamstring",
+      "image": "http://media.blizzard.com/heroes/the-butcher/abilities/icons/hamstring.png"
+    },
+    {
+      "name": "Butcher's Brand",
+      "description": "Deal 37 damage to an enemy and Brand them for 4 seconds. The Butcher's Basic Attacks against the Branded target heal him for 75% of the damage done. Basic Attacks against Branded Heroes heal for double and extend the duration of the Brand by 0.5 seconds.",
+      "slug": "butchers-brand",
+      "image": "http://media.blizzard.com/heroes/the-butcher/abilities/icons/butchers-brand.png"
+    },
+    {
+      "name": "Ruthless Onslaught",
+      "description": "Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If The Butcher reaches the target, they are stunned for 1 second and take 119 damage.",
+      "slug": "ruthless-onslaught",
+      "image": "http://media.blizzard.com/heroes/the-butcher/abilities/icons/ruthless-onslaught.png"
+    }
+  ],
+  "heroics": [
+    {
+      "name": "Lamb to the Slaughter",
+      "description": "Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
+      "slug": "lamb-to-the-slaughter",
+      "image": "http://media.blizzard.com/heroes/the-butcher/abilities/icons/lamb-to-the-slaughter.png"
+    },
+    {
+      "name": "Furnace Blast",
+      "description": "After a 3 second delay, fire explodes around The Butcher dealing 500 damage to enemies. Can be cast while using Ruthless Onslaught.",
+      "slug": "furnace-blast",
+      "image": "http://media.blizzard.com/heroes/the-butcher/abilities/icons/furnace-blast.png"
+    }
+  ]
+}

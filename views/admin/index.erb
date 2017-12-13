@@ -1,0 +1,12 @@
+<%= link('admin/scrape', 'Scrape All', :class => 'btn') %>
+&nbsp;
+<%= link('admin/scrape-heroes', 'Scrape all hero details', :class => 'btn') %>
+
+<br />
+
+<span class="pull-left"><%= @message %></span>
+
+<% if @json_data %>
+    <a class="pull-right" href="https://jsonlint.com/?json=<%= @json_data_escaped %>" target="_blank">Lint first</a>
+    <textarea rows="25" cols="40"><%= @json_data %></textarea>
+<% end %>

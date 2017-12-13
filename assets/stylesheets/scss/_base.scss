@@ -1,0 +1,54 @@
+body {
+  background: #f7f7f7;
+  font-family: $font-family;
+}
+
+code {
+  display: inline-block;
+  padding: 8px 12px;
+  white-space: pre-line;
+  background: #f2f2f2;
+  text-align: left;
+  border: 1px solid darken(#f2f2f2, 5%);
+  @include border-radius(4px);
+}
+
+.error {
+  color: $colorRed;
+}
+
+input[type="text"],
+input[type="password"] {
+  &.error {
+    border-color: $colorRed;
+  }
+}
+
+@include mobile {
+  body {
+    padding: 0 10px;
+    > .container {
+      margin: 10px auto;
+    }
+  }
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
