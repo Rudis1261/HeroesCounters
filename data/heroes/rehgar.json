@@ -8,7 +8,7 @@
     "slug": "support",
     "description": "Support Healers, buffers, and everyone’s best friends."
   },
-  "type": "Melee",
+  "type_of_hero": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,

@@ -9,6 +9,11 @@ $btnMargin: 0 0 20px;
 $btnMinHeight: 32px;
 $btnBoxShadow: 1px 1px 10px rgba(0,0,0,0.05);
 
+// SM Variation
+$btnSmPadding: 0 8px;
+$btnSmFontSize: 12px;
+$btnSmMinHeight: 26px;
+
 .btn {
   display: inline-block;
   min-height: $btnMinHeight;
@@ -23,6 +28,12 @@ $btnBoxShadow: 1px 1px 10px rgba(0,0,0,0.05);
   @include flex-inline();
   @include align-items(center);
   @include border-radius($btnBorderRadius);
+
+  &-sm {
+    padding: $btnSmPadding;
+    font-size: $btnSmFontSize;
+    min-height: $btnSmMinHeight;
+  }
 
   &:after {
     content: " ";

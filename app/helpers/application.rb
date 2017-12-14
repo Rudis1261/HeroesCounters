@@ -69,10 +69,17 @@ module ApplicationHelpers
       classes += " active"
     end
 
-    port = (request.port && request.port != 80) ? ":#{request.port}" : ""
+    port = (request.port && request.port != 80) ? ":#{request.port}" : ''
     url = "#{request.scheme}://#{request.host}#{port}/#{self.url_part(path)}"
 
     "<a href=\"#{url}\" class=\"#{classes.strip}\" #{props}>#{label}</a>"
+  end
+
+  def form_action(path)
+    return nil if path.empty?
+
+    port = (request.port && request.port != 80) ? ":#{request.port}" : ''
+    "#{request.scheme}://#{request.host}#{port}/#{self.url_part(path)}"
   end
 
 

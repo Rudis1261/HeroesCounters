@@ -1,8 +1,26 @@
 <%= link('admin/scrape', 'Scrape All', :class => 'btn') %>
 &nbsp;
-<%= link('admin/scrape-heroes', 'Scrape all hero details', :class => 'btn') %>
+<%= link('admin/scrape/detail', 'Scrape all hero details', :class => 'btn') %>
 &nbsp;
-<%= link('admin/parse-details', 'Parse hero details', :class => 'btn') %>
+<%= link('admin/parse/detail', 'Parse hero details', :class => 'btn') %>
+
+<br />
+
+<h2>Scrape individual hero</h2>
+<% if @hero_slugs && @hero_slugs.size > 0 %>
+  <form method="post" action="<%= form_action 'admin/hero' %>">
+    <select name="hero">
+      <% @hero_slugs.each do |slug| %>
+      <option value="<%= slug %>" <%= (params[:hero] && params[:hero] == slug) ? ' selected="" ': '' %>><%= slug.capitalize %></option>
+      <% end %>
+    </select>
+    <%= params %>
+    <div class="text-center">
+      <button name="action" value="scrape" class="btn btn-sm">SCRAPE</button>
+      <button name="action" value="insert" class="btn btn-sm">INSERT TO DB</button>
+    </div>
+  </form>
+<% end %>
 
 <br />
 
@@ -13,7 +31,4 @@
     <textarea rows="25" cols="40"><%= @json_data %></textarea>
 <% end %>
 
-<h2>Scrape individual hero</h2>
-<% @hero_slugs.each do |slug| %>
-    <%= link("admin/scrape/" + slug, slug.capitalize, :class => 'btn') %>
-<% end %>
+<br /></br />

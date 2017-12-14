@@ -8,7 +8,7 @@
     "slug": "multiclass",
     "description": "Multiclass Heroes defined by their talents rather than role."
   },
-  "type": "Melee",
+  "type_of_hero": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,

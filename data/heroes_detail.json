@@ -9,7 +9,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "StarCraft",
     "difficulty": "Very Hard",
     "live": true,
@@ -65,7 +65,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "StarCraft",
     "difficulty": "Hard",
     "live": true,
@@ -127,7 +127,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -189,7 +189,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Hard",
     "live": true,
@@ -251,7 +251,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -313,7 +313,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -375,7 +375,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -437,7 +437,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -499,7 +499,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -561,7 +561,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -623,7 +623,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -685,7 +685,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -747,7 +747,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -809,7 +809,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -871,7 +871,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -933,7 +933,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -995,7 +995,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Medium",
     "live": true,
@@ -1057,7 +1057,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Easy",
     "live": true,
@@ -1119,7 +1119,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -1181,7 +1181,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -1243,7 +1243,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -1305,7 +1305,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Hard",
     "live": true,
@@ -1367,7 +1367,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -1429,7 +1429,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -1491,7 +1491,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Medium",
     "live": true,
@@ -1553,7 +1553,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -1615,7 +1615,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Easy",
     "live": true,
@@ -1677,7 +1677,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -1739,7 +1739,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Medium",
     "live": true,
@@ -1801,7 +1801,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -1863,7 +1863,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -1925,7 +1925,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "StarCraft",
     "difficulty": "Hard",
     "live": true,
@@ -1987,7 +1987,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -2049,7 +2049,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Easy",
     "live": true,
@@ -2111,7 +2111,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Easy",
     "live": true,
@@ -2173,7 +2173,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -2235,7 +2235,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -2297,7 +2297,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Medium",
     "live": true,
@@ -2365,7 +2365,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -2427,7 +2427,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Easy",
     "live": true,
@@ -2489,7 +2489,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -2551,7 +2551,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Very Hard",
     "live": true,
@@ -2613,7 +2613,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Easy",
     "live": true,
@@ -2675,7 +2675,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -2737,7 +2737,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -2799,7 +2799,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -2861,7 +2861,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Hard",
     "live": true,
@@ -2923,7 +2923,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -2985,7 +2985,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Easy",
     "live": true,
@@ -3047,7 +3047,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -3109,7 +3109,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -3171,7 +3171,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -3233,7 +3233,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Hard",
     "live": true,
@@ -3295,7 +3295,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -3357,7 +3357,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -3419,7 +3419,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -3481,7 +3481,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -3543,7 +3543,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -3605,7 +3605,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -3667,7 +3667,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Retro",
     "difficulty": "Very Hard",
     "live": true,
@@ -3729,7 +3729,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Easy",
     "live": true,
@@ -3791,7 +3791,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Hard",
     "live": true,
@@ -3847,7 +3847,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -3909,7 +3909,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -3971,7 +3971,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -4033,7 +4033,7 @@
       "slug": "support",
       "description": "Support Healers, buffers, and everyone’s best friends."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Easy",
     "live": true,
@@ -4095,7 +4095,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Hard",
     "live": true,
@@ -4157,7 +4157,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Diablo",
     "difficulty": "Easy",
     "live": true,
@@ -4219,7 +4219,7 @@
       "slug": "multiclass",
       "description": "Multiclass Heroes defined by their talents rather than role."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,
@@ -4287,7 +4287,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "Diablo",
     "difficulty": "Medium",
     "live": true,
@@ -4349,7 +4349,7 @@
       "slug": "specialist",
       "description": "Specialist Rule breakers and masters of unconventional warfare."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "StarCraft",
     "difficulty": "Medium",
     "live": true,
@@ -4411,7 +4411,7 @@
       "slug": "warrior",
       "description": "Warrior Front-line defenders and bruisers."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Overwatch",
     "difficulty": "Easy",
     "live": true,
@@ -4473,7 +4473,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Melee",
+    "type_of_hero": "Melee",
     "franchise": "StarCraft",
     "difficulty": "Hard",
     "live": true,
@@ -4535,7 +4535,7 @@
       "slug": "assassin",
       "description": "Assassin Slayers of Heroes and bringers of pain."
     },
-    "type": "Ranged",
+    "type_of_hero": "Ranged",
     "franchise": "Warcraft",
     "difficulty": "Medium",
     "live": true,

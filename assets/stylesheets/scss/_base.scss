@@ -51,4 +51,8 @@ input[type="password"] {
 
 .text-center {
   text-align: center;
+
+  > button {
+    display: inline-block;
+  }
 }

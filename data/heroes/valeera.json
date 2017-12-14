@@ -8,7 +8,7 @@
     "slug": "assassin",
     "description": "Assassin Slayers of Heroes and bringers of pain."
   },
-  "type": "Melee",
+  "type_of_hero": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,

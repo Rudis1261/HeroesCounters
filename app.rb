@@ -57,6 +57,10 @@ class App < Sinatra::Base
       'bust' => 'http://media.blizzard.com/heroes/%s/bust.jpg',
       'trait' => 'http://media.blizzard.com/heroes/%s/abilities/icons/%s.png'
     }
+
+    ActiveSupport::Inflector.inflections do |inflect|
+      inflect.irregular 'hero', 'heroes'
+    end
   end
 
   configure :production do

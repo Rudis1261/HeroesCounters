@@ -8,7 +8,7 @@
     "slug": "assassin",
     "description": "Assassin Slayers of Heroes and bringers of pain."
   },
-  "type": "Ranged",
+  "type_of_hero": "Ranged",
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,

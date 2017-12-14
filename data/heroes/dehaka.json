@@ -8,7 +8,7 @@
     "slug": "warrior",
     "description": "Warrior Front-line defenders and bruisers."
   },
-  "type": "Melee",
+  "type_of_hero": "Melee",
   "franchise": "StarCraft",
   "difficulty": "Medium",
   "live": true,

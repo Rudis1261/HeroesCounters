@@ -4,6 +4,7 @@ class AdminController < ApplicationController
     include Sprockets::Helpers
     include ApplicationHelpers
     include ScraperHelper
+    include StorageHelper
 
     @message
     @json_data
@@ -28,24 +29,41 @@ class AdminController < ApplicationController
       erb :'admin/index'
     end
 
-    get '/admin/scrape/:hero' do
+    get '/admin/scrape/detail' do
       admin_required
-      scrape = scrape_hero(params[:hero])
-      @message = scrape.size > 0 ? "Scape completed" : "Something went wrong. No data was received"
+      scrape = scrape_heroes_detail
+      @message = scrape ? "Detail scape completed" : "Something went wrong. No data was received"
       @json_data = scrape
       @json_data_escaped = URI.escape(JSON.parse(@json_data).to_json)
       erb :'admin/index'
     end
 
-    get '/admin/scrape-heroes' do
+    get '/admin/parse/detail' do
       admin_required
-      @message = scrape_hero_details ? "Scape completed" : "Something went wrong. No data was received"
+      scrape = ScraperHelper.parse_hero_details_and_save_to_disk
+      @message = scrape ? "Parsed hero details" : "Something went wrong. Unable to parse details"
       erb :'admin/index'
     end
 
-    get '/admin/parse-details' do
+    get '/admin/hero' do
       admin_required
-      @message = parse_hero_details_and_save_to_disk ? "Parse completed" : "Something went wrong. Could not parse details"
+      erb :'admin/index'
+    end
+
+    post '/admin/hero' do
+      admin_required
+      if params[:action] && params[:action] == 'scrape'
+        scrape = scrape_hero(params[:hero])
+        @message = scrape.size > 0 ? "Scape completed" : "Something went wrong. No data was received"
+        @json_data = scrape
+        @json_data_escaped = URI.escape(JSON.parse(@json_data).to_json)
+      end
+
+      if params[:action] && params[:action] == 'insert'
+        @message = 'insert something'
+        #@message = ScraperHelper.parse_hero_details_and_save_to_disk ? "Parse completed" : "Something went wrong. Could not parse details"
+      end
+
       erb :'admin/index'
     end
 end

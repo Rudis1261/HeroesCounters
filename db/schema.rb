@@ -10,7 +10,59 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171115200450) do
+ActiveRecord::Schema.define(version: 20171213235507) do
+
+  create_table "abilities", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
+    t.string "slug"
+    t.string "description"
+    t.string "image"
+    t.integer "hero_id"
+  end
+
+  create_table "heroes", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
+    t.string "slug"
+    t.string "title"
+    t.string "description"
+    t.string "franchise"
+    t.string "difficulty"
+    t.string "live"
+    t.string "poster_image"
+    t.integer "role_id"
+    t.string "type_of_hero"
+  end
+
+  create_table "heroics", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
+    t.string "slug"
+    t.string "description"
+    t.string "image"
+    t.integer "hero_id"
+  end
+
+  create_table "roles", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
+    t.string "slug"
+    t.string "description"
+  end
+
+  create_table "stats", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.integer "damage", limit: 2
+    t.integer "utility", limit: 2
+    t.integer "survivability", limit: 2
+    t.integer "complexity", limit: 2
+    t.integer "hero_id"
+  end
+
+  create_table "traits", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
+    t.string "slug"
+    t.string "description"
+    t.string "image"
+    t.integer "hero_id"
+  end
+
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "username", limit: 200
     t.string "email", limit: 254
@@ -22,4 +74,5 @@ ActiveRecord::Schema.define(version: 20171115200450) do
     t.integer "locked", limit: 1, default: 0, unsigned: true
     t.string "role", limit: 9, default: "user"
   end
+
 end

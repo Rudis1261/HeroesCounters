@@ -8,7 +8,7 @@
     "slug": "specialist",
     "description": "Specialist Rule breakers and masters of unconventional warfare."
   },
-  "type": "Melee",
+  "type_of_hero": "Melee",
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
