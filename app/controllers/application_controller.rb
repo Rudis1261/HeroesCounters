@@ -87,4 +87,9 @@ class ApplicationController < Sinatra::Base
     end
     redirect '/account'
   end
+
+  def ApplicationController.get_hostname_from_request(request)
+    port = (request.port && request.port != 80) ? ":#{request.port}" : ''
+    "#{request.scheme}://#{request.host}#{port}"
+  end
 end

@@ -1,4 +1,8 @@
 class ConfigController < Sinatra::Base
+  @config = {}
+  def self.set(key, value=false); @config[key] = value; end
+  def self.get(key); @config[key] ||= false; end
+
   def self.base_url=(url); @base_url = url; end
   def self.base_url; @base_url; end
 

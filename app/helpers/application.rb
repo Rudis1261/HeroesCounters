@@ -57,7 +57,7 @@ module ApplicationHelpers
     return props, classes
   end
 
-  def url_part(part)
+  def ApplicationHelpers.url_part(part)
     part.split('/').reject { |p| p.empty? }.join('/')
   end
 
@@ -70,7 +70,7 @@ module ApplicationHelpers
     end
 
     port = (request.port && request.port != 80) ? ":#{request.port}" : ''
-    url = "#{request.scheme}://#{request.host}#{port}/#{self.url_part(path)}"
+    url = "#{request.scheme}://#{request.host}#{port}/#{ApplicationHelpers.url_part(path)}"
 
     "<a href=\"#{url}\" class=\"#{classes.strip}\" #{props}>#{label}</a>"
   end
@@ -79,7 +79,7 @@ module ApplicationHelpers
     return nil if path.empty?
 
     port = (request.port && request.port != 80) ? ":#{request.port}" : ''
-    "#{request.scheme}://#{request.host}#{port}/#{self.url_part(path)}"
+    "#{request.scheme}://#{request.host}#{port}/#{ApplicationHelpers.url_part(path)}"
   end
 
 
