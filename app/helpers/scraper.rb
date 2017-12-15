@@ -11,7 +11,7 @@ module ScraperHelper
   def scrape_heroes
     puts "Scraping heroes from site"
 
-    doc = HTTParty.get(ConfigController.base_url)
+    doc = HTTParty.get(Config.base_url)
     data = doc.body.scan(/window\.heroes.+= (.+);/)
 
     # Fall back should a request fail, try and force read locally
@@ -34,7 +34,7 @@ module ScraperHelper
   def scrape_hero(name)
     return if name.nil?
 
-    doc = HTTParty.get(ConfigController.hero_base_url % name)
+    doc = HTTParty.get(Config.hero_base_url % name)
     data = doc.body.scan(/window\.hero.+= (.+);/)
 
     #Fall back should a request fail, try and force read locally
@@ -92,7 +92,7 @@ module ScraperHelper
     end
 
     detail = JSON.pretty_generate(detail)
-    File.open(ConfigController.local_detail_file, 'w') { |file| file.write(detail) }
+    File.open(Config.local_detail_file, 'w') { |file| file.write(detail) }
     true
   end
 
@@ -167,7 +167,7 @@ module ScraperHelper
                 'name' => item['name'],
                 'description' => item['description'],
                 'slug' => item['slug'],
-                'image' => ConfigController.image_urls['trait'] % [hero['slug'], item['slug']]
+                'image' => Config.image_urls['trait'] % [hero['slug'], item['slug']]
             }
           end
       else
@@ -180,7 +180,7 @@ module ScraperHelper
           'name' => hero['trait']['name'],
           'description' => hero['trait']['name'],
           'slug' => hero['trait']['slug'],
-          'image' => ConfigController.image_urls['trait'] % [hero['slug'], hero['trait']['slug']]
+          'image' => Config.image_urls['trait'] % [hero['slug'], hero['trait']['slug']]
       }
     end
 
@@ -198,7 +198,7 @@ module ScraperHelper
       'franchise' => hero['franchise'],
       'difficulty' => hero['difficulty'],
       'live' => hero['revealed'],
-      'poster_image' => ConfigController.image_urls['bust'] % hero['slug'],
+      'poster_image' => Config.image_urls['bust'] % hero['slug'],
       'stats' => @stats,
       'trait' => @data['trait'],
       'abilities' => @data['abilities'],

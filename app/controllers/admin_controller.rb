@@ -62,11 +62,10 @@ class AdminController < ApplicationController
 
       if params[:action] && params[:action] == 'insert'
         @message = 'insert something'
-        #@message = ScraperHelper.parse_hero_details_and_save_to_disk ? "Parse completed" : "Something went wrong. Could not parse details"
       end
 
       if params[:action] && params[:action] == 'images'
-        @message = "Get them images something"
+        @message = "Get them images something<br/><br/>"
         @hostname = ApplicationController.get_hostname_from_request(request)
         @json_data = ImageHelper.get_images_from_hero(StorageHelper.read_hero_from_disk(params[:hero]))
 
@@ -77,7 +76,6 @@ class AdminController < ApplicationController
           @message += ImageHelper.local_image_url(@hostname, image, options) + '<br>'
         end
         # DEBUGGING
-
       end
 
       erb :'admin/index'

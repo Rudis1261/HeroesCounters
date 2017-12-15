@@ -1,5 +1,6 @@
-class ConfigController < Sinatra::Base
+class Config < Sinatra::Base
   @config = {}
+
   def self.set(key, value=false); @config[key] = value; end
   def self.get(key); @config[key] ||= false; end
 

@@ -8,6 +8,7 @@ require 'sass'
 require 'json'
 require 'uri'
 require 'httparty'
+require 'fileutils'
 
 # Require all the things, models, helpers, controller
 Dir.glob('app/{models,helpers,controllers}/*.rb').each {|file| require_relative file }
@@ -48,15 +49,17 @@ class App < Sinatra::Base
 
     # Some application settings, probably doing this wrong, but the controller extends from Sinatra,
     # so I am not able to access the settings
-    ConfigController.base_url = 'http://eu.battle.net/heroes/en/heroes/'
-    ConfigController.hero_base_url = 'http://eu.battle.net/heroes/en/heroes/%s/'
-    ConfigController.local_file = File.dirname(__FILE__) + '/data/heroes.json'
-    ConfigController.local_detail_file = File.dirname(__FILE__) + '/data/heroes_detail.json'
-    ConfigController.hero_local_file = File.dirname(__FILE__) + '/data/heroes/%s.json'
-    ConfigController.image_urls = {
+    Config.base_url = 'http://eu.battle.net/heroes/en/heroes/'
+    Config.hero_base_url = 'http://eu.battle.net/heroes/en/heroes/%s/'
+    Config.local_file = File.dirname(__FILE__) + '/data/heroes.json'
+    Config.local_detail_file = File.dirname(__FILE__) + '/data/heroes_detail.json'
+    Config.hero_local_file = File.dirname(__FILE__) + '/data/heroes/%s.json'
+    Config.image_urls = {
       'bust' => 'http://media.blizzard.com/heroes/%s/bust.jpg',
       'trait' => 'http://media.blizzard.com/heroes/%s/abilities/icons/%s.png'
     }
+
+    Config.set('image_path', '/public/images/')
 
     ActiveSupport::Inflector.inflections do |inflect|
       inflect.irregular 'hero', 'heroes'
@@ -64,7 +67,7 @@ class App < Sinatra::Base
   end
 
   configure :production do
-    ConfigController.local_file_cache_time = 86400.0
+    Config.local_file_cache_time = 86400.0
   end
 
   # compress assets

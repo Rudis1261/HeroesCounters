@@ -26,7 +26,7 @@
         <li><%= link('/', 'API') %></li>
         <% if @user.nil? %>
           <li><%= link('/login', 'Login') %></li>
-          <li><%= link('/register', 'Register') %></li>
+          <!--<li><%= link('/register', 'Register') %></li>-->
         <% else %>
           <!-- <li><%= link('/account', 'Account') %></li> -->
           <% if @user.role == 'admin' %>
