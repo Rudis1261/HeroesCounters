@@ -6,7 +6,7 @@ select * from `hero_trait`;
 SELECT 
   h.*, 
   group_concat(ht.trait_id separator ',') as `traits`,
-  (SELECT name FROM mobility WHERE id=m.id)
+  (SELECT name FROM mobility WHERE id=m.id) as mobility
 FROM 
   `hero` h 
 LEFT JOIN 
