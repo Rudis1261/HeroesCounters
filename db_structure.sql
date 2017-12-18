@@ -1,3 +1,4 @@
+;-- http://sqlfiddle.com/#!9/99d052/15
 CREATE TABLE IF NOT EXISTS `trait` (
   `id` int(11) unsigned NOT NULL,
   `name` varchar(200) NOT NULL,
