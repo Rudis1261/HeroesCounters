@@ -60,8 +60,8 @@ INSERT INTO `hero` (`id`, `slug`, `name`) VALUES
    
 CREATE TABLE IF NOT EXISTS `hero_trait` (
   `id` int(11) unsigned NOT NULL,
-  `hero_id` int(11) NOT NULL,
-  `trait_id` int(11) NOT NULL,
+  `hero_id` int(11) unsigned NOT NULL,
+  `trait_id` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`, `hero_id`, `trait_id`)
 ) DEFAULT CHARSET=utf8;
 -- hero trait flat table
@@ -74,4 +74,20 @@ INSERT INTO `hero_trait` (`id`, `hero_id`, `trait_id`) VALUES
   (4, 3, 4),
   (5, 3, 18),
   (5, 3, 20);
+  
+  
+CREATE TABLE IF NOT EXISTS `hero_mobility` (
+  `id` int(11) unsigned NOT NULL,
+  `hero_id` int(11) unsigned NOT NULL,
+  `mobility_id` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id`, `hero_id`, `mobility_id`)
+) DEFAULT CHARSET=utf8;
+-- hero mobility flat table
+INSERT INTO `hero_mobility` (`id`, `hero_id`, `mobility_id`) VALUES
+  -- Ana
+  (1, 1, 1),
+  -- Thrall
+  (2, 2, 2),
+  -- Diablo
+  (3, 3, 3);
   
