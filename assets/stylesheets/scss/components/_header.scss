@@ -36,6 +36,20 @@ body {
           background: rgba(#fff, 0.05);
           border-right: 1px solid rgba(#000, 0.6);
 
+          &.active {
+            position: relative;
+            &:before {
+              display: block;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              left: 0;
+              height: 4px;
+              background: #2b9edb;
+              content: "";
+            }
+          }
+
           &:hover {
             background: rgba(#fff, 0.15);
           }

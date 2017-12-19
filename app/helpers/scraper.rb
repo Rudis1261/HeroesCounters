@@ -34,23 +34,26 @@ module ScraperHelper
   def scrape_hero(name)
     return if name.nil?
 
-    doc = HTTParty.get(Config.hero_base_url % name)
-    puts "SCRAPING: #{Config.hero_base_url % name}"
-    data = doc.body.scan(/window\.hero.+= (.+);/)
+    Thread.new do
 
-    #Fall back should a request fail, try and force read locally
-    if (data.nil? || data[0].nil? || data[0].first.nil?)
-      puts "Failed to scrape, falling back to local cached file"
-      return StorageHelper.read_hero_from_disk
-    end
+      doc = HTTParty.get(Config.hero_base_url % name)
+      puts "SCRAPING: #{Config.hero_base_url % name}"
+      data = doc.body.scan(/window\.hero.+= (.+);/)
 
-    hero = JSON.parse(data[0].first)
-    if !hero.nil?
-      StorageHelper.save_hero_to_disk(name, hero)
-      ScraperHelper.parse_hero_details_and_save_to_disk
-      JSON.pretty_generate(ScraperHelper.parse_hero_json_data(hero))
-    else
-      ScraperHelper.error 'Unable to scrape hero data'
+      # Fall back should a request fail, try and force read locally
+      if (data.nil? || data[0].nil? || data[0].first.nil?)
+        puts "Failed to scrape, falling back to local cached file"
+        return StorageHelper.read_hero_from_disk
+      end
+
+      hero = JSON.parse(data[0].first)
+      if !hero.nil?
+        StorageHelper.save_hero_to_disk(name, hero)
+        ScraperHelper.parse_hero_details_and_save_to_disk
+        JSON.pretty_generate(ScraperHelper.parse_hero_json_data(hero))
+      else
+        ScraperHelper.error 'Unable to scrape hero data'
+      end
     end
   end
 
@@ -61,7 +64,7 @@ module ScraperHelper
     return false if heroes.nil?
 
     heroes.each_with_index do |hero, index|
-      Thread.new { scrape_hero(heroes[index]['slug']) }
+       scrape_hero(heroes[index]['slug'])
     end
   end
 
