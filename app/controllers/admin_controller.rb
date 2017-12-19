@@ -17,7 +17,7 @@ class AdminController < ApplicationController
 
     get '/admin' do
       admin_required
-      erb :'admin/index'
+      erb :'admin/index', :layout => :'/layouts/main'
     end
 
     get '/admin/scrape' do
@@ -27,7 +27,7 @@ class AdminController < ApplicationController
       @json_data = scrape
       first_entry = JSON.parse(@json_data).first.to_json
       @json_data_escaped = URI.escape(first_entry)
-      erb :'admin/index'
+      erb :'admin/index', :layout => :'/layouts/main'
     end
 
     get '/admin/scrape/detail' do
@@ -36,19 +36,19 @@ class AdminController < ApplicationController
       @message =  "Detail scape initiated"
       #@json_data = scrape
       #@json_data_escaped = URI.escape(JSON.parse(@json_data).to_json)
-      erb :'admin/index'
+      erb :'admin/index', :layout => :'/layouts/main'
     end
 
     get '/admin/parse/detail' do
       admin_required
       scrape = ScraperHelper.parse_hero_details_and_save_to_disk
       @message = scrape ? "Parsed hero details" : "Something went wrong. Unable to parse details"
-      erb :'admin/index'
+      erb :'admin/index', :layout => :'/layouts/main'
     end
 
     get '/admin/hero' do
       admin_required
-      erb :'admin/index'
+      erb :'admin/index', :layout => :'/layouts/main'
     end
 
     post '/admin/hero' do
@@ -78,6 +78,6 @@ class AdminController < ApplicationController
         # DEBUGGING
       end
 
-      erb :'admin/index'
+      erb :'admin/index', :layout => :'/layouts/main'
     end
 end

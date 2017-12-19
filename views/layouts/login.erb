@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Heroes Counter Admin </title>
+    <meta name="description" content="Admin Interface">
+    <meta name="author" content="Rudi Strydom">
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+    <link rel="stylesheet" href="<%= stylesheet_path 'application' %>">
+  </head>
+  <body>
+    <div class="container" id="login">
+
+      <div class="header">
+        <a href="/">
+          <img width="60" height="60" src="<%= asset_path 'logo.png' %>" alt="" />
+          <h1>Heroes Counters</h1>
+        </a>
+      </div>
+
+      <%= yield %>
+
+    </div>
+  </body>
+  <script async="true" src="<%= javascript_path 'application' %>"></script>
+</html>

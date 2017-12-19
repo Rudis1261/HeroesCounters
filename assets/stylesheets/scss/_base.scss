@@ -24,15 +24,6 @@ input[type="password"] {
   }
 }
 
-@include mobile {
-  body {
-    padding: 0 10px;
-    > .container {
-      margin: 10px auto;
-    }
-  }
-}
-
 .pull-right {
   float: right;
 }

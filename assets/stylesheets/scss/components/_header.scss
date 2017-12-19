@@ -1,24 +1,84 @@
-body > .container {
-  .header {
-    margin: 0 0 15px;
+body {
+  header {
+    margin: 0 auto;
+    height: 60px;
+    background: #333;
+
+    .container {
+      margin: 0 auto;
+      max-width: $screenDesktop;
+    }
 
     a {
       text-decoration: none;
-      color: #222;
-      @include clearfix();
+      color: #fff;
+    }
 
+    .brand,
+    ul {
+      float: left;
+      margin: 0;
+    }
 
-      > img {
+    ul {
+      padding: 0 0 0 80px;
+
+      li {
         float: left;
-        margin: 0 auto;
-        display: block;
-      }
+        display: inline-block;
+        line-height: 60px;
 
-      > h1 {
-        float: left;
-        font-size: 18px;
-        margin: 35px 20px 0;
+        a {
+          padding: 0 15px;
+          line-height: 60px;
+          min-height: 60px;
+          display: inline-block;
+          background: rgba(#fff, 0.05);
+          border-right: 1px solid rgba(#000, 0.6);
+
+          &:hover {
+            background: rgba(#fff, 0.15);
+          }
+        }
+
+        &:first-of-type a {
+          border-left: 1px solid rgba(#000, 0.6);
+        }
       }
+    }
+
+    .brand {
+      a {
+        > img {
+          float: left;
+          margin: 14px 12px 0;
+          display: block;
+          width: 32px;
+          height: 32px;
+        }
+
+        > h1 {
+          margin: 0;
+          float: left;
+          font-size: 18px;
+          font-weight: normal;
+          line-height: 60px;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  > .container {
+    max-width: 1280px;
+    margin: 30px 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 0 8px 5px rgba(#eee, 0.5);
+
+    @include jumbo {
+      margin: 30px auto;
     }
   }
 }

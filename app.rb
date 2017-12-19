@@ -81,7 +81,6 @@ class App < Sinatra::Base
 
   # Controllers
   use ApplicationController
-  use AccountController
   use AdminController
 
   error do

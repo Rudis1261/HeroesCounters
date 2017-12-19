@@ -494,6 +494,12 @@
     }
 }
 
+@mixin jumbo {
+    @include respond-from($screenDesktop) {
+        @content;
+    }
+}
+
 @mixin font-bold($size:false, $lineHeight:false, $important:false) {
     font-weight: 700;
     font-family: $headingFont;

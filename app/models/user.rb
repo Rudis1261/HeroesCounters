@@ -33,6 +33,7 @@ class User < ActiveRecord::Base
   end
 
   def self.login(params)
+    return if params.empty? or params[:password].empty? or params[:username_or_email].empty?
     user = User.where('username=:username_or_email OR email=:username_or_email', username_or_email: params[:username_or_email]).first
     return if user.nil?
     authed = BCrypt::Password.new(user.password) == params[:password] + user.nonce

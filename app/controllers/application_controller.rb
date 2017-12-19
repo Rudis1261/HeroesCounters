@@ -52,12 +52,7 @@ class ApplicationController < Sinatra::Base
 
   get '/login' do
     @redirect = params[:redirect] ||= false
-    erb :'login', :layout => :layout, locals: { :errors => {}, :error_messages => [] }
-  end
-
-  get '/register' do
-    @redirect = params[:redirect] ||= false
-    erb :'register', :layout => :layout, locals: { :errors => {}, :error_messages => [] }
+    erb :'login', :layout => :'layouts/login', locals: { :errors => {}, :error_messages => [] }
   end
 
   post '/login' do
@@ -72,20 +67,20 @@ class ApplicationController < Sinatra::Base
       end
       error_messages << 'Complete the fields'
 
-      erb :'login', :layout => :layout, locals: { :errors => errors, :error_messages => error_messages }
+      erb :'login', :layout => :'layouts/login', locals: { :errors => errors, :error_messages => error_messages }
     end
 
     success, user = User.login(params)
     if !success || !user || !user.id
       error_messages << 'Login failed'
-      erb :'login', :layout => :layout, locals: { :errors => errors, :error_messages => error_messages }
+      return erb :'login', :layout => :'layouts/login', locals: { :errors => errors, :error_messages => error_messages }
     end
 
     session[:user_id] = user.id
     if params[:redirect]
       redirect params[:redirect]
     end
-    redirect '/account'
+    redirect '/admin'
   end
 
   def ApplicationController.get_hostname_from_request(request)

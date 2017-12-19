@@ -1,0 +1,30 @@
+#login {
+  .header {
+    text-align: center;
+    margin: 100px auto 10px;
+    display: block;
+    width: 225px;
+
+    a > h1 {
+      font-size: 18px;
+      margin: 20px 6px 0;
+      font-weight: normal;
+    }
+  }
+
+  .login-main {
+    max-width: 320px;
+    margin: 22px auto;
+    padding: 45px 30px 20px;
+    border: 1px solid #eee;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 8px 5px rgba(#eee, 0.5);
+    @include border-radius(5px);
+  }
+}
+
+@include mobile {
+  max-width: 400px;
+  margin: 50px 10px 0;
+}
