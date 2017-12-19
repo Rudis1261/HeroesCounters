@@ -1,34 +1,36 @@
-<%= link('admin/scrape', 'Scrape All', :class => 'btn') %>
-&nbsp;
-<%= link('admin/scrape/detail', 'Scrape all hero details', :class => 'btn') %>
-&nbsp;
-<%= link('admin/parse/detail', 'Parse hero details', :class => 'btn') %>
+<div class="container btn-bar">
+  <%= link('admin/scrape', 'Scrape All', :class => 'btn') %>
+  &nbsp;
+  <%= link('admin/scrape/detail', 'Scrape all hero details', :class => 'btn') %>
+  &nbsp;
+  <%= link('admin/parse/detail', 'Parse hero details', :class => 'btn') %>
+</div>
 
-<br />
+<div class="container">
+  <h2>Scrape individual hero</h2>
+  <% if @hero_slugs && @hero_slugs.size > 0 %>
+    <form method="post" action="<%= form_action 'admin/hero' %>">
+      <select name="hero">
+        <% @hero_slugs.each do |slug| %>
+        <option value="<%= slug %>" <%= (params[:hero] && params[:hero] == slug) ? ' selected="" ': '' %>><%= slug.capitalize %></option>
+        <% end %>
+      </select>
+      <div class="text-center">
+        <button name="action" value="scrape" class="btn btn-sm">SCRAPE</button>
+        <button name="action" value="images" class="btn btn-sm">GRAB IMAGES</button>
+        <button name="action" value="insert" class="btn btn-sm">INSERT TO DB</button>
+      </div>
+    </form>
+  <% end %>
 
-<h2>Scrape individual hero</h2>
-<% if @hero_slugs && @hero_slugs.size > 0 %>
-  <form method="post" action="<%= form_action 'admin/hero' %>">
-    <select name="hero">
-      <% @hero_slugs.each do |slug| %>
-      <option value="<%= slug %>" <%= (params[:hero] && params[:hero] == slug) ? ' selected="" ': '' %>><%= slug.capitalize %></option>
-      <% end %>
-    </select>
-    <div class="text-center">
-      <button name="action" value="scrape" class="btn btn-sm">SCRAPE</button>
-      <button name="action" value="images" class="btn btn-sm">GRAB IMAGES</button>
-      <button name="action" value="insert" class="btn btn-sm">INSERT TO DB</button>
-    </div>
-  </form>
-<% end %>
+  <br />
 
-<br />
+  <span class="pull-left"><%= @message %></span>
 
-<span class="pull-left"><%= @message %></span>
+  <% if @json_data %>
+      <a class="pull-right" href="https://jsonlint.com/?json=<%= @json_data_escaped %>" target="_blank">Lint</a>
+      <textarea rows="25" cols="40"><%= @json_data %></textarea>
+  <% end %>
 
-<% if @json_data %>
-    <a class="pull-right" href="https://jsonlint.com/?json=<%= @json_data_escaped %>" target="_blank">Lint</a>
-    <textarea rows="25" cols="40"><%= @json_data %></textarea>
-<% end %>
-
-<br /></br />
+  <br /></br />
+</div>
