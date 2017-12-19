@@ -75,8 +75,8 @@
     "heroStanceName": "",
     "analyticsName": "alexstrasza",
     "revealed": true,
-    "inFreeHeroRotation": false,
-    "freeRotationMinLevel": 0,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 15,
     "unified": false
   },
   {
@@ -556,8 +556,8 @@
     "heroStanceName": "",
     "analyticsName": "stukov",
     "revealed": true,
-    "inFreeHeroRotation": true,
-    "freeRotationMinLevel": 12,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
     "unified": false
   },
   {
@@ -636,7 +636,7 @@
     "heroStanceName": "",
     "analyticsName": "malthael",
     "revealed": true,
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -797,8 +797,8 @@
     "analyticsName": "genji",
     "revealed": true,
     "video": "bhS1R_PkuCE",
-    "inFreeHeroRotation": false,
-    "freeRotationMinLevel": 0,
+    "inFreeHeroRotation": true,
+    "freeRotationMinLevel": 12,
     "unified": false
   },
   {
@@ -878,7 +878,7 @@
     "analyticsName": "cassia",
     "revealed": true,
     "video": "OyVXcpMsTH8",
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -1376,7 +1376,7 @@
     "analyticsName": "varian",
     "revealed": true,
     "video": "b6xyosUwdZk",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -1781,7 +1781,7 @@
     "analyticsName": "guldan",
     "revealed": true,
     "video": "7dsqSWKfHBA",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -2267,7 +2267,7 @@
     "analyticsName": "li-ming",
     "revealed": true,
     "video": "6SqmKqFUwnM",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -2593,7 +2593,7 @@
     "heroStanceName": "",
     "analyticsName": "artanis",
     "revealed": true,
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -2755,7 +2755,7 @@
     "analyticsName": "rexxar",
     "revealed": true,
     "video": "RR4uygYb8_0",
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -2998,7 +2998,7 @@
     "analyticsName": "the-butcher",
     "revealed": true,
     "video": "neCJljdxuPk",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -3160,7 +3160,7 @@
     "analyticsName": "kaelthas",
     "revealed": true,
     "video": "EkmgRlDEVRA",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -3241,7 +3241,7 @@
     "analyticsName": "sylvanas",
     "revealed": true,
     "video": "rsiOAb8wIes",
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -3484,7 +3484,7 @@
     "analyticsName": "jaina",
     "revealed": true,
     "video": "kApNBrmH-vU",
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -3889,7 +3889,7 @@
     "analyticsName": "zagara",
     "revealed": true,
     "video": "SlD2gE0fQlo",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -4051,7 +4051,7 @@
     "analyticsName": "brightwing",
     "revealed": true,
     "video": "DyPKtJkeNuA",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -4131,7 +4131,7 @@
     "heroStanceName": "",
     "analyticsName": "li-li",
     "revealed": true,
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -4452,7 +4452,7 @@
     "heroStanceName": "",
     "analyticsName": "uther",
     "revealed": true,
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -4532,7 +4532,7 @@
     "heroStanceName": "",
     "analyticsName": "arthas",
     "revealed": true,
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -4692,8 +4692,8 @@
     "heroStanceName": "",
     "analyticsName": "sgt-hammer",
     "revealed": true,
-    "inFreeHeroRotation": true,
-    "freeRotationMinLevel": 15,
+    "inFreeHeroRotation": false,
+    "freeRotationMinLevel": 0,
     "unified": false
   },
   {
@@ -4772,7 +4772,7 @@
     "heroStanceName": "",
     "analyticsName": "nazeebo",
     "revealed": true,
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -5172,7 +5172,7 @@
     "heroStanceName": "",
     "analyticsName": "etc",
     "revealed": true,
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -5252,7 +5252,7 @@
     "heroStanceName": "",
     "analyticsName": "tyrande",
     "revealed": true,
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -5413,7 +5413,7 @@
     "analyticsName": "kerrigan",
     "revealed": true,
     "video": "yyTzUBzt30Q",
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -5573,7 +5573,7 @@
     "heroStanceName": "",
     "analyticsName": "raynor",
     "revealed": true,
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -5815,7 +5815,7 @@
     "analyticsName": "muradin",
     "revealed": true,
     "video": "S4WcT8smz3s",
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -5895,7 +5895,7 @@
     "heroStanceName": "",
     "analyticsName": "sonya",
     "revealed": true,
-    "inFreeHeroRotation": false,
+    "inFreeHeroRotation": true,
     "freeRotationMinLevel": 0,
     "unified": false
   },
@@ -5976,7 +5976,7 @@
     "analyticsName": "stitches",
     "revealed": true,
     "video": "AAc8a1igxN4",
-    "inFreeHeroRotation": true,
+    "inFreeHeroRotation": false,
     "freeRotationMinLevel": 0,
     "unified": false
   }

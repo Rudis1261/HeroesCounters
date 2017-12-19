@@ -35,6 +35,7 @@ module ScraperHelper
     return if name.nil?
 
     doc = HTTParty.get(Config.hero_base_url % name)
+    puts "SCRAPING: #{Config.hero_base_url % name}"
     data = doc.body.scan(/window\.hero.+= (.+);/)
 
     #Fall back should a request fail, try and force read locally
@@ -60,15 +61,13 @@ module ScraperHelper
     return false if heroes.nil?
 
     heroes.each_with_index do |hero, index|
-      scrape_hero(heroes[index]['slug']) or return false
+      Thread.new { scrape_hero(heroes[index]['slug']) }
     end
-
-    true
   end
 
 
   def ScraperHelper.parse_hero_details_and_save_to_disk
-    puts "Reading all the hero details"
+    #puts "Reading all the hero details"
     heroes = JSON.parse(StorageHelper.read_from_disk)
     return [] if heroes.nil?
 

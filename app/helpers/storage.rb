@@ -1,20 +1,20 @@
 module StorageHelper
   def StorageHelper.read_from_disk
     return if !File.exists?(Config.local_file)
-    puts "Reading feed from cache"
+    #puts "Reading feed from cache"
     File.read(Config.local_file)
   end
 
   def StorageHelper.read_detail_from_disk
     return if !File.exists?(Config.local_detail_file)
-    puts "Reading detail from cache"
+    #puts "Reading detail from cache"
     File.read(Config.local_detail_file)
   end
 
   def StorageHelper.read_hero_from_disk(name)
     return if name.nil?
     return if !File.exists?(Config.hero_local_file % name)
-    puts "Reading hero feed from cache"
+    #puts "Reading hero feed from cache"
     File.read(Config.hero_local_file % name)
   end
 

@@ -33,9 +33,9 @@ class AdminController < ApplicationController
     get '/admin/scrape/detail' do
       admin_required
       scrape = scrape_heroes_detail
-      @message = scrape ? "Detail scape completed" : "Something went wrong. No data was received"
-      @json_data = scrape
-      @json_data_escaped = URI.escape(JSON.parse(@json_data).to_json)
+      @message =  "Detail scape initiated"
+      #@json_data = scrape
+      #@json_data_escaped = URI.escape(JSON.parse(@json_data).to_json)
       erb :'admin/index'
     end
 
