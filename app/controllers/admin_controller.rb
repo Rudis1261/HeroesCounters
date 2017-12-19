@@ -54,10 +54,8 @@ class AdminController < ApplicationController
     post '/admin/hero' do
       admin_required
       if params[:action] && params[:action] == 'scrape'
-        scrape = scrape_hero(params[:hero])
-        @message = scrape.size > 0 ? "Scape completed" : "Something went wrong. No data was received"
-        @json_data = scrape
-        @json_data_escaped = URI.escape(JSON.parse(@json_data).to_json)
+        scrape_hero(params[:hero])
+        @message = "Scaping #{params[:hero].capitalize}"
       end
 
       if params[:action] && params[:action] == 'insert'
