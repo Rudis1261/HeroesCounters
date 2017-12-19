@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Easy",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/malfurion/bust.jpg",
+  "poster_image": "http://localhost:3000/images/malfurion/bust.jpg",
   "stats": {
     "damage": 4,
     "utility": 7,
@@ -23,26 +23,26 @@
     "name": "Innervate",
     "description": "Innervate",
     "slug": "innervate",
-    "image": "http://media.blizzard.com/heroes/malfurion/abilities/icons/innervate.png"
+    "image": "http://localhost:3000/images/malfurion/innervate.png"
   },
   "abilities": [
     {
       "name": "Regrowth",
       "description": "Heal target ally for 150 Health instantly and an additional 420 Health over 15 seconds.",
       "slug": "regrowth",
-      "image": "http://media.blizzard.com/heroes/malfurion/abilities/icons/regrowth.png"
+      "image": "http://localhost:3000/images/malfurion/regrowth.png"
     },
     {
       "name": "Moonfire",
       "description": "Deal 105 damage to enemies within target area and reveals them for 2 seconds.",
       "slug": "moonfire",
-      "image": "http://media.blizzard.com/heroes/malfurion/abilities/icons/moonfire.png"
+      "image": "http://localhost:3000/images/malfurion/moonfire.png"
     },
     {
       "name": "Entangling Roots",
       "description": "Root enemies within the target area for 1.25 seconds, and deals 117 damage over the duration. Affected area grows over 3 seconds.",
       "slug": "entangling-roots",
-      "image": "http://media.blizzard.com/heroes/malfurion/abilities/icons/entangling-roots.png"
+      "image": "http://localhost:3000/images/malfurion/entangling-roots.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Tranquility",
       "description": "Heals 80 Health per second to nearby allied Heroes over 10 seconds.",
       "slug": "tranquility",
-      "image": "http://media.blizzard.com/heroes/malfurion/abilities/icons/tranquility.png"
+      "image": "http://localhost:3000/images/malfurion/tranquility.png"
     },
     {
       "name": "Twilight Dream",
       "description": "After 0.5 seconds, deal 374 damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
       "slug": "twilight-dream",
-      "image": "http://media.blizzard.com/heroes/malfurion/abilities/icons/twilight-dream.png"
+      "image": "http://localhost:3000/images/malfurion/twilight-dream.png"
     }
   ]
 }

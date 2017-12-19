@@ -12,7 +12,7 @@
   "franchise": "Overwatch",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/genji/bust.jpg",
+  "poster_image": "http://localhost:3000/images/genji/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Cyber Agility",
     "description": "Cyber Agility",
     "slug": "cyber-agility",
-    "image": "http://media.blizzard.com/heroes/genji/abilities/icons/cyber-agility.png"
+    "image": "http://localhost:3000/images/genji/cyber-agility.png"
   },
   "abilities": [
     {
       "name": "Shuriken",
       "description": "Throw 3 Shuriken in a spread pattern, each dealing 65 damage to the first enemy hit. Stores up to 3 charges. Shuriken's cooldown replenishes all charges at the same time.",
       "slug": "shuriken",
-      "image": "http://media.blizzard.com/heroes/genji/abilities/icons/shuriken.png"
+      "image": "http://localhost:3000/images/genji/shuriken.png"
     },
     {
       "name": "Deflect",
       "description": "Channel for 1.25 seconds, becoming Protected and blocking damage. Any damage blocked while channeling causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing 55 damage. Total Damage Deflected: 0",
       "slug": "deflect",
-      "image": "http://media.blizzard.com/heroes/genji/abilities/icons/deflect.png"
+      "image": "http://localhost:3000/images/genji/deflect.png"
     },
     {
       "name": "Swift Strike",
       "description": "Dash forward, dealing 215 damage to all enemies in a line. Enemy Heroes that die within 2 seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.",
       "slug": "swift-strike",
-      "image": "http://media.blizzard.com/heroes/genji/abilities/icons/swift-strike.png"
+      "image": "http://localhost:3000/images/genji/swift-strike.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Dragonblade",
       "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
       "slug": "dragonblade",
-      "image": "http://media.blizzard.com/heroes/genji/abilities/icons/dragonblade.png"
+      "image": "http://localhost:3000/images/genji/dragonblade.png"
     },
     {
       "name": "X-Strike",
       "description": "Perform two slashes dealing 135 damage. The slashes detonate after 1.25 seconds causing an additional 270 damage to enemies in their area.",
       "slug": "x-strike",
-      "image": "http://media.blizzard.com/heroes/genji/abilities/icons/x-strike.png"
+      "image": "http://localhost:3000/images/genji/x-strike.png"
     }
   ]
 }

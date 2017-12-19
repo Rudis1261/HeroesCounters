@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/zuljin/bust.jpg",
+  "poster_image": "http://localhost:3000/images/zuljin/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Berserker",
     "description": "Berserker",
     "slug": "berserker",
-    "image": "http://media.blizzard.com/heroes/zuljin/abilities/icons/berserker.png"
+    "image": "http://localhost:3000/images/zuljin/berserker.png"
   },
   "abilities": [
     {
       "name": "Grievous Throw",
       "description": "Zul'jin throws an axe forward, dealing 125 damage to the first 2 enemies hit and marking them for 6 seconds. Marked enemies take 50% bonus damage from Zul'jin's next 3 Basic Attacks against them.",
       "slug": "grievous-throw",
-      "image": "http://media.blizzard.com/heroes/zuljin/abilities/icons/grievous-throw.png"
+      "image": "http://localhost:3000/images/zuljin/grievous-throw.png"
     },
     {
       "name": "Twin Cleave",
       "description": "Throw 2 axes in a large, circular arc, dealing 112 damage and Slowing affected enemies by 15% per axe for 2 seconds.",
       "slug": "twin-cleave",
-      "image": "http://media.blizzard.com/heroes/zuljin/abilities/icons/twin-cleave.png"
+      "image": "http://localhost:3000/images/zuljin/twin-cleave.png"
     },
     {
       "name": "Regeneration",
       "description": "Zul'jin channels to regenerate 30% of his maximum Health over 4 seconds. Moving while channeling or taking damage will interrupt this effect.",
       "slug": "regeneration",
-      "image": "http://media.blizzard.com/heroes/zuljin/abilities/icons/regeneration.png"
+      "image": "http://localhost:3000/images/zuljin/regeneration.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Taz'dingo!",
       "description": "For the next 4 seconds, Zul'jin is Unkillable, and cannot be reduced to less than 1 Health. Taz'dingo!",
       "slug": "tazdingo",
-      "image": "http://media.blizzard.com/heroes/zuljin/abilities/icons/tazdingo.png"
+      "image": "http://localhost:3000/images/zuljin/tazdingo.png"
     },
     {
       "name": "Guillotine",
       "description": "Zul'jin launches a massive axe into the air that drops on the targeted area, dealing 350 damage plus bonus damage the lower his Health is.",
       "slug": "guillotine",
-      "image": "http://media.blizzard.com/heroes/zuljin/abilities/icons/guillotine.png"
+      "image": "http://localhost:3000/images/zuljin/guillotine.png"
     }
   ]
 }

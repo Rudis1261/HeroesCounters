@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/tyrande/bust.jpg",
+  "poster_image": "http://localhost:3000/images/tyrande/bust.jpg",
   "stats": {
     "damage": 5,
     "utility": 7,
@@ -23,26 +23,26 @@
     "name": "Hunter's Mark",
     "description": "Hunter's Mark",
     "slug": "hunters-mark",
-    "image": "http://media.blizzard.com/heroes/tyrande/abilities/icons/hunters-mark.png"
+    "image": "http://localhost:3000/images/tyrande/hunters-mark.png"
   },
   "abilities": [
     {
       "name": "Light of Elune",
       "description": "Heal target ally for 270 Health. Basic Attacks reduce the cooldown of this Ability by 2 seconds.",
       "slug": "light-of-elune",
-      "image": "http://media.blizzard.com/heroes/tyrande/abilities/icons/light-of-elune.png"
+      "image": "http://localhost:3000/images/tyrande/light-of-elune.png"
     },
     {
       "name": "Sentinel",
       "description": "Send an Owl that travels across the battleground revealing its path. Deals 173 damage to the first enemy Hero hit and reveals them for 5 seconds. Repeatable Quest: Every 80 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.",
       "slug": "sentinel",
-      "image": "http://media.blizzard.com/heroes/tyrande/abilities/icons/sentinel.png"
+      "image": "http://localhost:3000/images/tyrande/sentinel.png"
     },
     {
       "name": "Lunar Flare",
       "description": "After 0.75 seconds, deal 205 damage and Stun enemies in the target area for 0.75 seconds.",
       "slug": "lunar-flare",
-      "image": "http://media.blizzard.com/heroes/tyrande/abilities/icons/lunar-flare.png"
+      "image": "http://localhost:3000/images/tyrande/lunar-flare.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Starfall",
       "description": "Deal 91 damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
       "slug": "starfall",
-      "image": "http://media.blizzard.com/heroes/tyrande/abilities/icons/starfall.png"
+      "image": "http://localhost:3000/images/tyrande/starfall.png"
     },
     {
       "name": "Shadowstalk",
       "description": "Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
       "slug": "shadowstalk",
-      "image": "http://media.blizzard.com/heroes/tyrande/abilities/icons/shadowstalk.png"
+      "image": "http://localhost:3000/images/tyrande/shadowstalk.png"
     }
   ]
 }

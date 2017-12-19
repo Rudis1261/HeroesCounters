@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/arthas/bust.jpg",
+  "poster_image": "http://localhost:3000/images/arthas/bust.jpg",
   "stats": {
     "damage": 6,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Frostmourne Hungers",
     "description": "Frostmourne Hungers",
     "slug": "frostmourne-hungers",
-    "image": "http://media.blizzard.com/heroes/arthas/abilities/icons/frostmourne-hungers.png"
+    "image": "http://localhost:3000/images/arthas/frostmourne-hungers.png"
   },
   "abilities": [
     {
       "name": "Death Coil",
       "description": "Deals 164 damage to target enemy. Can be self-cast to heal for 262 Health.",
       "slug": "death-coil",
-      "image": "http://media.blizzard.com/heroes/arthas/abilities/icons/death-coil.png"
+      "image": "http://localhost:3000/images/arthas/death-coil.png"
     },
     {
       "name": "Howling Blast",
       "description": "Root enemies within the target area for 1.25 seconds and deals 68 damage.",
       "slug": "howling-blast",
-      "image": "http://media.blizzard.com/heroes/arthas/abilities/icons/howling-blast.png"
+      "image": "http://localhost:3000/images/arthas/howling-blast.png"
     },
     {
       "name": "Frozen Tempest",
       "description": "Deal 40 damage per second to nearby enemies and Slow their Movement Speed by 10% per second, stacking up to 40%. Heroes hit also have their Attack Speed Slowed by 10% per second, stacking up to 40%. Frozen Tempest's effects last for 1.5 seconds.",
       "slug": "frozen-tempest",
-      "image": "http://media.blizzard.com/heroes/arthas/abilities/icons/frozen-tempest.png"
+      "image": "http://localhost:3000/images/arthas/frozen-tempest.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Army of the Dead",
       "description": "Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for 267 Health.",
       "slug": "army-of-the-dead",
-      "image": "http://media.blizzard.com/heroes/arthas/abilities/icons/army-of-the-dead.png"
+      "image": "http://localhost:3000/images/arthas/army-of-the-dead.png"
     },
     {
       "name": "Summon Sindragosa",
       "description": "Deals 230 damage and slows enemies by 60% for 4 seconds. Also disables non-Heroic enemies and Structures for 20 seconds.",
       "slug": "summon-sindragosa",
-      "image": "http://media.blizzard.com/heroes/arthas/abilities/icons/summon-sindragosa.png"
+      "image": "http://localhost:3000/images/arthas/summon-sindragosa.png"
     }
   ]
 }

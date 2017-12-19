@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/sonya/bust.jpg",
+  "poster_image": "http://localhost:3000/images/sonya/bust.jpg",
   "stats": {
     "damage": 7,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Fury",
     "description": "Fury",
     "slug": "fury",
-    "image": "http://media.blizzard.com/heroes/sonya/abilities/icons/fury.png"
+    "image": "http://localhost:3000/images/sonya/fury.png"
   },
   "abilities": [
     {
       "name": "Ancient Spear",
       "description": "Throw out a spear that pulls Sonya to the first enemy hit, dealing 173 damage and briefly stunning them. If this hits an enemy, generate 40 Fury.",
       "slug": "ancient-spear",
-      "image": "http://media.blizzard.com/heroes/sonya/abilities/icons/ancient-spear.png"
+      "image": "http://localhost:3000/images/sonya/ancient-spear.png"
     },
     {
       "name": "Seismic Slam",
       "description": "Deals 176 damage to the target enemy, and 44 to enemies behind the target.",
       "slug": "seismic-slam",
-      "image": "http://media.blizzard.com/heroes/sonya/abilities/icons/seismic-slam.png"
+      "image": "http://localhost:3000/images/sonya/seismic-slam.png"
     },
     {
       "name": "Whirlwind",
       "description": "Deals 441 damage to nearby enemies over 3 seconds, and heals for 25% of damage dealt. Healing tripled versus Heroes.",
       "slug": "whirlwind",
-      "image": "http://media.blizzard.com/heroes/sonya/abilities/icons/whirlwind.png"
+      "image": "http://localhost:3000/images/sonya/whirlwind.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Leap",
       "description": "Leap into the air, dealing 135 damage to nearby enemies, and stunning them for 1.25 seconds.",
       "slug": "leap",
-      "image": "http://media.blizzard.com/heroes/sonya/abilities/icons/leap.png"
+      "image": "http://localhost:3000/images/sonya/leap.png"
     },
     {
       "name": "Wrath of the Berserker",
       "description": "Increase damage dealt by 40%. Reduce the duration of stuns, slows, and roots against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
       "slug": "wrath-of-the-berserker",
-      "image": "http://media.blizzard.com/heroes/sonya/abilities/icons/wrath-of-the-berserker.png"
+      "image": "http://localhost:3000/images/sonya/wrath-of-the-berserker.png"
     }
   ]
 }

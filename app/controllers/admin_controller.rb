@@ -32,7 +32,7 @@ class AdminController < ApplicationController
 
     get '/admin/scrape/detail' do
       admin_required
-      scrape = scrape_heroes_detail
+      scrape_heroes_detail
       @message =  "Detail scape initiated"
       #@json_data = scrape
       #@json_data_escaped = URI.escape(JSON.parse(@json_data).to_json)
@@ -64,16 +64,13 @@ class AdminController < ApplicationController
 
       if params[:action] && params[:action] == 'images'
         @message = "Get them images something<br/><br/>"
-        @hostname = ApplicationController.get_hostname_from_request(request)
-        @json_data = ImageHelper.get_images_from_hero(StorageHelper.read_hero_from_disk(params[:hero]))
+        hero_images = ImageHelper.get_images_from_hero(StorageHelper.read_hero_from_disk(params[:hero]))
 
-        # DEBUGGING
-        @message += ImageHelper.local_image_url(@hostname, @json_data[:bust], {:hero => params[:hero]}) + '<br>'
-        @json_data[:abilities].each do |image|
-          options = {:hero => params[:hero], :type => 'abilities'}
-          @message += ImageHelper.local_image_url(@hostname, image, options) + '<br>'
+        ImageHelper.create_hero_image_directories params[:hero]
+
+        hero_images.each do |image|
+          @message += "#{ImageHelper.pull_image(params[:hero], image)}<br>"
         end
-        # DEBUGGING
       end
 
       erb :'admin/index', :layout => :'/layouts/main'

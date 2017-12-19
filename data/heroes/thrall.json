@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Easy",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/thrall/bust.jpg",
+  "poster_image": "http://localhost:3000/images/thrall/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Frostwolf Resilience",
     "description": "Frostwolf Resilience",
     "slug": "frostwolf-resilience",
-    "image": "http://media.blizzard.com/heroes/thrall/abilities/icons/frostwolf-resilience.png"
+    "image": "http://localhost:3000/images/thrall/frostwolf-resilience.png"
   },
   "abilities": [
     {
       "name": "Chain Lightning",
       "description": "Shock an enemy with lightning, dealing 178 damage. The lightning then bounces 3 times to nearby enemies, dealing 89 damage to each enemy hit.",
       "slug": "chain-lightning",
-      "image": "http://media.blizzard.com/heroes/thrall/abilities/icons/chain-lightning.png"
+      "image": "http://localhost:3000/images/thrall/chain-lightning.png"
     },
     {
       "name": "Feral Spirit",
       "description": "Unleash a Feral Spirit that deals 153 damage to enemies in its path and Roots Heroes hit for 1 second. Each Hero hit increases the distance traveled by 25%.",
       "slug": "feral-spirit",
-      "image": "http://media.blizzard.com/heroes/thrall/abilities/icons/feral-spirit.png"
+      "image": "http://localhost:3000/images/thrall/feral-spirit.png"
     },
     {
       "name": "Windfury",
       "description": "Increase Thrall's Movement Speed by 30% for 4 seconds. His next 3 Basic Attacks occur 100% faster and generate stacks of Frostwolf Resilience.",
       "slug": "windfury",
-      "image": "http://media.blizzard.com/heroes/thrall/abilities/icons/windfury.png"
+      "image": "http://localhost:3000/images/thrall/windfury.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Sundering",
       "description": "After 0.5 seconds, sunder the earth in a long line, dealing 290 damage and shoving enemies to the side, Stunning them for 1 second.",
       "slug": "sundering",
-      "image": "http://media.blizzard.com/heroes/thrall/abilities/icons/sundering.png"
+      "image": "http://localhost:3000/images/thrall/sundering.png"
     },
     {
       "name": "Earthquake",
       "description": "After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 damage to enemy Heroes. Does 3 pulses.",
       "slug": "earthquake",
-      "image": "http://media.blizzard.com/heroes/thrall/abilities/icons/earthquake.png"
+      "image": "http://localhost:3000/images/thrall/earthquake.png"
     }
   ]
 }

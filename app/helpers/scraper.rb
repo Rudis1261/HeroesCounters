@@ -35,6 +35,7 @@ module ScraperHelper
     return if name.nil?
 
     Thread.new do
+      ImageHelper.create_hero_image_directories name
 
       doc = HTTParty.get(Config.hero_base_url % name)
       puts "SCRAPING: #{Config.hero_base_url % name}"
@@ -169,7 +170,7 @@ module ScraperHelper
                 'name' => item['name'],
                 'description' => item['description'],
                 'slug' => item['slug'],
-                'image' => Config.image_urls['trait'] % [hero['slug'], item['slug']]
+                'image' => ImageHelper.pull_image(hero['slug'], Config.image_urls['trait'] % [hero['slug'], item['slug']])
             }
           end
       else
@@ -182,10 +183,9 @@ module ScraperHelper
           'name' => hero['trait']['name'],
           'description' => hero['trait']['name'],
           'slug' => hero['trait']['slug'],
-          'image' => Config.image_urls['trait'] % [hero['slug'], hero['trait']['slug']]
+          'image' => ImageHelper.pull_image(hero['slug'], Config.image_urls['trait'] % [hero['slug'], hero['trait']['slug']])
       }
     end
-
     {
       'name' => hero['name'],
       'slug' => hero['slug'],
@@ -200,7 +200,7 @@ module ScraperHelper
       'franchise' => hero['franchise'],
       'difficulty' => hero['difficulty'],
       'live' => hero['revealed'],
-      'poster_image' => Config.image_urls['bust'] % hero['slug'],
+      'poster_image' => ImageHelper.pull_image(hero['slug'], Config.image_urls['bust'] % hero['slug']),
       'stats' => @stats,
       'trait' => @data['trait'],
       'abilities' => @data['abilities'],

@@ -12,7 +12,7 @@
   "franchise": "StarCraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/artanis/bust.jpg",
+  "poster_image": "http://localhost:3000/images/artanis/bust.jpg",
   "stats": {
     "damage": 6,
     "utility": 6,
@@ -23,26 +23,26 @@
     "name": "Shield Overload",
     "description": "Shield Overload",
     "slug": "shield-overload",
-    "image": "http://media.blizzard.com/heroes/artanis/abilities/icons/shield-overload.png"
+    "image": "http://localhost:3000/images/artanis/shield-overload.png"
   },
   "abilities": [
     {
       "name": "Blade Dash",
       "description": "Dash forward and deal 57 damage to enemies, then return and deal 171 damage. Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.",
       "slug": "blade-dash",
-      "image": "http://media.blizzard.com/heroes/artanis/abilities/icons/blade-dash.png"
+      "image": "http://localhost:3000/images/artanis/blade-dash.png"
     },
     {
       "name": "Twin Blades",
       "description": "Artanis's next Basic Attack immediately causes him to charge a short distance and strike the enemy 2 times.",
       "slug": "twin-blades",
-      "image": "http://media.blizzard.com/heroes/artanis/abilities/icons/twin-blades.png"
+      "image": "http://localhost:3000/images/artanis/twin-blades.png"
     },
     {
       "name": "Phase Prism",
       "description": "Fire a Phase Prism that deals 66 damage to the first Hero hit and swaps Artanis's position with theirs. Can be used during Blade Dash.",
       "slug": "phase-prism",
-      "image": "http://media.blizzard.com/heroes/artanis/abilities/icons/phase-prism.png"
+      "image": "http://localhost:3000/images/artanis/phase-prism.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Suppression Pulse",
       "description": "Fire a large area pulse from the Spear of Adun, dealing 114 damage and Blinding enemies for 4 seconds. Unlimited range.",
       "slug": "suppression-pulse",
-      "image": "http://media.blizzard.com/heroes/artanis/abilities/icons/suppression-pulse.png"
+      "image": "http://localhost:3000/images/artanis/suppression-pulse.png"
     },
     {
       "name": "Purifier Beam",
       "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 damage per second for 8 seconds. The beam will chase the target as they move. Unlimited range.",
       "slug": "purifier-beam",
-      "image": "http://media.blizzard.com/heroes/artanis/abilities/icons/purifier-beam.png"
+      "image": "http://localhost:3000/images/artanis/purifier-beam.png"
     }
   ]
 }

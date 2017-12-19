@@ -12,7 +12,7 @@
   "franchise": "StarCraft",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/probius/bust.jpg",
+  "poster_image": "http://localhost:3000/images/probius/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Warp In Pylon",
     "description": "Warp In Pylon",
     "slug": "warp-in-pylon",
-    "image": "http://media.blizzard.com/heroes/probius/abilities/icons/warp-in-pylon.png"
+    "image": "http://localhost:3000/images/probius/warp-in-pylon.png"
   },
   "abilities": [
     {
       "name": "Disruption Pulse",
       "description": "Fire a burst of energy forward, dealing 142 damage to all enemies it passes through. Hitting the center of a Warp Rift will cause it to explode, dealing additional damage.",
       "slug": "disruption-pulse",
-      "image": "http://media.blizzard.com/heroes/probius/abilities/icons/disruption-pulse.png"
+      "image": "http://localhost:3000/images/probius/disruption-pulse.png"
     },
     {
       "name": "Warp Rift",
       "description": "Open an unstable Warp Rift at a location that takes 1.25 seconds to arm, which then slows nearby enemies by 25% lasting 9 seconds. Armed Warp Rifts explode when hit by Disruption Pulse, dealing 261 damage to nearby enemies. Stores up to 2 charges.",
       "slug": "warp-rift",
-      "image": "http://media.blizzard.com/heroes/probius/abilities/icons/warp-rift.png"
+      "image": "http://localhost:3000/images/probius/warp-rift.png"
     },
     {
       "name": "Photon Cannon",
       "description": "Warp in a Photon Cannon that deals 105 damage per second. Lasts for 13 seconds. Must be placed within a Pylon's Power Field. Deactivates if it doesn't have a Pylon powering it.",
       "slug": "photon-cannon",
-      "image": "http://media.blizzard.com/heroes/probius/abilities/icons/photon-cannon.png"
+      "image": "http://localhost:3000/images/probius/photon-cannon.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Pylon Overcharge",
       "description": "Increase the size of Pylon power fields and allow them to attack enemies within it for 96 damage per second. Lasts 10 seconds.",
       "slug": "pylon-overcharge",
-      "image": "http://media.blizzard.com/heroes/probius/abilities/icons/pylon-overcharge.png"
+      "image": "http://localhost:3000/images/probius/pylon-overcharge.png"
     },
     {
       "name": "Null Gate",
       "description": "Vector Targeting Project a barrier of negative energy in the target direction that lasts 4 seconds. Enemies who touch the barrier take 68 damage per second and are slowed by 80% for as long as they remain in contact with it.",
       "slug": "null-gate",
-      "image": "http://media.blizzard.com/heroes/probius/abilities/icons/null-gate.png"
+      "image": "http://localhost:3000/images/probius/null-gate.png"
     }
   ]
 }

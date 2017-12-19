@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/rexxar/bust.jpg",
+  "poster_image": "http://localhost:3000/images/rexxar/bust.jpg",
   "stats": {
     "damage": 5,
     "utility": 8,
@@ -23,26 +23,26 @@
     "name": "Misha, Focus!",
     "description": "Misha, Focus!",
     "slug": "misha-focus",
-    "image": "http://media.blizzard.com/heroes/rexxar/abilities/icons/misha-focus.png"
+    "image": "http://localhost:3000/images/rexxar/misha-focus.png"
   },
   "abilities": [
     {
       "name": "Spirit Swoop",
       "description": "Deal 141 damage to enemies in a line, slowing them by 30% for 2 seconds.",
       "slug": "spirit-swoop",
-      "image": "http://media.blizzard.com/heroes/rexxar/abilities/icons/spirit-swoop.png"
+      "image": "http://localhost:3000/images/rexxar/spirit-swoop.png"
     },
     {
       "name": "Misha, Charge!",
       "description": "Misha charges in a line, dealing 59 damage and stunning enemies for 1.25 seconds.",
       "slug": "misha-charge",
-      "image": "http://media.blizzard.com/heroes/rexxar/abilities/icons/misha-charge.png"
+      "image": "http://localhost:3000/images/rexxar/misha-charge.png"
     },
     {
       "name": "Mend Pet",
       "description": "Heal Misha for 714 Health over 5 seconds.",
       "slug": "mend-pet",
-      "image": "http://media.blizzard.com/heroes/rexxar/abilities/icons/mend-pet.png"
+      "image": "http://localhost:3000/images/rexxar/mend-pet.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Unleash the Boars",
       "description": "Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 damage, revealing, and slowing enemies by 40% for 5 seconds.",
       "slug": "unleash-the-boars",
-      "image": "http://media.blizzard.com/heroes/rexxar/abilities/icons/unleash-the-boars.png"
+      "image": "http://localhost:3000/images/rexxar/unleash-the-boars.png"
     },
     {
       "name": "Bestial Wrath",
       "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
       "slug": "bestial-wrath",
-      "image": "http://media.blizzard.com/heroes/rexxar/abilities/icons/bestial-wrath.png"
+      "image": "http://localhost:3000/images/rexxar/bestial-wrath.png"
     }
   ]
 }

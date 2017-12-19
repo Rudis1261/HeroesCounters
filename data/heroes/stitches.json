@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/stitches/bust.jpg",
+  "poster_image": "http://localhost:3000/images/stitches/bust.jpg",
   "stats": {
     "damage": 6,
     "utility": 10,
@@ -23,26 +23,26 @@
     "name": "Vile Gas",
     "description": "Vile Gas",
     "slug": "vile-gas",
-    "image": "http://media.blizzard.com/heroes/stitches/abilities/icons/vile-gas.png"
+    "image": "http://localhost:3000/images/stitches/vile-gas.png"
   },
   "abilities": [
     {
       "name": "Hook",
       "description": "Pull the first enemy hit towards Stitches and deal 91 damage.",
       "slug": "hook",
-      "image": "http://media.blizzard.com/heroes/stitches/abilities/icons/hook.png"
+      "image": "http://localhost:3000/images/stitches/hook.png"
     },
     {
       "name": "Slam",
       "description": "Deal 104 damage to enemies within the target area.",
       "slug": "slam",
-      "image": "http://media.blizzard.com/heroes/stitches/abilities/icons/slam.png"
+      "image": "http://localhost:3000/images/stitches/slam.png"
     },
     {
       "name": "Devour",
       "description": "Deal 319 damage to non-Heroic units, or 114 damage to Heroes. Restores 20% of Stitches's maximum Health.",
       "slug": "devour",
-      "image": "http://media.blizzard.com/heroes/stitches/abilities/icons/devour.png"
+      "image": "http://localhost:3000/images/stitches/devour.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Putrid Bile",
       "description": "Emit bile that deals 37 damage per second to enemies within, slowing them by 35%. Stitches gains 20% Movement Speed while emitting bile. Lasts 8 seconds.",
       "slug": "putrid-bile",
-      "image": "http://media.blizzard.com/heroes/stitches/abilities/icons/putrid-bile.png"
+      "image": "http://localhost:3000/images/stitches/putrid-bile.png"
     },
     {
       "name": "Gorge",
       "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 damage. The trapped Hero cannot move or act and doesn't take damage from other sources. Cannot be used on massive Heroes.",
       "slug": "gorge",
-      "image": "http://media.blizzard.com/heroes/stitches/abilities/icons/gorge.png"
+      "image": "http://localhost:3000/images/stitches/gorge.png"
     }
   ]
 }

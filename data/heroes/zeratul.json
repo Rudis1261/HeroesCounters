@@ -12,7 +12,7 @@
   "franchise": "StarCraft",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/zeratul/bust.jpg",
+  "poster_image": "http://localhost:3000/images/zeratul/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 6,
@@ -23,26 +23,26 @@
     "name": "Permanent Cloak",
     "description": "Permanent Cloak",
     "slug": "permanent-cloak",
-    "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/permanent-cloak.png"
+    "image": "http://localhost:3000/images/zeratul/permanent-cloak.png"
   },
   "abilities": [
     {
       "name": "Cleave",
       "description": "Deal 200 damage to nearby enemies.",
       "slug": "cleave",
-      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/cleave.png"
+      "image": "http://localhost:3000/images/zeratul/cleave.png"
     },
     {
       "name": "Singularity Spike",
       "description": "Flings a Singularity Spike that sticks to the first enemy hit. Deals 228 damage after 1 second and slows the enemy by 40% for 3 seconds.",
       "slug": "singularity-spike",
-      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/singularity-spike.png"
+      "image": "http://localhost:3000/images/zeratul/singularity-spike.png"
     },
     {
       "name": "Blink",
       "description": "Teleport to the target location. Using this Ability does not break cloak.",
       "slug": "blink",
-      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/blink.png"
+      "image": "http://localhost:3000/images/zeratul/blink.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Void Prison",
       "description": "Slows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected.",
       "slug": "void-prison",
-      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/void-prison.png"
+      "image": "http://localhost:3000/images/zeratul/void-prison.png"
     },
     {
       "name": "Shadow Assault",
       "description": "Basic Attacks cause Zeratul to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.",
       "slug": "shadow-assault",
-      "image": "http://media.blizzard.com/heroes/zeratul/abilities/icons/shadow-assault.png"
+      "image": "http://localhost:3000/images/zeratul/shadow-assault.png"
     }
   ]
 }

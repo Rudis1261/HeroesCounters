@@ -12,7 +12,7 @@
   "franchise": "StarCraft",
   "difficulty": "Easy",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/raynor/bust.jpg",
+  "poster_image": "http://localhost:3000/images/raynor/bust.jpg",
   "stats": {
     "damage": 9,
     "utility": 1,
@@ -23,26 +23,26 @@
     "name": "Advanced Optics",
     "description": "Advanced Optics",
     "slug": "advanced-optics",
-    "image": "http://media.blizzard.com/heroes/raynor/abilities/icons/advanced-optics.png"
+    "image": "http://localhost:3000/images/raynor/advanced-optics.png"
   },
   "abilities": [
     {
       "name": "Penetrating Round",
       "description": "Deals 240 damage and knocks enemies back.",
       "slug": "penetrating-round",
-      "image": "http://media.blizzard.com/heroes/raynor/abilities/icons/penetrating-round.png"
+      "image": "http://localhost:3000/images/raynor/penetrating-round.png"
     },
     {
       "name": "Inspire",
       "description": "Gain 30% bonus Attack Speed for 6 seconds. Nearby allies gain half of the bonus.",
       "slug": "inspire",
-      "image": "http://media.blizzard.com/heroes/raynor/abilities/icons/inspire.png"
+      "image": "http://localhost:3000/images/raynor/inspire.png"
     },
     {
       "name": "Adrenaline Rush",
       "description": "Automatically activates to heal for 440 when Raynor is below 30% Health.",
       "slug": "adrenaline-rush",
-      "image": "http://media.blizzard.com/heroes/raynor/abilities/icons/adrenaline-rush.png"
+      "image": "http://localhost:3000/images/raynor/adrenaline-rush.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Hyperion",
       "description": "Order the Hyperion to make a strafing run dealing 66 damage a second, hitting up to 4 enemies. Also occasionally fires its Yamato Cannon on Structures for 794 damage. Lasts 12 seconds.",
       "slug": "hyperion",
-      "image": "http://media.blizzard.com/heroes/raynor/abilities/icons/hyperion.png"
+      "image": "http://localhost:3000/images/raynor/hyperion.png"
     },
     {
       "name": "Raynor's Raiders",
       "description": "Summon two Stealthed Banshees that attack an enemy. Each Banshee deals 50 damage a second and lasts 22 seconds. Can reactivate the Ability to retarget the Banshees.",
       "slug": "raynors-raiders",
-      "image": "http://media.blizzard.com/heroes/raynor/abilities/icons/raynors-raiders.png"
+      "image": "http://localhost:3000/images/raynor/raynors-raiders.png"
     }
   ]
 }

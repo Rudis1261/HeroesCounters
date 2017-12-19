@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/lunara/bust.jpg",
+  "poster_image": "http://localhost:3000/images/lunara/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Nature's Toxin",
     "description": "Nature's Toxin",
     "slug": "natures-toxin",
-    "image": "http://media.blizzard.com/heroes/lunara/abilities/icons/natures-toxin.png"
+    "image": "http://localhost:3000/images/lunara/natures-toxin.png"
   },
   "abilities": [
     {
       "name": "Noxious Blossom",
       "description": "After 0.5 seconds, cause an area to explode with pollen dealing 160 damage.",
       "slug": "noxious-blossom",
-      "image": "http://media.blizzard.com/heroes/lunara/abilities/icons/noxious-blossom.png"
+      "image": "http://localhost:3000/images/lunara/noxious-blossom.png"
     },
     {
       "name": "Crippling Spores",
       "description": "Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are slowed by 40% decaying over 3 seconds. ",
       "slug": "crippling-spores",
-      "image": "http://media.blizzard.com/heroes/lunara/abilities/icons/crippling-spores.png"
+      "image": "http://localhost:3000/images/lunara/crippling-spores.png"
     },
     {
       "name": "Wisp",
       "description": "Spawn a Wisp to scout an area. Can be redirected once active. Lasts 45 seconds.",
       "slug": "wisp",
-      "image": "http://media.blizzard.com/heroes/lunara/abilities/icons/wisp.png"
+      "image": "http://localhost:3000/images/lunara/wisp.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Thornwood Vine",
       "description": "Send forth vines that deal 164 damage to all enemies in a line. Stores up to 3 charges.",
       "slug": "thornwood-vine",
-      "image": "http://media.blizzard.com/heroes/lunara/abilities/icons/thornwood-vine.png"
+      "image": "http://localhost:3000/images/lunara/thornwood-vine.png"
     },
     {
       "name": "Leaping Strike",
       "description": "Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 damage. Stores up to 2 charges.",
       "slug": "leaping-strike",
-      "image": "http://media.blizzard.com/heroes/lunara/abilities/icons/leaping-strike.png"
+      "image": "http://localhost:3000/images/lunara/leaping-strike.png"
     }
   ]
 }

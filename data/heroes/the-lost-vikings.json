@@ -12,7 +12,7 @@
   "franchise": "Retro",
   "difficulty": "Very Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/the-lost-vikings/bust.jpg",
+  "poster_image": "http://localhost:3000/images/the-lost-vikings/bust.jpg",
   "stats": {
     "damage": 7,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Viking Hoard",
     "description": "Viking Hoard",
     "slug": "viking-hoard",
-    "image": "http://media.blizzard.com/heroes/the-lost-vikings/abilities/icons/viking-hoard.png"
+    "image": "http://localhost:3000/images/the-lost-vikings/viking-hoard.png"
   },
   "abilities": [
     {
       "name": "Jump!",
       "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
       "slug": "jump",
-      "image": "http://media.blizzard.com/heroes/the-lost-vikings/abilities/icons/jump.png"
+      "image": "http://localhost:3000/images/the-lost-vikings/jump.png"
     },
     {
       "name": "Spin To Win!",
       "description": "Activate to have each Viking deal 101 damage to nearby enemies.",
       "slug": "spin-to-win",
-      "image": "http://media.blizzard.com/heroes/the-lost-vikings/abilities/icons/spin-to-win.png"
+      "image": "http://localhost:3000/images/the-lost-vikings/spin-to-win.png"
     },
     {
       "name": "Norse Force!",
       "description": "All Vikings gain a 110 to 220 point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
       "slug": "norse-force",
-      "image": "http://media.blizzard.com/heroes/the-lost-vikings/abilities/icons/norse-force.png"
+      "image": "http://localhost:3000/images/the-lost-vikings/norse-force.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Longboat Raid!",
       "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 damage per second and can fire a mortar that deals 205 damage in an area. The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds. Requires all surviving Vikings to be nearby.",
       "slug": "longboat-raid",
-      "image": "http://media.blizzard.com/heroes/the-lost-vikings/abilities/icons/longboat-raid.png"
+      "image": "http://localhost:3000/images/the-lost-vikings/longboat-raid.png"
     },
     {
       "name": "Play Again!",
       "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds. Only one Viking may attempt to summon at a time.",
       "slug": "play-again",
-      "image": "http://media.blizzard.com/heroes/the-lost-vikings/abilities/icons/play-again.png"
+      "image": "http://localhost:3000/images/the-lost-vikings/play-again.png"
     }
   ]
 }

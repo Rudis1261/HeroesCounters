@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/illidan/bust.jpg",
+  "poster_image": "http://localhost:3000/images/illidan/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 3,
@@ -23,26 +23,26 @@
     "name": "Betrayer's Thirst",
     "description": "Betrayer's Thirst",
     "slug": "betrayers-thirst",
-    "image": "http://media.blizzard.com/heroes/illidan/abilities/icons/betrayers-thirst.png"
+    "image": "http://localhost:3000/images/illidan/betrayers-thirst.png"
   },
   "abilities": [
     {
       "name": "Dive",
       "description": "Dive at the target, dealing 66 damage and flipping to the other side of the target.",
       "slug": "dive",
-      "image": "http://media.blizzard.com/heroes/illidan/abilities/icons/dive.png"
+      "image": "http://localhost:3000/images/illidan/dive.png"
     },
     {
       "name": "Sweeping Strike",
       "description": "Dash towards target point, dealing 119 damage to enemies along the way. Hitting an enemy increases Illidan's Basic Attack damage by 35% for 3 seconds.",
       "slug": "sweeping-strike",
-      "image": "http://media.blizzard.com/heroes/illidan/abilities/icons/sweeping-strike.png"
+      "image": "http://localhost:3000/images/illidan/sweeping-strike.png"
     },
     {
       "name": "Evasion",
       "description": "Evade enemy Basic Attacks for 2.5 seconds.",
       "slug": "evasion",
-      "image": "http://media.blizzard.com/heroes/illidan/abilities/icons/evasion.png"
+      "image": "http://localhost:3000/images/illidan/evasion.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Metamorphosis",
       "description": "Transform into Demon Form at the target location, dealing 46 damage in the area. Temporarily increases maximum Health by 200 for each Hero hit by the initial impact. Lasts for 18 seconds.",
       "slug": "metamorphosis",
-      "image": "http://media.blizzard.com/heroes/illidan/abilities/icons/metamorphosis.png"
+      "image": "http://localhost:3000/images/illidan/metamorphosis.png"
     },
     {
       "name": "The Hunt",
       "description": "Charge to target unit, dealing 251 damage on impact and stunning for 1 second.",
       "slug": "the-hunt",
-      "image": "http://media.blizzard.com/heroes/illidan/abilities/icons/the-hunt.png"
+      "image": "http://localhost:3000/images/illidan/the-hunt.png"
     }
   ]
 }

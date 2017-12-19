@@ -59,7 +59,7 @@ class App < Sinatra::Base
       'trait' => 'http://media.blizzard.com/heroes/%s/abilities/icons/%s.png'
     }
 
-    Config.set('image_path', '/public/images/')
+    Config.set('image_path', '/images/')
 
     ActiveSupport::Inflector.inflections do |inflect|
       inflect.irregular 'hero', 'heroes'

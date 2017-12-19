@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/brightwing/bust.jpg",
+  "poster_image": "http://localhost:3000/images/brightwing/bust.jpg",
   "stats": {
     "damage": 4,
     "utility": 9,
@@ -23,26 +23,26 @@
     "name": "Soothing Mist",
     "description": "Soothing Mist",
     "slug": "soothing-mist",
-    "image": "http://media.blizzard.com/heroes/brightwing/abilities/icons/soothing-mist.png"
+    "image": "http://localhost:3000/images/brightwing/soothing-mist.png"
   },
   "abilities": [
     {
       "name": "Arcane Flare",
       "description": "Deal 274 damage in a small area and 91 damage in a larger area.",
       "slug": "arcane-flare",
-      "image": "http://media.blizzard.com/heroes/brightwing/abilities/icons/arcane-flare.png"
+      "image": "http://localhost:3000/images/brightwing/arcane-flare.png"
     },
     {
       "name": "Polymorph",
       "description": "Polymorph a target for 1.25 seconds, Slowing their Movement Speed by 25% and Silencing them. Targets are not able to attack while Polymorphed.",
       "slug": "polymorph",
-      "image": "http://media.blizzard.com/heroes/brightwing/abilities/icons/polymorph.png"
+      "image": "http://localhost:3000/images/brightwing/polymorph.png"
     },
     {
       "name": "Pixie Dust",
       "description": "Increase target's Movement Speed by 20%, and grant them 25 Spell Armor for 3 seconds, reducing Spell damage taken by 25%.",
       "slug": "pixie-dust",
-      "image": "http://media.blizzard.com/heroes/brightwing/abilities/icons/pixie-dust.png"
+      "image": "http://localhost:3000/images/brightwing/pixie-dust.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Blink Heal",
       "description": "Teleport to a nearby ally, healing them for 204. Stores up to 2 charges.",
       "slug": "blink-heal",
-      "image": "http://media.blizzard.com/heroes/brightwing/abilities/icons/blink-heal.png"
+      "image": "http://localhost:3000/images/brightwing/blink-heal.png"
     },
     {
       "name": "Emerald Wind",
       "description": "After 0.5 seconds, create an expanding nova of wind, dealing 319 damage and pushing enemies away. Passive: Increases the healing of Soothing Mist by 5%.",
       "slug": "emerald-wind",
-      "image": "http://media.blizzard.com/heroes/brightwing/abilities/icons/emerald-wind.png"
+      "image": "http://localhost:3000/images/brightwing/emerald-wind.png"
     }
   ]
 }

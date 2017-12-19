@@ -5,9 +5,12 @@ class ApplicationController < Sinatra::Base
   include ScraperHelper
   include StorageHelper
 
+  @@request
+
   set :views, File.expand_path('../../../views', __FILE__)
 
   before do
+    @@request = request
     if !env["PATH_INFO"].to_s.include?('/assets/') &&
         !env["PATH_INFO"].to_s.include?('/favicon')
       @user = User.sessionAuth(session[:user_id])
@@ -83,8 +86,8 @@ class ApplicationController < Sinatra::Base
     redirect '/admin'
   end
 
-  def ApplicationController.get_hostname_from_request(request)
-    port = (request.port && request.port != 80) ? ":#{request.port}" : ''
-    "#{request.scheme}://#{request.host}#{port}"
+  def ApplicationController.get_hostname
+    port = (@@request.port && @@request.port != 80) ? ":#{@@request.port}" : ''
+    "#{@@request.scheme}://#{@@request.host}#{port}"
   end
 end

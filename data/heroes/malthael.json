@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/malthael/bust.jpg",
+  "poster_image": "http://localhost:3000/images/malthael/bust.jpg",
   "stats": {
     "damage": 7,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Reaper's Mark",
     "description": "Reaper's Mark",
     "slug": "reapers-mark",
-    "image": "http://media.blizzard.com/heroes/malthael/abilities/icons/reapers-mark.png"
+    "image": "http://localhost:3000/images/malthael/reapers-mark.png"
   },
   "abilities": [
     {
       "name": "Soul Rip",
       "description": "Extract the souls of nearby enemies afflicted by Reaper's Mark, dealing 100 damage and healing Malthael for 44 per target hit. Heroic targets heal Malthael for an additional 3% of the Hero's maximum Health.",
       "slug": "soul-rip",
-      "image": "http://media.blizzard.com/heroes/malthael/abilities/icons/soul-rip.png"
+      "image": "http://localhost:3000/images/malthael/soul-rip.png"
     },
     {
       "name": "Wraith Strike",
       "description": "Instantly teleport through an enemy afflicted by Reaper's Mark, dealing 59 damage and refreshing Reaper's Mark.",
       "slug": "wraith-strike",
-      "image": "http://media.blizzard.com/heroes/malthael/abilities/icons/wraith-strike.png"
+      "image": "http://localhost:3000/images/malthael/wraith-strike.png"
     },
     {
       "name": "Death Shroud",
       "description": "After 0.25 seconds, unleash a wave of dark mist that applies Reaper's Mark to enemies it hits.",
       "slug": "death-shroud",
-      "image": "http://media.blizzard.com/heroes/malthael/abilities/icons/death-shroud.png"
+      "image": "http://localhost:3000/images/malthael/death-shroud.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Tormented Souls",
       "description": "Gain 10 Armor and unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.",
       "slug": "tormented-souls",
-      "image": "http://media.blizzard.com/heroes/malthael/abilities/icons/tormented-souls.png"
+      "image": "http://localhost:3000/images/malthael/tormented-souls.png"
     },
     {
       "name": "Last Rites",
       "description": "Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health. Repeatable Quest: Enemies killed while under the effect of Last Rites permanently reduce its cooldown by 5 seconds, to a minimum of 15 seconds.",
       "slug": "last-rites",
-      "image": "http://media.blizzard.com/heroes/malthael/abilities/icons/last-rites.png"
+      "image": "http://localhost:3000/images/malthael/last-rites.png"
     }
   ]
 }

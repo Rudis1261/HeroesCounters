@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/li-ming/bust.jpg",
+  "poster_image": "http://localhost:3000/images/li-ming/bust.jpg",
   "stats": {
     "damage": 10,
     "utility": 1,
@@ -23,26 +23,26 @@
     "name": "Critical Mass",
     "description": "Critical Mass",
     "slug": "critical-mass",
-    "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/critical-mass.png"
+    "image": "http://localhost:3000/images/li-ming/critical-mass.png"
   },
   "abilities": [
     {
       "name": "Magic Missiles",
       "description": "Fire three missiles toward an area, each dealing 147 damage to the first enemy hit. These missiles do 50% damage to Structures.",
       "slug": "magic-missiles",
-      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/magic-missiles.png"
+      "image": "http://localhost:3000/images/li-ming/magic-missiles.png"
     },
     {
       "name": "Arcane Orb",
       "description": "Fire an Orb that powers up as it travels, dealing 135 damage to the first enemy hit. The amount of damage dealt is increased the further it travels, up to 405 damage.",
       "slug": "arcane-orb",
-      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/arcane-orb.png"
+      "image": "http://localhost:3000/images/li-ming/arcane-orb.png"
     },
     {
       "name": "Teleport",
       "description": "Teleport a short distance instantly.",
       "slug": "teleport",
-      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/teleport.png"
+      "image": "http://localhost:3000/images/li-ming/teleport.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Disintegrate",
       "description": "Channel a powerful beam, dealing 440 damage over 2.5 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
       "slug": "disintegrate",
-      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/disintegrate.png"
+      "image": "http://localhost:3000/images/li-ming/disintegrate.png"
     },
     {
       "name": "Wave Of Force",
       "description": "Knock away all enemies from an area and deal 160 damage.",
       "slug": "wave-of-force",
-      "image": "http://media.blizzard.com/heroes/li-ming/abilities/icons/wave-of-force.png"
+      "image": "http://localhost:3000/images/li-ming/wave-of-force.png"
     }
   ]
 }

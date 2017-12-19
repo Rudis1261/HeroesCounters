@@ -12,7 +12,7 @@
   "franchise": "StarCraft",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/kerrigan/bust.jpg",
+  "poster_image": "http://localhost:3000/images/kerrigan/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Assimilation",
     "description": "Assimilation",
     "slug": "assimilation",
-    "image": "http://media.blizzard.com/heroes/kerrigan/abilities/icons/assimilation.png"
+    "image": "http://localhost:3000/images/kerrigan/assimilation.png"
   },
   "abilities": [
     {
       "name": "Ravage",
       "description": "Leap to a target, dealing 210 damage. If the enemy dies within 1.5 seconds, this cooldown is instantly reset.",
       "slug": "ravage",
-      "image": "http://media.blizzard.com/heroes/kerrigan/abilities/icons/ravage.png"
+      "image": "http://localhost:3000/images/kerrigan/ravage.png"
     },
     {
       "name": "Impaling Blades",
       "description": "After 1.25 seconds, deal 261 damage to enemies within the target area, stunning them for 1 second.",
       "slug": "impaling-blades",
-      "image": "http://media.blizzard.com/heroes/kerrigan/abilities/icons/impaling-blades.png"
+      "image": "http://localhost:3000/images/kerrigan/impaling-blades.png"
     },
     {
       "name": "Primal Grasp",
       "description": "Pulls enemies within the target area towards Kerrigan, dealing 114 damage.",
       "slug": "primal-grasp",
-      "image": "http://media.blizzard.com/heroes/kerrigan/abilities/icons/primal-grasp.png"
+      "image": "http://localhost:3000/images/kerrigan/primal-grasp.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Maelstrom",
       "description": "Deals 74 damage per second to nearby enemies. Lasts for 7 seconds.",
       "slug": "maelstrom",
-      "image": "http://media.blizzard.com/heroes/kerrigan/abilities/icons/maelstrom.png"
+      "image": "http://localhost:3000/images/kerrigan/maelstrom.png"
     },
     {
       "name": "Summon Ultralisk",
       "description": "Summon an Ultralisk that attacks the target to deal 100 damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.",
       "slug": "summon-ultralisk",
-      "image": "http://media.blizzard.com/heroes/kerrigan/abilities/icons/summon-ultralisk.png"
+      "image": "http://localhost:3000/images/kerrigan/summon-ultralisk.png"
     }
   ]
 }

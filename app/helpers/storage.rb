@@ -22,6 +22,10 @@ module StorageHelper
     File.open(Config.local_file, 'w') { |file| file.write(data) }
   end
 
+  def StorageHelper.save_image_to_disk(path, data)
+    File.open(path, 'w') { |file| file.write(data) }
+  end
+
   def StorageHelper.save_hero_to_disk(name, data)
     return if name.nil?
     data = ScraperHelper.parse_hero_json_data(data)

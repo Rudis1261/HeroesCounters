@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/falstad/bust.jpg",
+  "poster_image": "http://localhost:3000/images/falstad/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Tailwind",
     "description": "Tailwind",
     "slug": "tailwind",
-    "image": "http://media.blizzard.com/heroes/falstad/abilities/icons/tailwind.png"
+    "image": "http://localhost:3000/images/falstad/tailwind.png"
   },
   "abilities": [
     {
       "name": "Hammerang",
       "description": "Throw out a Hammer that returns to Falstad, dealing 121 damage and slowing enemies by 25% for 2 seconds.",
       "slug": "hammerang",
-      "image": "http://media.blizzard.com/heroes/falstad/abilities/icons/hammerang.png"
+      "image": "http://localhost:3000/images/falstad/hammerang.png"
     },
     {
       "name": "Lightning Rod",
       "description": "Deal 107 damage to an enemy, and an additional 75 damage per second for 4 seconds while close to the target.",
       "slug": "lightning-rod",
-      "image": "http://media.blizzard.com/heroes/falstad/abilities/icons/lightning-rod.png"
+      "image": "http://localhost:3000/images/falstad/lightning-rod.png"
     },
     {
       "name": "Barrel Roll",
       "description": "Dashes forward and grants a 171 point Shield for 3 seconds.",
       "slug": "barrel-roll",
-      "image": "http://media.blizzard.com/heroes/falstad/abilities/icons/barrel-roll.png"
+      "image": "http://localhost:3000/images/falstad/barrel-roll.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Hinterland Blast",
       "description": "After 1 second, deal 475 damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
       "slug": "hinterland-blast",
-      "image": "http://media.blizzard.com/heroes/falstad/abilities/icons/hinterland-blast.png"
+      "image": "http://localhost:3000/images/falstad/hinterland-blast.png"
     },
     {
       "name": "Mighty Gust",
       "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
       "slug": "mighty-gust",
-      "image": "http://media.blizzard.com/heroes/falstad/abilities/icons/mighty-gust.png"
+      "image": "http://localhost:3000/images/falstad/mighty-gust.png"
     }
   ]
 }

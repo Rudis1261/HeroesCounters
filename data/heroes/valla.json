@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Easy",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/valla/bust.jpg",
+  "poster_image": "http://localhost:3000/images/valla/bust.jpg",
   "stats": {
     "damage": 9,
     "utility": 1,
@@ -23,26 +23,26 @@
     "name": "Hatred",
     "description": "Hatred",
     "slug": "hatred",
-    "image": "http://media.blizzard.com/heroes/valla/abilities/icons/hatred.png"
+    "image": "http://localhost:3000/images/valla/hatred.png"
   },
   "abilities": [
     {
       "name": "Hungering Arrow",
       "description": "Fire an arrow that deals 140 damage to the first target hit, then seeks up to 2 additional enemies dealing 80 damage. Can hit an enemy multiple times.",
       "slug": "hungering-arrow",
-      "image": "http://media.blizzard.com/heroes/valla/abilities/icons/hungering-arrow.png"
+      "image": "http://localhost:3000/images/valla/hungering-arrow.png"
     },
     {
       "name": "Multishot",
       "description": "Deal 165 damage to enemies within the target area.",
       "slug": "multishot",
-      "image": "http://media.blizzard.com/heroes/valla/abilities/icons/multishot.png"
+      "image": "http://localhost:3000/images/valla/multishot.png"
     },
     {
       "name": "Vault",
       "description": "Dash to the target area. Valla's next Basic Attack within 2 seconds deals 6% increased damage per stack of Hatred.",
       "slug": "vault",
-      "image": "http://media.blizzard.com/heroes/valla/abilities/icons/vault.png"
+      "image": "http://localhost:3000/images/valla/vault.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Strafe",
       "description": "Rapidly attack enemies within 10 range for 60 damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.",
       "slug": "strafe",
-      "image": "http://media.blizzard.com/heroes/valla/abilities/icons/strafe.png"
+      "image": "http://localhost:3000/images/valla/strafe.png"
     },
     {
       "name": "Rain of Vengeance",
       "description": "Launch a wave of Shadow Beasts that deals 250 damage and stuns enemies in the target area for 0.5 seconds. Stores up to 2 charges.",
       "slug": "rain-of-vengeance",
-      "image": "http://media.blizzard.com/heroes/valla/abilities/icons/rain-of-vengeance.png"
+      "image": "http://localhost:3000/images/valla/rain-of-vengeance.png"
     }
   ]
 }

@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/diablo/bust.jpg",
+  "poster_image": "http://localhost:3000/images/diablo/bust.jpg",
   "stats": {
     "damage": 5,
     "utility": 7,
@@ -23,26 +23,26 @@
     "name": "Black Soulstone",
     "description": "Black Soulstone",
     "slug": "black-soulstone",
-    "image": "http://media.blizzard.com/heroes/diablo/abilities/icons/black-soulstone.png"
+    "image": "http://localhost:3000/images/diablo/black-soulstone.png"
   },
   "abilities": [
     {
       "name": "Shadow Charge",
       "description": "Charge an enemy, knocking them back, dealing 75 damage and gaining 25 Armor for 2 seconds, reducing damage taken by 25%. If the enemy collides with terrain, they are stunned for 1 second and take an additional 150 damage.",
       "slug": "shadow-charge",
-      "image": "http://media.blizzard.com/heroes/diablo/abilities/icons/shadow-charge.png"
+      "image": "http://localhost:3000/images/diablo/shadow-charge.png"
     },
     {
       "name": "Fire Stomp",
       "description": "Unleashes fire waves in all directions that deal 54 damage each. Once they reach maximum range they return, dealing an additional 81 damage.",
       "slug": "fire-stomp",
-      "image": "http://media.blizzard.com/heroes/diablo/abilities/icons/fire-stomp.png"
+      "image": "http://localhost:3000/images/diablo/fire-stomp.png"
     },
     {
       "name": "Overpower",
       "description": "Grabs the target and slams it behind Diablo, dealing 73 damage and stunning for 0.25 seconds.",
       "slug": "overpower",
-      "image": "http://media.blizzard.com/heroes/diablo/abilities/icons/overpower.png"
+      "image": "http://localhost:3000/images/diablo/overpower.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Apocalypse",
       "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 damage and stunning them for 1.75 seconds.",
       "slug": "apocalypse",
-      "image": "http://media.blizzard.com/heroes/diablo/abilities/icons/apocalypse.png"
+      "image": "http://localhost:3000/images/diablo/apocalypse.png"
     },
     {
       "name": "Lightning Breath",
       "description": "Become Unstoppable while channeling lightning that deals 800 damage over 4 seconds. The direction of the Lightning changes with your mouse cursor position.",
       "slug": "lightning-breath",
-      "image": "http://media.blizzard.com/heroes/diablo/abilities/icons/lightning-breath.png"
+      "image": "http://localhost:3000/images/diablo/lightning-breath.png"
     }
   ]
 }

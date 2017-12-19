@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/chogall/bust.jpg",
+  "poster_image": "http://localhost:3000/images/chogall/bust.jpg",
   "stats": {
     "damage": 6,
     "utility": 2,
@@ -23,26 +23,26 @@
     "name": "Ogre Hide",
     "description": "Ogre Hide",
     "slug": "ogre-hide",
-    "image": "http://media.blizzard.com/heroes/chogall/abilities/icons/ogre-hide.png"
+    "image": "http://localhost:3000/images/chogall/ogre-hide.png"
   },
   "abilities": [
     {
       "name": "Surging Fist",
       "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged.",
       "slug": "surging-fist",
-      "image": "http://media.blizzard.com/heroes/chogall/abilities/icons/surging-fist.png"
+      "image": "http://localhost:3000/images/chogall/surging-fist.png"
     },
     {
       "name": "Consuming Blaze",
       "description": "Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited.",
       "slug": "consuming-blaze",
-      "image": "http://media.blizzard.com/heroes/chogall/abilities/icons/consuming-blaze.png"
+      "image": "http://localhost:3000/images/chogall/consuming-blaze.png"
     },
     {
       "name": "Rune Bomb",
       "description": "Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area.",
       "slug": "rune-bomb",
-      "image": "http://media.blizzard.com/heroes/chogall/abilities/icons/rune-bomb.png"
+      "image": "http://localhost:3000/images/chogall/rune-bomb.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Hammer of Twilight",
       "description": "Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage.",
       "slug": "hammer-of-twilight",
-      "image": "http://media.blizzard.com/heroes/chogall/abilities/icons/hammer-of-twilight.png"
+      "image": "http://localhost:3000/images/chogall/hammer-of-twilight.png"
     },
     {
       "name": "Upheaval",
       "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage.",
       "slug": "upheaval",
-      "image": "http://media.blizzard.com/heroes/chogall/abilities/icons/upheaval.png"
+      "image": "http://localhost:3000/images/chogall/upheaval.png"
     }
   ]
 }

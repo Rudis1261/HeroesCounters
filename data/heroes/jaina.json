@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Easy",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/jaina/bust.jpg",
+  "poster_image": "http://localhost:3000/images/jaina/bust.jpg",
   "stats": {
     "damage": 10,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Frostbite",
     "description": "Frostbite",
     "slug": "frostbite",
-    "image": "http://media.blizzard.com/heroes/jaina/abilities/icons/frostbite.png"
+    "image": "http://localhost:3000/images/jaina/frostbite.png"
   },
   "abilities": [
     {
       "name": "Frostbolt",
       "description": "Deal 190 damage and Chill the target.",
       "slug": "frostbolt",
-      "image": "http://media.blizzard.com/heroes/jaina/abilities/icons/frostbolt.png"
+      "image": "http://localhost:3000/images/jaina/frostbolt.png"
     },
     {
       "name": "Blizzard",
       "description": "Bombard an area with 3 waves of ice, dealing 142 damage each. Damaged enemies are Chilled.",
       "slug": "blizzard",
-      "image": "http://media.blizzard.com/heroes/jaina/abilities/icons/blizzard.png"
+      "image": "http://localhost:3000/images/jaina/blizzard.png"
     },
     {
       "name": "Cone of Cold",
       "description": "Deal 230 damage and Chill targets.",
       "slug": "cone-of-cold",
-      "image": "http://media.blizzard.com/heroes/jaina/abilities/icons/cone-of-cold.png"
+      "image": "http://localhost:3000/images/jaina/cone-of-cold.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Ring of Frost",
       "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
       "slug": "ring-of-frost",
-      "image": "http://media.blizzard.com/heroes/jaina/abilities/icons/ring-of-frost.png"
+      "image": "http://localhost:3000/images/jaina/ring-of-frost.png"
     },
     {
       "name": "Summon Water Elemental",
       "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 78 damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Lasts 20 seconds.",
       "slug": "summon-water-elemental",
-      "image": "http://media.blizzard.com/heroes/jaina/abilities/icons/summon-water-elemental.png"
+      "image": "http://localhost:3000/images/jaina/summon-water-elemental.png"
     }
   ]
 }

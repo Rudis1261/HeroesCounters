@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/azmodan/bust.jpg",
+  "poster_image": "http://localhost:3000/images/azmodan/bust.jpg",
   "stats": {
     "damage": 3,
     "utility": 6,
@@ -23,26 +23,26 @@
     "name": "General of Hell",
     "description": "General of Hell",
     "slug": "general-of-hell",
-    "image": "http://media.blizzard.com/heroes/azmodan/abilities/icons/general-of-hell.png"
+    "image": "http://localhost:3000/images/azmodan/general-of-hell.png"
   },
   "abilities": [
     {
       "name": "Globe Of Annihilation",
       "description": "Shoot a globe of destruction, dealing 164 damage on impact. Long range.",
       "slug": "globe-of-annihilation",
-      "image": "http://media.blizzard.com/heroes/azmodan/abilities/icons/globe-of-annihilation.png"
+      "image": "http://localhost:3000/images/azmodan/globe-of-annihilation.png"
     },
     {
       "name": "Summon Demon Warrior",
       "description": "Spawn a Demon Warrior that marches toward a point. Warriors deal 37 damage per second and last for 10 seconds. Stores up to 2 charges.",
       "slug": "summon-demon-warrior",
-      "image": "http://media.blizzard.com/heroes/azmodan/abilities/icons/summon-demon-warrior.png"
+      "image": "http://localhost:3000/images/azmodan/summon-demon-warrior.png"
     },
     {
       "name": "All Shall Burn",
       "description": "Channel a death beam on an enemy, dealing 100 damage per second. Damage increases over time, to a max of 200 per second, and is increased by 25% against structures. Azmodan can move at 40% speed while channeling.",
       "slug": "all-shall-burn",
-      "image": "http://media.blizzard.com/heroes/azmodan/abilities/icons/all-shall-burn.png"
+      "image": "http://localhost:3000/images/azmodan/all-shall-burn.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Demonic Invasion",
       "description": "Rain a small army of Demonic Grunts down on enemies, dealing 104 damage per impact. Demon Grunts deal 51 damage and have 365 health.",
       "slug": "demonic-invasion",
-      "image": "http://media.blizzard.com/heroes/azmodan/abilities/icons/demonic-invasion.png"
+      "image": "http://localhost:3000/images/azmodan/demonic-invasion.png"
     },
     {
       "name": "Black Pool",
       "description": "Create a pool that empowers Azmodan, his Demons, and allied Minions, increasing their Basic Attack and Ability damage by 75%. Pools last 5 seconds. Stores up to 2 charges.",
       "slug": "black-pool",
-      "image": "http://media.blizzard.com/heroes/azmodan/abilities/icons/black-pool.png"
+      "image": "http://localhost:3000/images/azmodan/black-pool.png"
     }
   ]
 }

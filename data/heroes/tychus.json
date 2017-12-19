@@ -12,7 +12,7 @@
   "franchise": "StarCraft",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/tychus/bust.jpg",
+  "poster_image": "http://localhost:3000/images/tychus/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 1,
@@ -23,26 +23,26 @@
     "name": "Minigun",
     "description": "Minigun",
     "slug": "minigun",
-    "image": "http://media.blizzard.com/heroes/tychus/abilities/icons/minigun.png"
+    "image": "http://localhost:3000/images/tychus/minigun.png"
   },
   "abilities": [
     {
       "name": "Overkill",
       "description": "Deal 552 damage to the target and 276 damage to nearby targets over 4 seconds. Reactivate to select a new target. Can move and use Abilities while channeling.",
       "slug": "overkill",
-      "image": "http://media.blizzard.com/heroes/tychus/abilities/icons/overkill.png"
+      "image": "http://localhost:3000/images/tychus/overkill.png"
     },
     {
       "name": "Frag Grenade",
       "description": "Lob a grenade that deals 256 damage, knocking enemies away.",
       "slug": "frag-grenade",
-      "image": "http://media.blizzard.com/heroes/tychus/abilities/icons/frag-grenade.png"
+      "image": "http://localhost:3000/images/tychus/frag-grenade.png"
     },
     {
       "name": "Run and Gun",
       "description": "Dash a short distance.",
       "slug": "run-and-gun",
-      "image": "http://media.blizzard.com/heroes/tychus/abilities/icons/run-and-gun.png"
+      "image": "http://localhost:3000/images/tychus/run-and-gun.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Commandeer Odin",
       "description": "Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
       "slug": "commandeer-odin",
-      "image": "http://media.blizzard.com/heroes/tychus/abilities/icons/commandeer-odin.png"
+      "image": "http://localhost:3000/images/tychus/commandeer-odin.png"
     },
     {
       "name": "Drakken Laser Drill",
       "description": "Call down a Laser Drill to attack nearby enemies, dealing 142 damage every second. Reactivate to assign a new target. Lasts 22 seconds.",
       "slug": "drakken-laser-drill",
-      "image": "http://media.blizzard.com/heroes/tychus/abilities/icons/drakken-laser-drill.png"
+      "image": "http://localhost:3000/images/tychus/drakken-laser-drill.png"
     }
   ]
 }

@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Very Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/medivh/bust.jpg",
+  "poster_image": "http://localhost:3000/images/medivh/bust.jpg",
   "stats": {
     "damage": 2,
     "utility": 10,
@@ -23,26 +23,26 @@
     "name": "Raven Form",
     "description": "Raven Form",
     "slug": "raven-form",
-    "image": "http://media.blizzard.com/heroes/medivh/abilities/icons/raven-form.png"
+    "image": "http://localhost:3000/images/medivh/raven-form.png"
   },
   "abilities": [
     {
       "name": "Arcane Rift",
       "description": "Launch a rift that deals 200 damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.",
       "slug": "arcane-rift",
-      "image": "http://media.blizzard.com/heroes/medivh/abilities/icons/arcane-rift.png"
+      "image": "http://localhost:3000/images/medivh/arcane-rift.png"
     },
     {
       "name": "Force of Will",
       "description": "Protect an allied Hero from all damage for 1.5 seconds.",
       "slug": "force-of-will",
-      "image": "http://media.blizzard.com/heroes/medivh/abilities/icons/force-of-will.png"
+      "image": "http://localhost:3000/images/medivh/force-of-will.png"
     },
     {
       "name": "Portal",
       "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
       "slug": "portal",
-      "image": "http://media.blizzard.com/heroes/medivh/abilities/icons/portal.png"
+      "image": "http://localhost:3000/images/medivh/portal.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Poly Bomb",
       "description": "Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
       "slug": "poly-bomb",
-      "image": "http://media.blizzard.com/heroes/medivh/abilities/icons/poly-bomb.png"
+      "image": "http://localhost:3000/images/medivh/poly-bomb.png"
     },
     {
       "name": "Ley Line Seal",
       "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
       "slug": "ley-line-seal",
-      "image": "http://media.blizzard.com/heroes/medivh/abilities/icons/ley-line-seal.png"
+      "image": "http://localhost:3000/images/medivh/ley-line-seal.png"
     }
   ]
 }

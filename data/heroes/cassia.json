@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/cassia/bust.jpg",
+  "poster_image": "http://localhost:3000/images/cassia/bust.jpg",
   "stats": {
     "damage": 7,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Avoidance",
     "description": "Avoidance",
     "slug": "avoidance",
-    "image": "http://media.blizzard.com/heroes/cassia/abilities/icons/avoidance.png"
+    "image": "http://localhost:3000/images/cassia/avoidance.png"
   },
   "abilities": [
     {
       "name": "Lightning Fury",
       "description": "Hurl a lightning javelin that deals 175 damage to the first enemy hit and splits into two lightning bolts that deal 175 damage to enemies in their path.",
       "slug": "lightning-fury",
-      "image": "http://media.blizzard.com/heroes/cassia/abilities/icons/lightning-fury.png"
+      "image": "http://localhost:3000/images/cassia/lightning-fury.png"
     },
     {
       "name": "Blinding Light",
       "description": "After 0.5 seconds, Blind enemies in the target area for 2 seconds. Passive: Cassia deals 20% increased damage to Blinded targets.",
       "slug": "blinding-light",
-      "image": "http://media.blizzard.com/heroes/cassia/abilities/icons/blinding-light.png"
+      "image": "http://localhost:3000/images/cassia/blinding-light.png"
     },
     {
       "name": "Fend",
       "description": "Charge at an enemy, and upon arriving channel for up to 1.5 seconds, dealing 78 damage to enemies in front of Cassia every 0.25 seconds. Deals 50% reduced damage to non-Heroes.",
       "slug": "fend",
-      "image": "http://media.blizzard.com/heroes/cassia/abilities/icons/fend.png"
+      "image": "http://localhost:3000/images/cassia/fend.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Ball Lightning",
       "description": "Throw a ball of lightning at an enemy Hero that bounces up to 6 times between nearby enemy Heroes and Cassia, dealing 180 damage to enemies hit.",
       "slug": "ball-lightning",
-      "image": "http://media.blizzard.com/heroes/cassia/abilities/icons/ball-lightning.png"
+      "image": "http://localhost:3000/images/cassia/ball-lightning.png"
     },
     {
       "name": "Valkyrie",
       "description": "Summon a Valkyrie that rushes to Cassia after 0.75 seconds, pulling the first enemy Hero hit, dealing 225 damage and Stunning them for 0.5 seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way.",
       "slug": "valkyrie",
-      "image": "http://media.blizzard.com/heroes/cassia/abilities/icons/valkyrie.png"
+      "image": "http://localhost:3000/images/cassia/valkyrie.png"
     }
   ]
 }

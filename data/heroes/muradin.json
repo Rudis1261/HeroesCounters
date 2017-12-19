@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Easy",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/muradin/bust.jpg",
+  "poster_image": "http://localhost:3000/images/muradin/bust.jpg",
   "stats": {
     "damage": 5,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Second Wind",
     "description": "Second Wind",
     "slug": "second-wind",
-    "image": "http://media.blizzard.com/heroes/muradin/abilities/icons/second-wind.png"
+    "image": "http://localhost:3000/images/muradin/second-wind.png"
   },
   "abilities": [
     {
       "name": "Storm Bolt",
       "description": "Throw a hammer, dealing 110 damage to the first enemy hit and Stunning them for 1.25 seconds. Quest: Hit 25 Heroes with Storm Bolt. Heroes who die within 2.5 seconds of being hit by Storm Bolt count as hitting 3 additional Heroes. Reward: Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second.",
       "slug": "storm-bolt",
-      "image": "http://media.blizzard.com/heroes/muradin/abilities/icons/storm-bolt.png"
+      "image": "http://localhost:3000/images/muradin/storm-bolt.png"
     },
     {
       "name": "Thunder Clap",
       "description": "Blast nearby enemies for 96 damage and slow them by 25% for 2.5 seconds. Heroes hit also have their Attack Speed reduced by 25% for the duration.",
       "slug": "thunder-clap",
-      "image": "http://media.blizzard.com/heroes/muradin/abilities/icons/thunder-clap.png"
+      "image": "http://localhost:3000/images/muradin/thunder-clap.png"
     },
     {
       "name": "Dwarf Toss",
       "description": "Leap to target location, dealing 59 damage to enemies on landing. Upon leaping, gain 25 Armor for 2 seconds, reducing damage taken by 25%.",
       "slug": "dwarf-toss",
-      "image": "http://media.blizzard.com/heroes/muradin/abilities/icons/dwarf-toss.png"
+      "image": "http://localhost:3000/images/muradin/dwarf-toss.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Avatar",
       "description": "Transform for 20 seconds, gaining 1053 Health.",
       "slug": "avatar",
-      "image": "http://media.blizzard.com/heroes/muradin/abilities/icons/avatar.png"
+      "image": "http://localhost:3000/images/muradin/avatar.png"
     },
     {
       "name": "Haymaker",
       "description": "Stun target enemy Hero, and wind up a punch dealing 319 damage and knocking the target back, hitting enemies in the way for 319 damage and knocking them aside.",
       "slug": "haymaker",
-      "image": "http://media.blizzard.com/heroes/muradin/abilities/icons/haymaker.png"
+      "image": "http://localhost:3000/images/muradin/haymaker.png"
     }
   ]
 }

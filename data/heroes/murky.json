@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/murky/bust.jpg",
+  "poster_image": "http://localhost:3000/images/murky/bust.jpg",
   "stats": {
     "damage": 5,
     "utility": 5,
@@ -23,26 +23,26 @@
     "name": "Spawn Egg",
     "description": "Spawn Egg",
     "slug": "spawn-egg",
-    "image": "http://media.blizzard.com/heroes/murky/abilities/icons/spawn-egg.png"
+    "image": "http://localhost:3000/images/murky/spawn-egg.png"
   },
   "abilities": [
     {
       "name": "Slime",
       "description": "Deal 86 damage and apply Slime on nearby enemies for 6 seconds, slowing them by 20%. Deal 210 damage to enemies who are already Slimed.",
       "slug": "slime",
-      "image": "http://media.blizzard.com/heroes/murky/abilities/icons/slime.png"
+      "image": "http://localhost:3000/images/murky/slime.png"
     },
     {
       "name": "Pufferfish",
       "description": "Spit out a Pufferfish with 225 health at the target point. After 3 seconds, the fish will blow up for 410 damage. Deals 50% less damage to Structures.",
       "slug": "pufferfish",
-      "image": "http://media.blizzard.com/heroes/murky/abilities/icons/pufferfish.png"
+      "image": "http://localhost:3000/images/murky/pufferfish.png"
     },
     {
       "name": "Safety Bubble",
       "description": "Becomes Invulnerable for 2 seconds. While active, Murky cannot attack or use abilities.",
       "slug": "safety-bubble",
-      "image": "http://media.blizzard.com/heroes/murky/abilities/icons/safety-bubble.png"
+      "image": "http://localhost:3000/images/murky/safety-bubble.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "March of the Murlocs",
       "description": "After 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 125 damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.",
       "slug": "march-of-the-murlocs",
-      "image": "http://media.blizzard.com/heroes/murky/abilities/icons/march-of-the-murlocs.png"
+      "image": "http://localhost:3000/images/murky/march-of-the-murlocs.png"
     },
     {
       "name": "Octo-Grab",
       "description": "Murky summons an octopus to stun target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
       "slug": "octo-grab",
-      "image": "http://media.blizzard.com/heroes/murky/abilities/icons/octo-grab.png"
+      "image": "http://localhost:3000/images/murky/octo-grab.png"
     }
   ]
 }

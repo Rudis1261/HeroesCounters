@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/auriel/bust.jpg",
+  "poster_image": "http://localhost:3000/images/auriel/bust.jpg",
   "stats": {
     "damage": 3,
     "utility": 8,
@@ -23,26 +23,26 @@
     "name": "Bestow Hope",
     "description": "Bestow Hope",
     "slug": "bestow-hope",
-    "image": "http://media.blizzard.com/heroes/auriel/abilities/icons/bestow-hope.png"
+    "image": "http://localhost:3000/images/auriel/bestow-hope.png"
   },
   "abilities": [
     {
       "name": "Sacred Sweep",
       "description": "Sweep the area with sacred power, dealing 60 damage to enemies and an additional 180 damage to enemies caught in the center.",
       "slug": "sacred-sweep",
-      "image": "http://media.blizzard.com/heroes/auriel/abilities/icons/sacred-sweep.png"
+      "image": "http://localhost:3000/images/auriel/sacred-sweep.png"
     },
     {
       "name": "Ray of Heaven",
       "description": "Consume Auriel's stored energy and heal allied Heroes in the area for the amount of energy consumed.",
       "slug": "ray-of-heaven",
-      "image": "http://media.blizzard.com/heroes/auriel/abilities/icons/ray-of-heaven.png"
+      "image": "http://localhost:3000/images/auriel/ray-of-heaven.png"
     },
     {
       "name": "Detainment Strike",
       "description": "Deal 58 damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for 1.25 seconds and take an additional 174 damage.",
       "slug": "detainment-strike",
-      "image": "http://media.blizzard.com/heroes/auriel/abilities/icons/detainment-strike.png"
+      "image": "http://localhost:3000/images/auriel/detainment-strike.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Crystal Aegis",
       "description": "Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 270 damage to all nearby enemies.",
       "slug": "crystal-aegis",
-      "image": "http://media.blizzard.com/heroes/auriel/abilities/icons/crystal-aegis.png"
+      "image": "http://localhost:3000/images/auriel/crystal-aegis.png"
     },
     {
       "name": "Resurrect",
       "description": "Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.",
       "slug": "resurrect",
-      "image": "http://media.blizzard.com/heroes/auriel/abilities/icons/resurrect.png"
+      "image": "http://localhost:3000/images/auriel/resurrect.png"
     }
   ]
 }

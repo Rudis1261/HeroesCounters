@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/nazeebo/bust.jpg",
+  "poster_image": "http://localhost:3000/images/nazeebo/bust.jpg",
   "stats": {
     "damage": 8,
     "utility": 4,
@@ -23,26 +23,26 @@
     "name": "Voodoo Ritual",
     "description": "Voodoo Ritual",
     "slug": "voodoo-ritual",
-    "image": "http://media.blizzard.com/heroes/nazeebo/abilities/icons/voodoo-ritual.png"
+    "image": "http://localhost:3000/images/nazeebo/voodoo-ritual.png"
   },
   "abilities": [
     {
       "name": "Corpse Spiders",
       "description": "Hurl a jar of spiders that deals 50 damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 36 damage. Spiders last for 4 seconds.",
       "slug": "corpse-spiders",
-      "image": "http://media.blizzard.com/heroes/nazeebo/abilities/icons/corpse-spiders.png"
+      "image": "http://localhost:3000/images/nazeebo/corpse-spiders.png"
     },
     {
       "name": "Zombie Wall",
       "description": "After 1 second, create a ring of Zombies surrounding the target area that deal 28 damage and last for 3 seconds.",
       "slug": "zombie-wall",
-      "image": "http://media.blizzard.com/heroes/nazeebo/abilities/icons/zombie-wall.png"
+      "image": "http://localhost:3000/images/nazeebo/zombie-wall.png"
     },
     {
       "name": "Plague of Toads",
       "description": "Create a wave of 3 Toads that explode on contact, dealing 126 damage over 6 seconds. This effect stacks. Stores up to 2 charges.",
       "slug": "plague-of-toads",
-      "image": "http://media.blizzard.com/heroes/nazeebo/abilities/icons/plague-of-toads.png"
+      "image": "http://localhost:3000/images/nazeebo/plague-of-toads.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Gargantuan",
       "description": "Summon a Gargantuan to guard an area for 20 seconds. Deals 100 damage when summoned, attacks for 150 damage, and can be ordered to stomp nearby enemies.",
       "slug": "gargantuan",
-      "image": "http://media.blizzard.com/heroes/nazeebo/abilities/icons/gargantuan.png"
+      "image": "http://localhost:3000/images/nazeebo/gargantuan.png"
     },
     {
       "name": "Ravenous Spirit",
       "description": "Channel a Ravenous Spirit that deals 207 damage per second. Cannot move while channeling. Lasts for 8 seconds.",
       "slug": "ravenous-spirit",
-      "image": "http://media.blizzard.com/heroes/nazeebo/abilities/icons/ravenous-spirit.png"
+      "image": "http://localhost:3000/images/nazeebo/ravenous-spirit.png"
     }
   ]
 }

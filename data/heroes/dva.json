@@ -12,7 +12,7 @@
   "franchise": "Overwatch",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/dva/bust.jpg",
+  "poster_image": "http://localhost:3000/images/dva/bust.jpg",
   "stats": {
     "damage": 4,
     "utility": 8,
@@ -23,26 +23,26 @@
     "name": "Mech Mode",
     "description": "Mech Mode",
     "slug": "mech-mode",
-    "image": "http://media.blizzard.com/heroes/dva/abilities/icons/mech-mode.png"
+    "image": "http://localhost:3000/images/dva/mech-mode.png"
   },
   "abilities": [
     {
       "name": "Boosters",
       "description": "Increase D.Va's Movement Speed by 125% for 2 seconds. Enemies that are hit take 135 damage and are knocked away. D.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.",
       "slug": "boosters",
-      "image": "http://media.blizzard.com/heroes/dva/abilities/icons/boosters.png"
+      "image": "http://localhost:3000/images/dva/boosters.png"
     },
     {
       "name": "Defense Matrix",
       "description": "Channel a defensive field in the target direction for 3 seconds, reducing the damage dealt by enemy Heroes inside it by 75%. The Mech can move while channeling, but cannot turn. Damage dealt to the Mech from enemies within Defense Matrix still grants the same amount of Self-Destruct Charge.",
       "slug": "defense-matrix",
-      "image": "http://media.blizzard.com/heroes/dva/abilities/icons/defense-matrix.png"
+      "image": "http://localhost:3000/images/dva/defense-matrix.png"
     },
     {
       "name": "Self-Destruct",
       "description": "Eject from the Mech, setting it to self-destruct after 4 seconds. Deals 400 to 1200 damage in a large area, depending on distance from center. Only deals 50% damage against Structures. Gain 1% Charge for every 2 seconds spent Basic Attacking, and 30% Charge per 100% of Mech Health lost.",
       "slug": "self-destruct",
-      "image": "http://media.blizzard.com/heroes/dva/abilities/icons/self-destruct.png"
+      "image": "http://localhost:3000/images/dva/self-destruct.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Bunny Hop",
       "description": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 damage and Slowing enemies by 40%. Lasts 4 seconds. Requires Mech Mode.",
       "slug": "bunny-hop",
-      "image": "http://media.blizzard.com/heroes/dva/abilities/icons/bunny-hop.png"
+      "image": "http://localhost:3000/images/dva/bunny-hop.png"
     },
     {
       "name": "Big Shot",
       "description": "Deal 250 damage to all enemies in a line. The cooldown of Call Mech is reduced by 8 seconds for each enemy Hero hit. Requires Pilot Mode.",
       "slug": "big-shot",
-      "image": "http://media.blizzard.com/heroes/dva/abilities/icons/big-shot.png"
+      "image": "http://localhost:3000/images/dva/big-shot.png"
     }
   ]
 }

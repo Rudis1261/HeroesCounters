@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Easy",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/li-li/bust.jpg",
+  "poster_image": "http://localhost:3000/images/li-li/bust.jpg",
   "stats": {
     "damage": 3,
     "utility": 8,
@@ -23,26 +23,26 @@
     "name": "Fast Feet",
     "description": "Fast Feet",
     "slug": "fast-feet",
-    "image": "http://media.blizzard.com/heroes/li-li/abilities/icons/fast-feet.png"
+    "image": "http://localhost:3000/images/li-li/fast-feet.png"
   },
   "abilities": [
     {
       "name": "Healing Brew",
       "description": "Heal lowest Health ally (prioritizing Heroes) within 7 range for 196 Health.",
       "slug": "healing-brew",
-      "image": "http://media.blizzard.com/heroes/li-li/abilities/icons/healing-brew.png"
+      "image": "http://localhost:3000/images/li-li/healing-brew.png"
     },
     {
       "name": "Cloud Serpent",
       "description": "Summon a Cloud Serpent on an allied Hero that attacks nearby enemies for 25 damage per attack. Lasts for 8 seconds.",
       "slug": "cloud-serpent",
-      "image": "http://media.blizzard.com/heroes/li-li/abilities/icons/cloud-serpent.png"
+      "image": "http://localhost:3000/images/li-li/cloud-serpent.png"
     },
     {
       "name": "Blinding Wind",
       "description": "Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 140 damage. Affected targets are Blinded for 2 seconds, causing their Basic Attacks to miss and deal no damage.",
       "slug": "blinding-wind",
-      "image": "http://media.blizzard.com/heroes/li-li/abilities/icons/blinding-wind.png"
+      "image": "http://localhost:3000/images/li-li/blinding-wind.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Jug of 1,000 Cups",
       "description": "Rapidly tosses brew to the most injured nearby allies within 10 range, restoring 1632 Health over 6 seconds.",
       "slug": "jug-of-1000-cups",
-      "image": "http://media.blizzard.com/heroes/li-li/abilities/icons/jug-of-1000-cups.png"
+      "image": "http://localhost:3000/images/li-li/jug-of-1000-cups.png"
     },
     {
       "name": "Water Dragon",
       "description": "Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 318 damage and slowing their Movement Speed by 70% for 4 seconds.",
       "slug": "water-dragon",
-      "image": "http://media.blizzard.com/heroes/li-li/abilities/icons/water-dragon.png"
+      "image": "http://localhost:3000/images/li-li/water-dragon.png"
     }
   ]
 }

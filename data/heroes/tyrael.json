@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/tyrael/bust.jpg",
+  "poster_image": "http://localhost:3000/images/tyrael/bust.jpg",
   "stats": {
     "damage": 6,
     "utility": 6,
@@ -23,26 +23,26 @@
     "name": "Archangel's Wrath",
     "description": "Archangel's Wrath",
     "slug": "archangels-wrath",
-    "image": "http://media.blizzard.com/heroes/tyrael/abilities/icons/archangels-wrath.png"
+    "image": "http://localhost:3000/images/tyrael/archangels-wrath.png"
   },
   "abilities": [
     {
       "name": "El'druin's Might",
       "description": "Deals 110 damage to enemies within target area, slowing them by 25% for 2.5 seconds. Reactivating will teleport Tyrael to the blade and slow nearby enemies again.",
       "slug": "eldruins-might",
-      "image": "http://media.blizzard.com/heroes/tyrael/abilities/icons/eldruins-might.png"
+      "image": "http://localhost:3000/images/tyrael/eldruins-might.png"
     },
     {
       "name": "Righteousness",
       "description": "Shields Tyrael for 336 damage and nearby allies for 135 damage for 4 seconds.",
       "slug": "righteousness",
-      "image": "http://media.blizzard.com/heroes/tyrael/abilities/icons/righteousness.png"
+      "image": "http://localhost:3000/images/tyrael/righteousness.png"
     },
     {
       "name": "Smite",
       "description": "Rake target area for 144 damage. Allies moving through the targeted area gain 25% increased Movement Speed for 2 seconds.",
       "slug": "smite",
-      "image": "http://media.blizzard.com/heroes/tyrael/abilities/icons/smite.png"
+      "image": "http://localhost:3000/images/tyrael/smite.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Judgment",
       "description": "After 0.75 seconds, charge an enemy Hero dealing 150 damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take 75 damage.",
       "slug": "judgment",
-      "image": "http://media.blizzard.com/heroes/tyrael/abilities/icons/judgment.png"
+      "image": "http://localhost:3000/images/tyrael/judgment.png"
     },
     {
       "name": "Sanctification",
       "description": "After 0.5 seconds create a field of holy energy that makes allied Heroes Invulnerable. Lasts 3 seconds.",
       "slug": "sanctification",
-      "image": "http://media.blizzard.com/heroes/tyrael/abilities/icons/sanctification.png"
+      "image": "http://localhost:3000/images/tyrael/sanctification.png"
     }
   ]
 }

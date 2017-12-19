@@ -12,7 +12,7 @@
   "franchise": "Warcraft",
   "difficulty": "Hard",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/greymane/bust.jpg",
+  "poster_image": "http://localhost:3000/images/greymane/bust.jpg",
   "stats": {
     "damage": 9,
     "utility": 3,
@@ -23,26 +23,26 @@
     "name": "Curse of the Worgen",
     "description": "Curse of the Worgen",
     "slug": "curse-of-the-worgen",
-    "image": "http://media.blizzard.com/heroes/greymane/abilities/icons/curse-of-the-worgen.png"
+    "image": "http://localhost:3000/images/greymane/curse-of-the-worgen.png"
   },
   "abilities": [
     {
       "name": "Gilnean Cocktail",
       "description": "Hurl a flask that deals 59 damage to the first enemy hit and explodes for 236 damage to enemies in a cone behind them. Worgen: Razor Swipe Swipe forward, damaging enemies hit.",
       "slug": "gilnean-cocktail",
-      "image": "http://media.blizzard.com/heroes/greymane/abilities/icons/gilnean-cocktail.png"
+      "image": "http://localhost:3000/images/greymane/gilnean-cocktail.png"
     },
     {
       "name": "Inner Beast",
       "description": "Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds.",
       "slug": "inner-beast",
-      "image": "http://media.blizzard.com/heroes/greymane/abilities/icons/inner-beast.png"
+      "image": "http://localhost:3000/images/greymane/inner-beast.png"
     },
     {
       "name": "Darkflight",
       "description": "Shapeshift into a Worgen and leap at an enemy dealing 88 damage. Worgen: Disengage Roll away and shapeshift into a Human.",
       "slug": "darkflight",
-      "image": "http://media.blizzard.com/heroes/greymane/abilities/icons/darkflight.png"
+      "image": "http://localhost:3000/images/greymane/darkflight.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Go for the Throat",
       "description": "Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 damage. If this kills them, the Ability can be used a second time within 10 seconds for free.",
       "slug": "go-for-the-throat",
-      "image": "http://media.blizzard.com/heroes/greymane/abilities/icons/go-for-the-throat.png"
+      "image": "http://localhost:3000/images/greymane/go-for-the-throat.png"
     },
     {
       "name": "Cursed Bullet",
       "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage. Does not affect Vehicles.",
       "slug": "cursed-bullet",
-      "image": "http://media.blizzard.com/heroes/greymane/abilities/icons/cursed-bullet.png"
+      "image": "http://localhost:3000/images/greymane/cursed-bullet.png"
     }
   ]
 }

@@ -12,7 +12,7 @@
   "franchise": "Diablo",
   "difficulty": "Medium",
   "live": true,
-  "poster_image": "http://media.blizzard.com/heroes/johanna/bust.jpg",
+  "poster_image": "http://localhost:3000/images/johanna/bust.jpg",
   "stats": {
     "damage": 3,
     "utility": 6,
@@ -23,26 +23,26 @@
     "name": "Iron Skin",
     "description": "Iron Skin",
     "slug": "iron-skin",
-    "image": "http://media.blizzard.com/heroes/johanna/abilities/icons/iron-skin.png"
+    "image": "http://localhost:3000/images/johanna/iron-skin.png"
   },
   "abilities": [
     {
       "name": "Punish",
       "description": "Step forward dealing 113 damage and Slowing enemies by 60% decaying over 2 seconds.",
       "slug": "punish",
-      "image": "http://media.blizzard.com/heroes/johanna/abilities/icons/punish.png"
+      "image": "http://localhost:3000/images/johanna/punish.png"
     },
     {
       "name": "Condemn",
       "description": "After 1 second, Johanna pulls nearby enemies toward her, stunning them for 0.25 seconds and dealing 55 damage. Deals 200% increased damage to Minions and Mercenaries.",
       "slug": "condemn",
-      "image": "http://media.blizzard.com/heroes/johanna/abilities/icons/condemn.png"
+      "image": "http://localhost:3000/images/johanna/condemn.png"
     },
     {
       "name": "Shield Glare",
       "description": "Deal 59 damage to enemies and Blind them for 1.5 seconds.",
       "slug": "shield-glare",
-      "image": "http://media.blizzard.com/heroes/johanna/abilities/icons/shield-glare.png"
+      "image": "http://localhost:3000/images/johanna/shield-glare.png"
     }
   ],
   "heroics": [
@@ -50,13 +50,13 @@
       "name": "Falling Sword",
       "description": "Johanna leaps towards an area. While in the air, she can steer the landing location by moving. After 2 seconds Johanna lands, dealing 183 damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
       "slug": "falling-sword",
-      "image": "http://media.blizzard.com/heroes/johanna/abilities/icons/falling-sword.png"
+      "image": "http://localhost:3000/images/johanna/falling-sword.png"
     },
     {
       "name": "Blessed Shield",
       "description": "Deal 114 damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 damage and Stunning them for 0.75 seconds.",
       "slug": "blessed-shield",
-      "image": "http://media.blizzard.com/heroes/johanna/abilities/icons/blessed-shield.png"
+      "image": "http://localhost:3000/images/johanna/blessed-shield.png"
     }
   ]
 }
