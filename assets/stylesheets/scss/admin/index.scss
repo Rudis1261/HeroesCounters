@@ -9,3 +9,18 @@ textarea {
     margin-bottom: 0;
   }
 }
+
+#main {
+  .container {
+    max-width: 1280px;
+    margin: 0 20px 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 0 8px 5px rgba(#eee, 0.5);
+
+    @include jumbo {
+      margin: 0 auto 20px;
+    }
+  }
+}

@@ -5,10 +5,15 @@
     display: block;
     width: 225px;
 
-    a > h1 {
-      font-size: 18px;
-      margin: 20px 6px 0;
-      font-weight: normal;
+    a {
+      color: #222;
+      text-decoration: none;
+
+      > h1 {
+        font-size: 18px;
+        margin: 2px 0 20px;
+        font-weight: normal;
+      }
     }
   }
 
