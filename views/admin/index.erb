@@ -1,10 +1,4 @@
-<div class="container btn-bar">
-  <%= link('admin/scrape', 'Scrape All', :class => 'btn') %>
-  &nbsp;
-  <%= link('admin/scrape/detail', 'Scrape all hero details', :class => 'btn') %>
-  &nbsp;
-  <%= link('admin/parse/detail', 'Parse hero details', :class => 'btn') %>
-</div>
+<%= erb :'elements/btn-bar' %>
 
 <div class="container">
   <h2>Scrape individual hero</h2>
@@ -25,7 +19,7 @@
 
   <br />
 
-  <span class="pull-left"><%= @message %></span>
+  <%= erb :'elements/message' %>
 
   <% if @json_data %>
       <a class="pull-right" href="https://jsonlint.com/?json=<%= @json_data_escaped %>" target="_blank">Lint</a>

@@ -101,8 +101,10 @@ module ScraperHelper
 
 
   def hero_slugs
-    heroes = JSON.parse(StorageHelper.read_from_disk)
-    return [] if heroes.nil?
+    data = StorageHelper.read_from_disk
+    return [] if data.nil?
+
+    heroes = JSON.parse(data)
 
     # Default set of data based on landing page
     heroSlugs = []

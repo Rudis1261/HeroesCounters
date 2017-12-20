@@ -52,6 +52,7 @@ class App < Sinatra::Base
     Config.base_url = 'http://eu.battle.net/heroes/en/heroes/'
     Config.hero_base_url = 'http://eu.battle.net/heroes/en/heroes/%s/'
     Config.local_file = File.dirname(__FILE__) + '/data/heroes.json'
+    Config.local_hero_folder = File.dirname(__FILE__) + '/data/heroes'
     Config.local_detail_file = File.dirname(__FILE__) + '/data/heroes_detail.json'
     Config.hero_local_file = File.dirname(__FILE__) + '/data/heroes/%s.json'
     Config.image_urls = {

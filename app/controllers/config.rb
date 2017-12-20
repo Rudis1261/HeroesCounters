@@ -13,6 +13,9 @@ class Config < Sinatra::Base
   def self.local_file=(fileName); @local_file = fileName; end
   def self.local_file; @local_file; end
 
+  def self.local_hero_folder=(folder); @local_hero_folder = folder; end
+  def self.local_hero_folder; @local_hero_folder; end
+
   def self.local_detail_file=(fileName); @local_detail_file = fileName; end
   def self.local_detail_file; @local_detail_file; end
 

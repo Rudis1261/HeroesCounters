@@ -4,12 +4,6 @@ textarea {
   background: #f2f2f2;
 }
 
-.container.btn-bar {
-  .btn {
-    margin-bottom: 0;
-  }
-}
-
 #main {
   .container {
     max-width: 1280px;
@@ -18,6 +12,14 @@ textarea {
     background: #fff;
     border: 1px solid #eee;
     box-shadow: 0 0 8px 5px rgba(#eee, 0.5);
+
+    &.btn-bar {
+      padding-bottom: 0;
+
+      .btn {
+        margin-bottom: 15px;
+      }
+    }
 
     @include jumbo {
       margin: 0 auto 20px;

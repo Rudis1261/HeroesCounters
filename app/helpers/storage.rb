@@ -28,8 +28,25 @@ module StorageHelper
 
   def StorageHelper.save_hero_to_disk(name, data)
     return if name.nil?
+
+    ImageHelper.create_directory Config.local_hero_folder
+
     data = ScraperHelper.parse_hero_json_data(data)
     data = JSON.pretty_generate(data)
     File.open(Config.hero_local_file % name, 'w') { |file| file.write(data) }
+  end
+
+  def StorageHelper.purge
+    !File.delete(Config.local_file) rescue 'Failed to remove heroes.json'
+  end
+
+  def StorageHelper.purge_detail
+    !File.delete(Config.local_detail_file) rescue 'Failed to remove heroes-detail.json'
+  end
+
+  def StorageHelper.purge_all
+    self.purge
+    self.purge_detail
+    !FileUtils.rm_rf(Config.local_hero_folder) rescue 'Failed to remove heroes json folder'
   end
 end

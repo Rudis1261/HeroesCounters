@@ -12,16 +12,15 @@ class AdminController < ApplicationController
     @json_data_escaped
 
     before do
+      admin_required
       @hero_slugs = hero_slugs
     end
 
     get '/admin' do
-      admin_required
       erb :'admin/index', :layout => :'/layouts/main'
     end
 
     get '/admin/scrape' do
-      admin_required
       scrape = scrape_heroes
       @message = scrape.size > 0 ? "Scape completed" : "Something went wrong. No data was received"
       @json_data = scrape
@@ -31,7 +30,6 @@ class AdminController < ApplicationController
     end
 
     get '/admin/scrape/detail' do
-      admin_required
       scrape_heroes_detail
       @message =  "Detail scape initiated"
       #@json_data = scrape
@@ -40,19 +38,44 @@ class AdminController < ApplicationController
     end
 
     get '/admin/parse/detail' do
-      admin_required
       scrape = ScraperHelper.parse_hero_details_and_save_to_disk
       @message = scrape ? "Parsed hero details" : "Something went wrong. Unable to parse details"
       erb :'admin/index', :layout => :'/layouts/main'
     end
 
     get '/admin/hero' do
-      admin_required
       erb :'admin/index', :layout => :'/layouts/main'
     end
 
+    get '/admin/purge' do
+      erb :'admin/purge', :layout => :'/layouts/main'
+    end
+
+    get '/admin/purge/json' do
+      @message = "Purging JSON"
+      StorageHelper.purge
+      erb :'admin/purge', :layout => :'/layouts/main'
+    end
+
+    get '/admin/purge/json-detail' do
+      @message = "Purging detail JSON"
+      StorageHelper.purge_detail
+      erb :'admin/purge', :layout => :'/layouts/main'
+    end
+
+    get '/admin/purge/json-all' do
+      @message = "Purging all JSON files"
+      StorageHelper.purge_all
+      erb :'admin/purge', :layout => :'/layouts/main'
+    end
+
+    get '/admin/purge/images' do
+      @message = "Purge images"
+      ImageHelper.purge
+      erb :'admin/purge', :layout => :'/layouts/main'
+    end
+
     post '/admin/hero' do
-      admin_required
       if params[:action] && params[:action] == 'scrape'
         scrape_hero(params[:hero])
         @message = "Scaping #{params[:hero].capitalize}"

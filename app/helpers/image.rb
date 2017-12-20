@@ -83,4 +83,8 @@ module ImageHelper
     return if File.directory?(dir)
     FileUtils.mkdir_p dir
   end
+
+  def ImageHelper.purge
+     FileUtils.rm_rf("./public#{Config.get('image_path')}") rescue 'Failed to delete images'
+  end
 end

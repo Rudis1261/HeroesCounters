@@ -1,0 +1,18 @@
+<%= erb :'elements/btn-bar' %>
+
+<div class="container btn-bar">
+  <%= link('admin/purge/images', 'Purge Images', :class => 'btn') %>
+  &nbsp;
+  <%= link('admin/purge/json', 'Purge JSON', :class => 'btn') %>
+  &nbsp;
+  <%= link('admin/purge/json-detail', 'Purge detail JSON', :class => 'btn') %>
+  &nbsp;
+  <%= link('admin/purge/json-all', 'Purge all JSON', :class => 'btn') %>
+</div>
+
+<% if @message %>
+<div class="container">
+  <%= erb :'elements/message' %>
+  <br/>
+</div>
+<% end %>
