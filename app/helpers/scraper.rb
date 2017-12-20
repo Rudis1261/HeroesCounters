@@ -140,7 +140,6 @@ module ScraperHelper
     JSON.pretty_generate(data)
   end
 
-
   def ScraperHelper.parse_hero_json_data(hero)
     @data = {}
     @keys = {
@@ -166,26 +165,35 @@ module ScraperHelper
       needle = @keys[key]
       if !hero[needle].nil?
         @data[key] = hero[needle].map do |item|
-            {
-                'name' => item['name'],
-                'description' => item['description'],
-                'slug' => item['slug'],
-                'image' => ImageHelper.pull_image(hero['slug'], Config.image_urls['trait'] % [hero['slug'], item['slug']])
-            }
-          end
+
+          pre = Config.get('hero_image_pre').include?(hero['slug']) ? Config.get('hero_image_pre')[hero['slug']] : ''
+          ability_image = ImageHelper.pull_image(hero['slug'], Config.image_urls['trait'] % [hero['slug'], "#{pre}#{item['slug']}"])
+
+          {
+            'name' => item['name'],
+            'description' => item['description'],
+            'slug' => item['slug'],
+            'image' => ability_image
+          }
+        end
       else
         @data[key] = @values
       end
     end
 
     if !hero['trait'].nil?
+
+      pre = Config.get('hero_image_pre').include?(hero['slug']) ? Config.get('hero_image_pre')[hero['slug']] : ''
+      trait_image = ImageHelper.pull_image(hero['slug'], Config.image_urls['trait'] % [hero['slug'], "#{pre}#{hero['trait']['slug']}"])
+
       @data['trait'] = {
           'name' => hero['trait']['name'],
           'description' => hero['trait']['name'],
           'slug' => hero['trait']['slug'],
-          'image' => ImageHelper.pull_image(hero['slug'], Config.image_urls['trait'] % [hero['slug'], hero['trait']['slug']])
+          'image' => trait_image
       }
     end
+
     {
       'name' => hero['name'],
       'slug' => hero['slug'],

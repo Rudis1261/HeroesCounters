@@ -60,6 +60,12 @@ class App < Sinatra::Base
     }
 
     Config.set('image_path', '/images/')
+    Config.set('hero_image_pre', {
+        'greymane' => 'greymane/',
+        'valeera' => 'standard/',
+        'varian' => 'warrior/',
+        'chogall' => 'cho/',
+    })
 
     ActiveSupport::Inflector.inflections do |inflect|
       inflect.irregular 'hero', 'heroes'

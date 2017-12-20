@@ -1,5 +1,6 @@
 module ImageHelper
   def ImageHelper.get_images_from_hero(hero)
+    return if hero.nil?
     hero = JSON.parse(hero)
     images = [hero['poster_image']]
     images << hero['trait']['image']
@@ -36,19 +37,25 @@ module ImageHelper
   def ImageHelper.pull_image(hero, image)
 
     self.create_hero_image_directories hero
+    local_image = self.local_image_url(hero, image)
     image_file = self.path(
         [
            self.image_dir_path(hero),
            self.image_name(image)
         ])
 
-    return self.local_image_url(hero, image) if File.exists?(image_file)
+    if File.exists?(image_file) && File.size?(image_file) > 1024
+      return local_image
+    end
+
+    return local_image if local_image == image
 
     # Failure to get image, thread it out and save it
     Thread.new do
       puts "SCRAPING IMAGE: #{image}"
       image_data = HTTParty.get(image)
-      if !image_data || !image_data.body
+      puts "RESP #{image_data.code}"
+      if !image_data || image_data.code != 200 || !image_data.body
         return image
       end
 
