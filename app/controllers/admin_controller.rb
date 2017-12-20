@@ -12,7 +12,10 @@ class AdminController < ApplicationController
     @json_data_escaped
 
     before do
-      admin_required
+      if request.path_info.include?('/admin')
+        admin_required
+      end
+
       @hero_slugs = hero_slugs
     end
 
