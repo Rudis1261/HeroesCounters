@@ -1,29 +1,57 @@
-<% @data.each do |key, team| %>
-  <div class="draft__team">
-    <h3><%= team[:name] %></h3>
+<div class="block btn-block">
+  <%= link('/draft/reset', 'New Match', {:class => 'btn'}) %>
+</div>
 
-    <!-- BANS -->
-    <div class="draft__ban">
-      <% team[:bans].each_with_index do |ban, index| %>
-      <div class="draft__ban--item" title="Ban <%= (index + 1) %>">
-        <% if !ban.nil? && ban['name'] %>
-            <img src="<%= image_path ban['poster_image'] %>" />
-        <% end %>
-        <div><%= (index + 1) %></div>
-      </div>
-      <% end %>
-    </div>
+<div class="draft__container">
 
-    <!-- PICKS -->
-    <div class="draft__bero">
-      <% team[:picks].each_with_index  do |pick, index| %>
-      <div class="draft__hero--item" title="Pick <%= (index + 1) %>">
-        <% if !pick.nil? && pick['name'] %>
-          <img src="<%= image_path pick['poster_image'] %>" />
-        <% end %>
-        <div><%= (index + 1) %></div>
-      </div>
-      <% end %>
+  <dif class="draft__hero--select hidden">
+    <div class="inner">
+      <div class="close">&times;</div>
+      <h4>Select a hero</h4>
+      <select></select>
+      <button class="btn">Select</button>
     </div>
-  </div>
-<% end %>
+  </dif>
+
+  <% @data.each do |key, team| %>
+      <% no_first_pick = !session[:draft] || !session[:draft][:first_pick] %>
+      <% is_first_pick = session[:draft] && session[:draft][:first_pick] && session[:draft][:first_pick] == key.to_s %>
+      <div class="draft__team <%= is_first_pick ? 'first': '' %>">
+      <h3 class="<%= is_first_pick ? 'first': '' %>" title="<%= is_first_pick ? "#{key.capitalize} team picks first": '' %>">
+        <%= team[:name] %>
+        <%= is_first_pick ? ' *': '' %>
+        <% if no_first_pick %>
+        <small><%= link("/draft/first_pick/#{key}", 'First pick', {:class => 'btn btn-sm'}) %></small>
+        <% end %>
+      </h3>
+
+      <!-- BANS -->
+      <div class="draft__ban">
+        <% team[:bans].each_with_index do |ban, index| %>
+        <div class="draft__ban--item" title="Ban <%= (index + 1) %>">
+          <% if !ban.nil? && ban['name'] %>
+              <img src="<%= image_path ban['poster_image'] %>" />
+          <% end %>
+          <div><%= (index + 1) %></div>
+        </div>
+        <% end %>
+      </div>
+
+      <!-- PICKS -->
+      <div class="draft__bero">
+        <% team[:picks].each_with_index  do |pick, index| %>
+        <div class="draft__hero--item" title="Pick <%= (index + 1) %>">
+          <% if !pick && pick['name'] %>
+            <img src="<%= image_path pick['poster_image'] %>" />
+          <% end %>
+          <div><%= (index + 1) %></div>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<div class="block">
+  <%= @draft.inspect %>
+</div>
