@@ -89,6 +89,7 @@ class App < Sinatra::Base
   # Controllers
   use ApplicationController
   use AdminController
+  use DraftController
 
   error do
     puts env['sinatra.error'].inspect

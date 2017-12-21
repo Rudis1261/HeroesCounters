@@ -1,0 +1,29 @@
+<% @data.each do |key, team| %>
+  <div class="draft__team">
+    <h3><%= team[:name] %></h3>
+
+    <!-- BANS -->
+    <div class="draft__ban">
+      <% team[:bans].each_with_index do |ban, index| %>
+      <div class="draft__ban--item" title="Ban <%= (index + 1) %>">
+        <% if !ban.nil? && ban['name'] %>
+            <img src="<%= image_path ban['poster_image'] %>" />
+        <% end %>
+        <div><%= (index + 1) %></div>
+      </div>
+      <% end %>
+    </div>
+
+    <!-- PICKS -->
+    <div class="draft__bero">
+      <% team[:picks].each_with_index  do |pick, index| %>
+      <div class="draft__hero--item" title="Pick <%= (index + 1) %>">
+        <% if !pick.nil? && pick['name'] %>
+          <img src="<%= image_path pick['poster_image'] %>" />
+        <% end %>
+        <div><%= (index + 1) %></div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+<% end %>
