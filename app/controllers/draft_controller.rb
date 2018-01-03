@@ -7,58 +7,88 @@ class DraftController < ApplicationController
     include StorageHelper
     include DraftHelper
 
-    get '/draft' do
-      @data = {
-        :blue => {
-          :name => 'Blue team',
-          :bans => ['',''],
-          :picks => ['','','','','']
+    @@default_draft = {
+        'blue' => {
+            'name' => 'Blue team',
+            'bans' => ['',''],
+            'ban_count' => 0,
+            'picks' => ['','','','',''],
+            'pick_count' => 0
         },
-        :red => {
-          :name => 'Red team',
-          :bans => ['',''],
-          :picks => ['','','','','']
+        'red' => {
+            'name' => 'Red team',
+            'bans' => ['',''],
+            'ban_count' => 0,
+            'picks' => ['','','','',''],
+            'pick_count' => 0
         }
-      }
+    }
 
-      @draft = session[:draft] ||= DraftHelper.default_draft
-      @heroes = JSON.parse(StorageHelper.read_detail_from_disk)
+    @@draft_order = {
+        'team_1' => ['ban', 'pick', 'pick', 'pick', 'ban', 'pick', 'pick'],
+        'team_2' => ['ban', 'pick', 'pick', 'ban', 'pick', 'pick', 'pick'],
+        'double_picks' => [3, 5, 9, 11]
+    }
 
-      heroes.shuffle.first(2).each_with_index do |hero, index|
-        @data[:blue][:bans][index] = hero
+    get '/draft' do
+      session['draft'] ||= {}
+      session['draft']['teams'] ||= @@default_draft
+      session['draft']['current_team'] ||= nil
+      session['draft']['first_pick'] ||= nil
+      session['draft']['current_pick'] ||= 0
+      session['draft']['picks'] ||= []
+
+      @structure = session['draft']
+      @heroes = {}
+      @error_messages = session['error_messages']
+      session['error_messages'] = nil
+
+      hero_data = JSON.parse(StorageHelper.read_detail_from_disk)
+      hero_data.each do |hero|
+        @heroes[hero['slug']] = hero
       end
 
-      heroes.shuffle.first(2).each_with_index do |hero, index|
-        @data[:red][:bans][index] = hero
-      end
-
-      heroes.shuffle.first(5).each_with_index do |hero, index|
-        @data[:blue][:picks][index] = hero
-      end
-
-      heroes.shuffle.first(5).each_with_index do |hero, index|
-        @data[:red][:picks][index] = hero
-      end
+      @current_pick = DraftHelper.next_pick(session,@@draft_order)
 
       erb :'draft/index', :layout => :'/layouts/draft'
     end
 
   get '/draft/reset' do
-    session[:draft] = DraftHelper.default_draft
+    session['draft'] = {}
+    session['draft']['teams'] = @@default_draft
+    session['draft']['first_pick'] = nil
+    session['draft']['current_team'] = nil
+    session['draft']['current_pick'] = nil
     redirect '/draft'
   end
 
   get '/draft/first_pick/:team' do |team|
-    if !session[:draft]
-      session[:draft] = {}
-    end
-
-    session[:draft][:first_pick] = team.to_s
+    session['draft']['first_pick'] = team
+    session['draft']['current_team'] = team
     redirect '/draft'
   end
 
-  get '/draft/pick/:pick' do |pick|
-    DraftHelper.pick(session, pick)
+  get '/draft/:type/:pick' do |type, pick|
+    if type == 'pick'
+      success = DraftHelper.pick(
+          session,
+          session['draft']['current_team'],
+          pick,
+          @@draft_order
+      )
+    elsif type == 'ban'
+      success = DraftHelper.ban(
+          session,
+          session['draft']['current_team'],
+          pick,
+          @@draft_order
+      )
+    end
+
+    if success.nil?
+      session['error_messages'] = "That hero is already #{type}#{(pick == 'ban') ? 'ned' : 'ed'}"
+    end
+
     redirect '/draft'
   end
 end

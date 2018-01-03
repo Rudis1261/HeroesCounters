@@ -1,7 +1,27 @@
 #draft {
-  $draftWidth: 960px;
+  $draftWidth: 1035px;
   $draftColorRed: #a50000;
   $draftColorBlue: #0253b3;
+
+  [class^="icon-"], [class*=" icon-"] {
+    font-size: 32px;
+    display: inline-block;
+    min-height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    color: #555;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(#000, .2);
+    @include transition(200ms all);
+
+    &:hover {
+      border: 2px solid #222;
+      color: #222;
+    }
+  }
 
   > .container {
     max-width: $draftWidth;
@@ -42,22 +62,79 @@
       @include justify-content(center);
 
       > .inner {
-        padding: 20px 30px 0;
+        padding: 20px 30px;
         background: #fff;
         border: 1px solid #d8d8d8;
         box-shadow: 0 0 12px #e6e6e6, 0 0 73px #cecece94;
         text-align: center;
-        max-width:300px;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        @include transform(translateY(-50%) translateX(-50%));
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+
+        .picks {
+          overflow-x: auto;
+        }
+
+        .pick {
+          width: 150px;
+          height: 150px;
+          display: block;
+          position: relative;
+          overflow: hidden;
+          float: left;
+
+          &:before {
+            z-index: 3;
+            position: absolute;
+            display: block;
+            content: "";
+            top: -4px;
+            right: 0;
+            bottom: -4px;
+            left: 0;
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(image_path('border.png'));
+          }
+
+          img {
+            width: 66%;
+            height: auto;
+            margin-top: 13px;
+          }
+        }
+
+        .classes {
+          width: 100%;
+          padding-bottom: 15px;
+
+          > .inner {
+            .class-icons {
+              padding: 0 10px;
+              display: inline-block;
+              cursor: pointer;
+
+              i, span {
+                display: block;
+              }
+
+              span {
+                margin-top: 6px;
+                font-weight: bold;
+                font-size: 13px;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
 
         .close {
           position: absolute;
           top: 0;
           right: 0;
-          margin: -11px;
           font-size: 34px;
           display: inline-block;
           width: 40px;
@@ -67,7 +144,6 @@
           text-align: center;
           cursor: pointer;
           background: #000;
-          @include border-radius(50%);
         }
       }
     }
@@ -161,6 +237,12 @@
           div {
             background: rgba($draftColorRed, 0.3);
           }
+
+          &.active {
+            &:before {
+              background-image: url(image_path('border_active_red.png'));
+            }
+          }
         }
       }
     }
@@ -173,6 +255,16 @@
       @include align-items(center);
       @include align-content(center);
       @include justify-content(center);
+
+      &.active {
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:before {
+          background-image: url(image_path('border_active_blue.png'));
+        }
+      }
 
       div,
       img {
@@ -193,6 +285,7 @@
         line-height: 62px;
         text-align: center;
         z-index: 1;
+        color: rgba(0, 0, 0, 0.25);
       }
 
       img {
@@ -216,7 +309,7 @@
         background-position: center center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-image: url(image_path('frame.png'));
+        background-image: url(image_path('border.png'));
       }
     }
 

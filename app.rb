@@ -98,6 +98,6 @@ class App < Sinatra::Base
 
   error Sinatra::NotFound do
     content_type 'text/plain'
-    [404, 'Not Found']
+    [404, 'Not Found son']
   end
 end
