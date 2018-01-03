@@ -21,30 +21,30 @@ class DraftController < ApplicationController
         }
       }
 
-      @draft = session[:draft] ||= false
+      @draft = session[:draft] ||= DraftHelper.default_draft
       @heroes = JSON.parse(StorageHelper.read_detail_from_disk)
 
-      # heroes.shuffle.first(2).each_with_index do |hero, index|
-      #   @data[:blue][:bans][index] = hero
-      # end
-      #
-      # heroes.shuffle.first(2).each_with_index do |hero, index|
-      #   @data[:red][:bans][index] = hero
-      # end
-      #
-      # heroes.shuffle.first(5).each_with_index do |hero, index|
-      #   @data[:blue][:picks][index] = hero
-      # end
-      #
-      # heroes.shuffle.first(5).each_with_index do |hero, index|
-      #   @data[:red][:picks][index] = hero
-      # end
+      heroes.shuffle.first(2).each_with_index do |hero, index|
+        @data[:blue][:bans][index] = hero
+      end
+
+      heroes.shuffle.first(2).each_with_index do |hero, index|
+        @data[:red][:bans][index] = hero
+      end
+
+      heroes.shuffle.first(5).each_with_index do |hero, index|
+        @data[:blue][:picks][index] = hero
+      end
+
+      heroes.shuffle.first(5).each_with_index do |hero, index|
+        @data[:red][:picks][index] = hero
+      end
 
       erb :'draft/index', :layout => :'/layouts/draft'
     end
 
   get '/draft/reset' do
-    session[:draft] = nil
+    session[:draft] = DraftHelper.default_draft
     redirect '/draft'
   end
 
