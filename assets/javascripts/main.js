@@ -49,13 +49,4 @@ $(function() {
             $(matches).show();
         }
     });
-
-    var heroSlugs = _.pluck(heroes, 'slug');
-    var heroNames = _.pluck(heroes, 'name');
-
-    _.each(heroNames, function(name, index){
-        var option = $('<option/>');
-        option.attr({ 'value': heroSlugs[index] }).text(name);
-        $('select').append(option);
-    });
 });

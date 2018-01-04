@@ -9,14 +9,14 @@ class DraftController < ApplicationController
 
     @@default_draft = {
         'blue' => {
-            'name' => 'Blue team',
+            'name' => 'Your team',
             'bans' => ['',''],
             'ban_count' => 0,
             'picks' => ['','','','',''],
             'pick_count' => 0
         },
         'red' => {
-            'name' => 'Red team',
+            'name' => 'Enemy team',
             'bans' => ['',''],
             'ban_count' => 0,
             'picks' => ['','','','',''],
@@ -37,6 +37,7 @@ class DraftController < ApplicationController
       session['draft']['first_pick'] ||= nil
       session['draft']['current_pick'] ||= 0
       session['draft']['picks'] ||= []
+      session['draft']['pick_position'] ||= nil
 
       @structure = session['draft']
       @heroes = {}
@@ -69,6 +70,12 @@ class DraftController < ApplicationController
   end
 
   get '/draft/:type/:pick' do |type, pick|
+
+    # if session['draft']['pick_position'].nil?
+    #   session['error_messages'] = 'Which position are you picking in?'
+    #   redirect '/draft'
+    # end
+
     if type == 'pick'
       success = DraftHelper.pick(
           session,

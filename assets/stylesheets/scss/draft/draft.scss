@@ -1,11 +1,10 @@
 &__team {
   background: #fff;
   border: 1px solid #eee;
-  box-shadow: 0 5px 38px 4px rgba(210, 210, 210, 0.9);
+  box-shadow: 0 5px 10px 4px rgba(210, 210, 210, 0.2);
   padding: 20px;
   position: relative;
   @include flex(1);
-  @include border-radius(8px);
 
   &.first {
     box-shadow: 0 0 1px #ff8100, 0 5px 38px 4px rgba(214, 178, 0, 0.54);

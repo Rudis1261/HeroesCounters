@@ -1,16 +1,29 @@
 <% picking_turn = !@current_pick['team'].nil? && @current_pick['team'] == key %>
 
 <div class="draft__bero">
-<% team['picks'].each_with_index  do |pick, index| %>
-        <div
-          class="draft__hero--item <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'pick' ? 'active' : '  ' %>"
-          <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'pick' ? '' : ' disabled ' %>
-          title="Pick <%= (index + 1) %> <%= !pick.empty? ? " - #{@heroes[pick]['name']}": '' %>"
-        >
-          <% if !pick.empty? && @heroes[pick]['name'] %>
-            <img src="<%= image_path @heroes[pick]['poster_image'] %>" />
-          <% end %>
-          <div><%= (index + 1) %></div>
-        </div>
-<% end %>
+  <% team['picks'].each_with_index  do |pick, index| %>
+
+    <% picking_class = picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'pick' ? ' active ' : ' ' %>
+    <% disabled = picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'pick' ? '' : ' disabled ' %>
+    <% title = "Pick #{(index + 1)} #{!pick.empty? ? " - #{@heroes[pick]['name']}": ''}"  %>
+    <%
+      # if @structure['pick_position'].nil? && key == 'blue'
+      #   picking_class = ' active '
+      #   disabled = ''
+      #   title = 'Choose your picking position'
+      # end
+    %>
+
+    <div
+      class="draft__hero--item <%= picking_class %>"
+      <%= disabled %>
+      title="<%= title %>"
+    >
+      <%= @structure['pick_position'] %>
+      <% if !pick.empty? && @heroes[pick]['name'] %>
+        <img src="<%= image_path @heroes[pick]['poster_image'] %>" />
+      <% end %>
+      <div><%= (index + 1) %></div>
+    </div>
+  <% end %>
 </div>
