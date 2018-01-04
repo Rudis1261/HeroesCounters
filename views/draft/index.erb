@@ -3,91 +3,28 @@
   <%= link('/draft', 'Refresh', {:class => 'btn'}) %>
 </div>
 
-<% if !@error_messages.nil? %>
-    <div class="block">
-      <h2>Something went wrong</h2>
-      <p><%= @error_messages %></p>
-    </div>
-<% end %>
+<%= erb :'elements/error-messages' %>
+
+<%= erb :'draft/header' %>
 
 <div class="draft__container">
-  <dif class="draft__hero--select hidden">
-    <div class="inner">
-      <div class="close">&times;</div>
-      <div class="picks">
-        <div class="classes">
-          <div class="inner">
-            <% ['support', 'assassin', 'warrior', 'specialist'].each do |hero_class| %>
-            <div class="class-icons" data-type="class-pick" data-value="<%= hero_class %>">
-              <i class="icon-<%= hero_class %>"></i>
-              <span><%= hero_class.capitalize %></span>
-            </div>
-            <% end %>
-          </div>
-        </div>
-        <input type="text" id="search" placeholder="Filter by name" />
-        <% @heroes.keys.each do |index| %>
-          <a
-            class="pick"
-            data-type="hero-pick"
-            data-value="<%= @heroes[index]['slug'] %>"
-            data-class="<%= @heroes[index]['role']['slug'] %>"
-            href="/draft/<%= @current_pick['type'] %>/<%= @heroes[index]['slug'] %>"
-            title="<%= @heroes[index]['name'] %>"
-          >
-            <img src="<%= image_path @heroes[index]['poster_image'] %>" />
-          </a>
-        <% end %>
-      </div>
-    </div>
-  </dif>
-
+  <%= erb :'draft/hero-picker' %>
   <% @structure['teams'].each do |key, team| %>
-      <% no_first_pick = !session['draft'] || session['draft']['first_pick'].nil? %>
-      <% is_first_pick = session['draft'] && !session['draft']['first_pick'].nil? && session['draft']['first_pick'] == key.to_s %>
-      <% picking_turn = !@current_pick['team'].nil? && @current_pick['team'] == key %>
-
-      <div class="draft__team <%= is_first_pick ? 'first': '' %>">
-
-      <h3 class="<%= is_first_pick ? 'first': '' %>" title="<%= is_first_pick ? "#{key.capitalize} team picks first": '' %>">
+    <% no_first_pick = !session['draft'] || session['draft']['first_pick'].nil? %>
+    <% team_picking = @current_pick['team'] && @current_pick['team'] == key %>
+    <div class="draft__team <%= team_picking ? 'first' : '' %>">
+      <h3>
         <%= team['name'] %>
-        <%= is_first_pick ? ' *': '' %>
         <% if no_first_pick %>
         <small><%= link("/draft/first_pick/#{key}", 'First pick', {:class => 'btn btn-sm'}) %></small>
         <% end %>
       </h3>
 
       <!-- BANS -->
-      <div class="draft__ban">
-        <% team['bans'].each_with_index do |ban, index| %>
-        <div
-          class="draft__ban--item <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'ban' ? 'active' : '  ' %>"
-          <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'ban' ? '' : ' disabled ' %>
-          title="Ban <%= (index + 1) %><%= !ban.empty? ? " - #{@heroes[ban]['name']}": '' %>"
-        >
-          <% if !ban.empty? && @heroes[ban]['name'] %>
-              <img src="<%= image_path @heroes[ban]['poster_image'] %>" />
-          <% end %>
-          <div><%= (index + 1) %></div>
-        </div>
-        <% end %>
-      </div>
+      <%= erb :'draft/bans', :locals => {'key' => key, 'team' => team} %>
 
       <!-- PICKS -->
-      <div class="draft__bero">
-        <% team['picks'].each_with_index  do |pick, index| %>
-        <div
-          class="draft__hero--item <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'pick' ? 'active' : '  ' %>"
-          <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'pick' ? '' : ' disabled ' %>
-          title="Pick <%= (index + 1) %> <%= !pick.empty? ? " - #{@heroes[pick]['name']}": '' %>"
-        >
-          <% if !pick.empty? && @heroes[pick]['name'] %>
-            <img src="<%= image_path @heroes[pick]['poster_image'] %>" />
-          <% end %>
-          <div><%= (index + 1) %></div>
-        </div>
-        <% end %>
-      </div>
+      <%= erb :'draft/picks', :locals => {'key' => key, 'team' => team} %>
     </div>
   <% end %>
 </div>

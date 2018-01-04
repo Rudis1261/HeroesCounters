@@ -1,0 +1,110 @@
+&__hero--select {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(#fff, 0.9);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  @include flex-display();
+  @include flex-wrap(nowrap);
+  @include align-content(flex-start);
+  @include align-items(flex-start);
+  @include justify-content(center);
+
+  .picks {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+    .heroes {
+      position: relative;
+      height: 100%;
+      overflow-y: auto;
+    }
+  }
+
+  > .inner {
+    padding: 20px 30px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 0 12px #e6e6e6, 0 0 73px #cecece94;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+
+    .pick {
+      width: 150px;
+      height: 150px;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      float: left;
+
+      &:before {
+        z-index: 3;
+        position: absolute;
+        display: block;
+        content: "";
+        top: -4px;
+        right: 0;
+        bottom: -4px;
+        left: 0;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(image_path('border.png'));
+      }
+
+      img {
+        width: 66%;
+        height: auto;
+        margin-top: 13px;
+      }
+    }
+
+    .classes {
+      width: 100%;
+      padding-bottom: 15px;
+
+      > .inner {
+        .class-icons {
+          padding: 0 10px;
+          display: inline-block;
+          cursor: pointer;
+
+          i, span {
+            display: block;
+          }
+
+          span {
+            margin-top: 6px;
+            font-weight: bold;
+            font-size: 13px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 34px;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      cursor: pointer;
+      background: #000;
+    }
+  }
+}

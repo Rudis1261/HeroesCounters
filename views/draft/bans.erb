@@ -1,0 +1,16 @@
+<% picking_turn = !@current_pick['team'].nil? && @current_pick['team'] == key %>
+
+<div class="draft__ban">
+  <% team['bans'].each_with_index do |ban, index| %>
+      <div
+      class="draft__ban--item <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'ban' ? 'active' : '  ' %>"
+      <%= picking_turn && @current_pick['index'] == index && @current_pick['type'] == 'ban' ? '' : ' disabled ' %>
+      title="Ban <%= (index + 1) %><%= !ban.empty? ? " - #{@heroes[ban]['name']}": '' %>"
+      >
+        <% if !ban.empty? && @heroes[ban]['name'] %>
+            <img src="<%= image_path @heroes[ban]['poster_image'] %>" />
+        <% end %>
+        <div><%= (index + 1) %></div>
+      </div>
+  <% end %>
+</div>

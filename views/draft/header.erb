@@ -1,0 +1,5 @@
+<% if @current_pick && @current_pick['team'] %>
+  <div class="block block-header text-center">
+    <h2 class="<%= @current_pick['team'] %>"><%= @current_pick['team'].capitalize %> team is <%= @current_pick['type'] == 'ban' ? @current_pick['type'] + 'ning': @current_pick['type'] + 'ing' %></h2>
+  </div>
+<% end %>

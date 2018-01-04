@@ -3,6 +3,9 @@
   $draftColorRed: #a50000;
   $draftColorBlue: #0253b3;
 
+  .red { color: $draftColorRed; }
+  .blue { color: $draftColorBlue; }
+
   [class^="icon-"], [class*=" icon-"] {
     font-size: 32px;
     display: inline-block;
@@ -29,7 +32,11 @@
     @include flex-wrap(wrap);
 
     .block {
-      margin: 0 15px 40px;
+      margin: 0 15px 15px;
+
+      & + .draft__container {
+        margin-top: 30px;
+      }
     }
   }
 
@@ -45,109 +52,6 @@
   }
 
   .draft {
-    &__hero--select {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(#fff, 0.9);
-      width: 100%;
-      height: 100%;
-      z-index: 100;
-      @include flex-display();
-      @include flex-wrap(nowrap);
-      @include align-content(flex-start);
-      @include align-items(flex-start);
-      @include justify-content(center);
-
-      > .inner {
-        padding: 20px 30px;
-        background: #fff;
-        border: 1px solid #d8d8d8;
-        box-shadow: 0 0 12px #e6e6e6, 0 0 73px #cecece94;
-        text-align: center;
-        position: absolute;
-        top: 10px;
-        bottom: 10px;
-        left: 10px;
-        right: 10px;
-
-        .picks {
-          overflow-x: auto;
-        }
-
-        .pick {
-          width: 150px;
-          height: 150px;
-          display: block;
-          position: relative;
-          overflow: hidden;
-          float: left;
-
-          &:before {
-            z-index: 3;
-            position: absolute;
-            display: block;
-            content: "";
-            top: -4px;
-            right: 0;
-            bottom: -4px;
-            left: 0;
-            background-position: center center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-image: url(image_path('border.png'));
-          }
-
-          img {
-            width: 66%;
-            height: auto;
-            margin-top: 13px;
-          }
-        }
-
-        .classes {
-          width: 100%;
-          padding-bottom: 15px;
-
-          > .inner {
-            .class-icons {
-              padding: 0 10px;
-              display: inline-block;
-              cursor: pointer;
-
-              i, span {
-                display: block;
-              }
-
-              span {
-                margin-top: 6px;
-                font-weight: bold;
-                font-size: 13px;
-                text-transform: uppercase;
-              }
-            }
-          }
-        }
-
-        .close {
-          position: absolute;
-          top: 0;
-          right: 0;
-          font-size: 34px;
-          display: inline-block;
-          width: 40px;
-          height: 40px;
-          color: #fff;
-          line-height: 40px;
-          text-align: center;
-          cursor: pointer;
-          background: #000;
-        }
-      }
-    }
-
     &__container {
       margin-bottom: 50px;
       @include flex-display();
@@ -158,214 +62,15 @@
       @include flex(0 0 49.95%);
     }
 
-    &__team {
-      background: #fff;
-      border: 1px solid #eee;
-      box-shadow: 0 5px 38px 4px rgba(210, 210, 210, 0.9);
-      padding: 20px;
-      position: relative;
-      @include flex(1);
-      @include border-radius(8px);
-
-      &.first {
-        box-shadow: 0 0 1px #ff8100, 0 5px 38px 4px rgba(214, 178, 0, 0.54);
-      }
-
-      h1, h2, h3, h4, h5 {
-        font-weight: normal;
-
-        &.first {
-          font-weight: bold;
-        }
-
-        &>small {
-          display: block;
-          width: 100%;
-          margin-top: 8px;
-          color: lime;
-        }
-      }
-
-      &:nth-of-type(1) {
-        h1, h2, h3, h4, h5 {
-          color: $draftColorBlue;
-        }
-
-        border-left: 8px solid $draftColorBlue;
-        margin: 0 100px 0 15px;
-
-        .draft__ban {
-          right: 15px;
-        }
-
-        .draft__hero--item {
-          &:nth-of-type(odd) {
-            float: left;
-          }
-
-          &:nth-of-type(even) {
-            float: right;
-          }
-        }
-      }
-
-      &:nth-of-type(2) {
-        h1, h2, h3, h4, h5 {
-          color: $draftColorRed;
-          text-align: right;
-        }
-
-        margin: 0 15px 0 100px;
-        border-right: 8px solid $draftColorRed;
-
-        .draft__ban {
-          left: 15px;
-        }
-
-        .draft__hero--item {
-          &:nth-of-type(odd) {
-            float: right;
-          }
-
-          &:nth-of-type(even) {
-            float: left;
-          }
-        }
-
-        .draft__hero--item,
-        .draft__ban--item {
-          div {
-            background: rgba($draftColorRed, 0.3);
-          }
-
-          &.active {
-            &:before {
-              background-image: url(image_path('border_active_red.png'));
-            }
-          }
-        }
-      }
-    }
-
-    &__hero--item,
-    &__ban--item {
-      position: relative;
-      overflow: hidden;
-      @include flex-inline();
-      @include align-items(center);
-      @include align-content(center);
-      @include justify-content(center);
-
-      &.active {
-        &:hover {
-          cursor: pointer;
-        }
-
-        &:before {
-          background-image: url(image_path('border_active_blue.png'));
-        }
-      }
-
-      div,
-      img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        @include transform(translateX(-50%) translateY(-50%));
-      }
-
-      div {
-        font-family: monospace;
-        font-weight: bold;
-        font-size: 18px;
-        background: rgba(#b3e1ee, 0.6);
-        width: 89%;
-        height: 89%;
-        margin: 0 auto;
-        line-height: 62px;
-        text-align: center;
-        z-index: 1;
-        color: rgba(0, 0, 0, 0.25);
-      }
-
-      img {
-        z-index: 2;
-        width: 80%;
-        height: auto;
-        top: 68%;
-      }
-
-      &:before {
-        z-index: 3;
-        position: absolute;
-        display: block;
-        content: "";
-        width: 100%;
-        height: 100%;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-position: center center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-image: url(image_path('border.png'));
-      }
-    }
-
-    &__ban {
-      position: absolute;
-      top: 10px;
-
-      &--item {
-        width: 65px;
-        height: 70px;
-
-        img {
-          top: 70%;
-        }
-      }
-    }
-
-    &__hero {
-      position: absolute;
-      background: orange;
-      top: 110px;
-      width: 100%;
-
-      &--item {
-        width: 150px;
-        height: 160px;
-        display: block;
-        margin: 0 15px -25px;
-        @include clearfix();
-
-        &:nth-of-type(odd) {
-          float: left;
-        }
-
-        &:nth-of-type(1) { z-index: 1; }
-        &:nth-of-type(2) { z-index: 2; }
-        &:nth-of-type(3) { z-index: 3; }
-        &:nth-of-type(4) { z-index: 4; }
-        &:nth-of-type(5) {
-          z-index: 5;
-          margin-bottom: 10px;
-        }
-
-        div {
-          line-height: 143px;
-          font-size: 46px;
-        }
-      }
-    }
+    @import 'hero-select';
+    @import 'draft';
   }
 
   // Mobile
   @include respond-to($draftWidth + 80px) {
     > .container {
       max-width: $draftWidth;
-      margin: 40px auto 0;
+      //margin: 10px auto 0;
     }
   }
 }

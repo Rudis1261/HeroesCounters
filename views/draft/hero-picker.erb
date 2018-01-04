@@ -1,0 +1,32 @@
+<dif class="draft__hero--select hidden">
+  <div class="inner">
+    <div class="close">&times;</div>
+    <div class="picks">
+      <div class="classes">
+        <div class="inner">
+          <% ['support', 'assassin', 'warrior', 'specialist'].each do |hero_class| %>
+              <div class="class-icons" data-type="class-pick" data-value="<%= hero_class %>">
+                <i class="icon-<%= hero_class %>"></i>
+                <span><%= hero_class.capitalize %></span>
+              </div>
+          <% end %>
+        </div>
+      </div>
+      <input type="text" id="search" placeholder="Filter by name" />
+      <div class="heroes">
+        <% @heroes.keys.each do |index| %>
+          <a
+          class="pick"
+          data-type="hero-pick"
+          data-value="<%= @heroes[index]['slug'] %>"
+          data-class="<%= @heroes[index]['role']['slug'] %>"
+          href="/draft/<%= @current_pick['type'] %>/<%= @heroes[index]['slug'] %>"
+          title="<%= @heroes[index]['name'] %>"
+          >
+            <img src="<%= image_path @heroes[index]['poster_image'] %>" />
+          </a>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</dif>
